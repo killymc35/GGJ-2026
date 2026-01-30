@@ -68,6 +68,33 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584318089715155299
     List: []
+  - PhysicalPath: SoundBanks\Soundbanks WU.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Soundbanks WU
+      ObjectType: 12
+      guid: 5cd96691bfabc24bae37877de14a30f7
+    ParentPath: SoundBanks\Soundbanks WU
+    guid: 5cd96691bfabc24bae37877de14a30f7
+    GuidInternal: 
+    m_lastTime: -8584318088640386816
+    List:
+    - name: Main
+      guid: 0f0c05c7e139d54d862bc441b40900a1
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Soundbanks WU
+        ObjectType: 12
+        guid: 5cd96691bfabc24bae37877de14a30f7
+      - ElementName: Main
+        ObjectType: 7
+        guid: 0f0c05c7e139d54d862bc441b40900a1
+      Path: SoundBanks\Soundbanks WU\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -81,6 +108,19 @@ MonoBehaviour:
     guid: cbffac3cf3dce04a8886bc525678162b
     GuidInternal: 
     m_lastTime: -8584318089715215647
+    List: []
+  - PhysicalPath: Events\Events WU.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Events WU
+      ObjectType: 12
+      guid: feee21e1133ea146b5111c26982bede6
+    ParentPath: Events\Events WU
+    guid: feee21e1133ea146b5111c26982bede6
+    GuidInternal: 
+    m_lastTime: -8584318088640535433
     List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -96,6 +136,19 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584318089715204792
     List: []
+  - PhysicalPath: Game Parameters\Parameters WU.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Parameters WU
+      ObjectType: 12
+      guid: 2ce4594959b02347824da8b8480da9ea
+    ParentPath: Game Parameters\Parameters WU
+    guid: 2ce4594959b02347824da8b8480da9ea
+    GuidInternal: 
+    m_lastTime: -8584318088640530316
+    List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -110,6 +163,19 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584318089715140143
     List: []
+  - PhysicalPath: States\States WU.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: States WU
+      ObjectType: 12
+      guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+    ParentPath: States\States WU
+    guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+    GuidInternal: 
+    m_lastTime: -8584318088640381723
+    List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -123,6 +189,19 @@ MonoBehaviour:
     guid: 040738bb05bb744bafb4934ba92c5e81
     GuidInternal: 
     m_lastTime: -8584318089715140143
+    List: []
+  - PhysicalPath: Switches\Switches WU.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Switches WU
+      ObjectType: 12
+      guid: 332d87265a55444ca59020f1c1878a49
+    ParentPath: Switches\Switches WU
+    guid: 332d87265a55444ca59020f1c1878a49
+    GuidInternal: 
+    m_lastTime: -8584318088640381723
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
