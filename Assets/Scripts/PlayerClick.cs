@@ -19,6 +19,10 @@ public class PlayerClick : MonoBehaviour
             {
                 interactableObject.Interact();
             }
+            else
+            {
+                SelectionManager.ClearSelection();
+            }
         }
     }
 }

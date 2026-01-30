@@ -6,4 +6,6 @@ using UnityEngine;
 public interface InteractableObject
 {
     public void Interact();
+    public void OnSelect();
+    public void OnDeselect();
 }
