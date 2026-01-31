@@ -1,6 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Events WU" ID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Events WU" ID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Book_Page" ID="{C7AC55F8-E831-41B2-954D-6A129B1B3D71}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{FFF09FB4-0C61-4677-B307-7A1CA68E388C}" ShortID="418728849">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Page Turn" ID="{A96B9C96-AB50-4733-96C7-916CBBE30E66}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Book_Open" ID="{B11D67AF-49AA-42C0-AFEE-663B51C942F9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{A4A2DC54-E84B-4812-B931-60E0ADF3E421}" ShortID="548946709">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Open" ID="{15C8C2E2-2DFA-4411-BA95-C421B5B460E3}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Book_Close" ID="{4407F1DC-C87E-4771-9F19-73EB44417E90}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{BA087314-D3EF-4D86-AF09-8212F2EA0000}" ShortID="399664167">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Close" ID="{F9966ACD-6E10-4498-9AF3-E88DEC0DCB9D}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Board_Select" ID="{75621468-741B-403D-BD1F-1CBD679700B7}">
+					<ChildrenList>
+						<Action Name="" ID="{8AACBF19-2705-4022-BF9E-E1EDDFE8FDD6}" ShortID="76358200">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Select" ID="{85352299-F6C6-4B70-A588-4796E0F14656}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Level_1" ID="{38BA754C-459F-487B-8322-5BCF6332AA73}"/>
+				<Event Name="Music_Level_2" ID="{6646746D-2B4B-4FD5-8FF1-DE6BC2AC2B1D}"/>
+				<Event Name="Music_Level_3" ID="{029253B1-3096-485C-94F3-97AE069701C0}"/>
+				<Event Name="Clock_Speed_1" ID="{06F931BC-ABD5-4FBB-8A50-8F751777551A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{4BEBEFC5-18AA-4449-A490-71E78A6E8685}" ShortID="981471067">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Speed_1" ID="{7F305D19-DE33-42DD-840B-9A26A0141AC0}" WorkUnitID="{D32D758D-ACA8-46FA-B62F-8BC50B4BFFB6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{052E812A-1B46-47D5-94C5-B64E7BFD487A}" ShortID="255800672">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Investigation_Clock" ID="{F3803F74-9851-43D7-AF63-91AEDD5122D6}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Clock_Speed_2" ID="{0CFB0ED3-AC53-4EB3-B9E9-6781E248020E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{46BE78C2-AAF8-4CC3-BBEB-3AEAA3D868C7}" ShortID="79587766">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Speed_2" ID="{21E74AD3-E160-44CE-A502-47FE3CC8EF7A}" WorkUnitID="{D32D758D-ACA8-46FA-B62F-8BC50B4BFFB6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3C41FABB-C307-4993-AE8F-FADB8777DA3E}" ShortID="123604104">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Investigation_Clock" ID="{F3803F74-9851-43D7-AF63-91AEDD5122D6}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Clock_Speed_3" ID="{CC7DB6A0-48D9-4200-A20C-409252EF76D8}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{6A57ED44-925B-4BE4-888F-35D0C4F481AB}" ShortID="282885571">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Speed_3" ID="{A7F51D89-C987-4A34-92CF-2A527D04FD99}" WorkUnitID="{D32D758D-ACA8-46FA-B62F-8BC50B4BFFB6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B458AAD2-4680-4D44-868E-3FBD482DB5D4}" ShortID="907717387">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Investigation_Clock" ID="{F3803F74-9851-43D7-AF63-91AEDD5122D6}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Investigate" ID="{6465DD77-4B7B-49C4-A13A-4DC5FAE53175}"/>
+				<Event Name="Investigation_Who" ID="{33B31FFF-3492-4CD7-91CD-3B5AC770B56A}"/>
+				<Event Name="Investigation_Where" ID="{A222D509-9241-402D-B93C-AD3C8890827E}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

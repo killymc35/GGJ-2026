@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D32D758D-ACA8-46FA-B62F-8BC50B4BFFB6}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="States WU" ID="{D32D758D-ACA8-46FA-B62F-8BC50B4BFFB6}" PersistMode="Standalone"/>
+		<WorkUnit Name="States WU" ID="{D32D758D-ACA8-46FA-B62F-8BC50B4BFFB6}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Clock_Speed" ID="{2E64EF07-EC50-485D-926B-1E9711698981}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{79FD1932-A755-4B64-832C-98D406E28B33}"/>
+						<State Name="Speed_1" ID="{7F305D19-DE33-42DD-840B-9A26A0141AC0}"/>
+						<State Name="Speed_2" ID="{21E74AD3-E160-44CE-A502-47FE3CC8EF7A}"/>
+						<State Name="Speed_3" ID="{A7F51D89-C987-4A34-92CF-2A527D04FD99}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
