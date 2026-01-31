@@ -31,10 +31,10 @@ public class Ledger : MonoBehaviour
     {
         FullLedger.SetActive(false);
 
-        ReturnToCover();
+        GoToCover();
     }
 
-    public void ReturnToCover()
+    public void GoToCover()
     {
         Cover.SetActive(true);
         
@@ -43,6 +43,56 @@ public class Ledger : MonoBehaviour
         Who.SetActive(false);
         When.SetActive(false);
         Where.SetActive(false);
+    }
+    public void GoToAccuse()
+    {
+        Accuse.SetActive(true);
+        
+        Cover.SetActive(false);
+        Facts.SetActive(false);
+        Who.SetActive(false);
+        When.SetActive(false);
+        Where.SetActive(false);
+    }
+    public void GoToFacts()
+    {
+        Facts.SetActive(true);
+        
+        Accuse.SetActive(false);
+        Cover.SetActive(false);
+        Who.SetActive(false);
+        When.SetActive(false);
+        Where.SetActive(false);
+    }
+    public void GoToWho()
+    {
+        Who.SetActive(true);
+        
+        Accuse.SetActive(false);
+        Facts.SetActive(false);
+        Cover.SetActive(false);
+        When.SetActive(false);
+        Where.SetActive(false);
+    }
+    public void GoToWhen()
+    {
+        When.SetActive(true);
+        
+        Accuse.SetActive(false);
+        Facts.SetActive(false);
+        Who.SetActive(false);
+        Cover.SetActive(false);
+        Where.SetActive(false);
+    }
+    public void GoToWhere()
+    {
+        Where.SetActive(true);
+    
+        Accuse.SetActive(false);
+        Facts.SetActive(false);
+        Who.SetActive(false);
+        When.SetActive(false);
+        Cover.SetActive(false);
     }
     
     public void QuitGame()
