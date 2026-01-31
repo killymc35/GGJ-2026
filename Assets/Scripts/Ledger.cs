@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class Ledger : MonoBehaviour
@@ -10,6 +11,42 @@ public class Ledger : MonoBehaviour
     public GameObject When;
     public GameObject Where;
 
+    public TMP_Dropdown whoGuess;
+    public TMP_Dropdown whereGuess;
+    public TMP_Dropdown whenGuess;
+    
+    // Index in the options
+    public int correctWhoGuess;
+    public int correctWhereGuess;
+    public int correctWhenGuess;
+
+    public void GiveInfo(BoardItem.ClueType clueType, string info)
+    {
+        
+    }
+
+    public void Accusation()
+    {
+        if ((whoGuess.value == correctWhoGuess)
+            && (whereGuess.value == correctWhereGuess)
+            && (whenGuess.value == correctWhenGuess))
+        {
+            CorrectAccusation();
+        }
+        else
+        {
+            FalseAccusation();
+        }
+    }
+    public void CorrectAccusation()
+    {
+        Debug.Log("Correct");
+    }
+    public void FalseAccusation()
+    {
+        Debug.Log("Incorrect");
+    }
+    
     public void ToggleLedgerESC()
     {
         GoToCover();
@@ -34,7 +71,6 @@ public class Ledger : MonoBehaviour
             OpenLedger();
         }
     }
-    
     public void OpenLedger()
     {
         FullLedger.SetActive(true);

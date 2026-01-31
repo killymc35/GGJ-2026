@@ -6,6 +6,15 @@ using UnityEngine;
 
 public class BoardItem : MonoBehaviour, InteractableObject
 {
+    public enum ClueType
+    {
+        Fact,
+        Who,
+        Where,
+        When
+    }
+    public ClueType clueType;
+    
     public enum State
     {
         Hidden,
@@ -102,6 +111,18 @@ public class BoardItem : MonoBehaviour, InteractableObject
             {
                 neighbour.GetComponent<BoardItem>().currentState = State.Investigable;
             }
+        }
+
+        switch (clueType)
+        {
+            case ClueType.Fact:
+                break;
+            case ClueType.Who:
+                break;
+            case ClueType.Where:
+                break;
+            case ClueType.When:
+                break;
         }
     }
     
