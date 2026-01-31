@@ -5,24 +5,50 @@ using UnityEngine;
 
 public class BoardItem : MonoBehaviour, InteractableObject
 {
-    public bool beginsSelectable = false;
+    public enum State
+    {
+        Hidden,
+        Investigable,
+        Revealed
+    }
+    public State currentState = State.Hidden;
+    public bool beginsInvestigable = true;
+    
     public InteractableObject[] neighbours;
+    
+    private MeshCollider meshCollider;
 
     private void Start()
     {
-        if (beginsSelectable)
+        meshCollider = GetComponent<MeshCollider>();   
+        
+        if (beginsInvestigable)
         {
+            currentState = State.Investigable;
             SelectionManager.MakeSelectable(this);
         }
     }
 
     private void Update()
     {
-        if (!SelectionManager.IsSelectable(this))
+        switch (currentState)
         {
-            gameObject.GetComponent<MeshRenderer>().enabled = false;
-            gameObject.GetComponent<MeshCollider>().enabled = false;
+            case State.Hidden:
+                meshCollider.enabled = false;
+                break;
+            case State.Investigable:
+            {
+                meshCollider.enabled = true;
+                break;
+            }
+            case State.Revealed:
+            {
+                meshCollider.enabled = true;
+                break;
+            }
         }
+        
+        
         else {
             gameObject.GetComponent<MeshRenderer>().enabled = true;
             gameObject.GetComponent<MeshCollider>().enabled = true;
