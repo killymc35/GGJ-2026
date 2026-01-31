@@ -1,14 +1,110 @@
+using System;
 using System.Collections;
+using TMPro;
 using Unity.Cinemachine;
 using UnityEngine;
 
 public class BoardItem : MonoBehaviour, InteractableObject
 {
-    public void Interact()
+    public enum State
     {
-        SelectionManager.Select(this);
+        Hidden,
+        Investigable,
+        Revealed
+    }
+    public State currentState = State.Hidden;
+    public bool beginsInvestigable = true;
+    public TextMeshProUGUI costText;
+
+    public GameObject[] images;
+    public GameObject[] neighbours;
+    
+    private MeshCollider meshCollider;
+
+    public int timeCost = 1;
+
+    private void Start()
+    {
+        meshCollider = GetComponent<MeshCollider>();   
+        
+        if (beginsInvestigable)
+        {
+            currentState = State.Investigable;
+            SelectionManager.MakeSelectable(this);
+        }
+        
+        
     }
 
+    private void Update()
+    {
+        switch (currentState)
+        {
+            case State.Hidden:
+                meshCollider.enabled = false;
+                costText.text = "";
+                break;
+            case State.Investigable:
+            {
+                meshCollider.enabled = true;
+                switch (timeCost)
+                {
+                    case 1:
+                        costText.text = "1hr";
+                        break;
+                    case 3:
+                        costText.text = "3hrs";
+                        break;
+                }
+                break;
+            }
+            case State.Revealed:
+            {
+                costText.text = "";
+                meshCollider.enabled = true;
+                break;
+            }
+        }
+
+        var stateNumber = (int)currentState;
+        images[stateNumber].SetActive(true);
+        for (var i = 0; i < stateNumber; i++)
+        {
+            images[i].SetActive(false);
+        }
+    }
+
+    public void Interact()
+    {
+        switch (currentState)
+        {
+            case State.Hidden:
+                break;
+            case State.Investigable:
+                TimeManager.Instance.ShowInvestigatePopup(this);
+                break;
+            case State.Revealed:
+                SelectionManager.Select(this);
+                break;
+        }
+    }
+    
+    
+    
+    public void MarkAsRevealed()
+    {
+        currentState = State.Revealed;
+        SelectionManager.MakeSelectable(this);
+        SelectionManager.Select(this);
+        foreach (var neighbour in neighbours)
+        {
+            if (neighbour.GetComponent<BoardItem>().currentState == State.Hidden)
+            {
+                neighbour.GetComponent<BoardItem>().currentState = State.Investigable;
+            }
+        }
+    }
+    
     public void OnSelect()
     {
         gameObject.GetComponentInChildren<CinemachineCamera>().Priority = 2;
