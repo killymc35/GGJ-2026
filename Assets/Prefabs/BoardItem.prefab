@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1hr
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 912029b04c45e5249b9f1c726471cf62, type: 2}
   m_sharedMaterial: {fileID: 2904877867313925585, guid: 912029b04c45e5249b9f1c726471cf62, type: 2}
@@ -484,11 +484,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BoardItem
   currentState: 0
   beginsInvestigable: 0
+  costText: {fileID: 8608893802350118405}
   images:
   - {fileID: 6247864513947999328}
   - {fileID: 3239633421324127536}
   - {fileID: 1044798627392624365}
   neighbours: []
+  timeCost: 1
 --- !u!1 &5519685515795185959
 GameObject:
   m_ObjectHideFlags: 0
