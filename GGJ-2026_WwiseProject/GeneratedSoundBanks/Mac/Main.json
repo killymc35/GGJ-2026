@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{C7050C0F-39E1-4DD5-862B-C441B40900A1}",
     "Language": "SFX",
-    "Hash": "{A5268B0C-2203-8492-20A3-3FE9E7FD4054}",
+    "Hash": "{9FFE7F68-EC5B-5196-97E3-5F0AAA28F863}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "18593163",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Answer_Rare_002.wav",
+      "CachePath": "D6/{D629EA46-42B8-2510-4D4D-5AFEAE3B19BC}.wem"
+     },
      {
       "Id": "34747750",
       "Language": "SFX",
@@ -22,6 +30,30 @@
       "Location": "Memory",
       "ShortName": "Clarinet+Vibraphone.wav",
       "CachePath": "93/{9312A4CC-FC4A-F1C5-E6CF-B85C34F4B99F}.wem"
+     },
+     {
+      "Id": "57253533",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Answer_005.wav",
+      "CachePath": "40/{401F2F85-C8D6-2B43-983F-AB7AECEDB4AC}.wem"
+     },
+     {
+      "Id": "75443825",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Book_Close_02.wav",
+      "CachePath": "C0/{C0981123-86CE-03DD-6852-FA45FCC81B5F}.wem"
+     },
+     {
+      "Id": "82421477",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Writing\\Writing_04.wav",
+      "CachePath": "4C/{4C1DD0B3-BFB4-E4A5-15ED-6AC8D52C9C10}.wem"
      },
      {
       "Id": "124411451",
@@ -40,6 +72,14 @@
       "CachePath": "36/{36ECC40B-6706-609E-1435-DFD074813FC5}.wem"
      },
      {
+      "Id": "304865415",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Answer_002.wav",
+      "CachePath": "4B/{4B8E8AA5-2456-F027-0B75-65C8D05963F6}.wem"
+     },
+     {
       "Id": "319317228",
       "Language": "SFX",
       "Streaming": "false",
@@ -48,12 +88,76 @@
       "CachePath": "6F/{6F35FD75-FB9F-B725-7C8A-9ECA04CF1FA9}.wem"
      },
      {
+      "Id": "340559377",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Book_Open_01.wav",
+      "CachePath": "91/{91BBABD0-8542-F6B4-457B-2D7A47CEB2C2}.wem"
+     },
+     {
       "Id": "342446807",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bass B.wav",
       "CachePath": "4B/{4B0C17AA-F262-46CA-2260-AA49DA9D7153}.wem"
+     },
+     {
+      "Id": "370309890",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Question_003.wav",
+      "CachePath": "9B/{9B0FED47-1C79-9677-EE71-77368567BFEC}.wem"
+     },
+     {
+      "Id": "379658438",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Answer_001.wav",
+      "CachePath": "DF/{DF9E131A-A7CF-EB50-1B2A-DBC27F1D0F80}.wem"
+     },
+     {
+      "Id": "413938167",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paper\\Paper_Short_005.wav",
+      "CachePath": "9B/{9BB99DFA-B507-FB57-EF28-0EF9B98F093F}.wem"
+     },
+     {
+      "Id": "422780338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paper\\Paper_Short_003.wav",
+      "CachePath": "2A/{2AC564A9-473D-F261-DC1A-1AA846DB83E4}.wem"
+     },
+     {
+      "Id": "431613195",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Question_002.wav",
+      "CachePath": "8A/{8A9C3537-B320-3D7B-FB70-FBA5AE532877}.wem"
+     },
+     {
+      "Id": "463393898",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Writing\\Writing_03.wav",
+      "CachePath": "31/{3149724B-1158-0A1B-9686-183179A08FC0}.wem"
+     },
+     {
+      "Id": "473997009",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Answer_003.wav",
+      "CachePath": "2F/{2F021C8F-96DA-3EB6-9583-0FB166E10492}.wem"
      },
      {
       "Id": "516770803",
@@ -96,12 +200,28 @@
       "CachePath": "96/{9657EF33-1B3B-030F-1EFE-0F3951CC41CB}.wem"
      },
      {
+      "Id": "584739652",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Book_Close_01.wav",
+      "CachePath": "8E/{8E2BA722-7A78-8A50-E590-7AC01CEBA39A}.wem"
+     },
+     {
       "Id": "614274499",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bass Upbeat.wav",
       "CachePath": "E2/{E21B23DF-367B-EEA9-187A-0083C493D130}.wem"
+     },
+     {
+      "Id": "635722371",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Question_001.wav",
+      "CachePath": "0C/{0CE5C2F4-B02F-C970-7746-63FC60D4FE76}.wem"
      },
      {
       "Id": "637521224",
@@ -120,6 +240,22 @@
       "CachePath": "40/{402D5DEB-85E0-3E12-F845-D041EAA412CD}.wem"
      },
      {
+      "Id": "675321975",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Answer_Rare_001.wav",
+      "CachePath": "D8/{D8EC4F8B-3476-3979-62EF-6749C96A0A9A}.wem"
+     },
+     {
+      "Id": "766684029",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Book_Open_03.wav",
+      "CachePath": "44/{44233852-4D99-A7DD-202B-BFD44EE9CE5C}.wem"
+     },
+     {
       "Id": "769338634",
       "Language": "SFX",
       "Streaming": "false",
@@ -136,6 +272,70 @@
       "CachePath": "EC/{ECE43B0C-5AC9-9F37-25E8-5FB78D8DDFC3}.wem"
      },
      {
+      "Id": "807850072",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Answer_006.wav",
+      "CachePath": "38/{38121815-6AD5-A7D6-0892-73276886132B}.wem"
+     },
+     {
+      "Id": "845408115",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Book_Open_02.wav",
+      "CachePath": "1F/{1F5182E5-9C0D-46BD-822A-B34C1178F3C9}.wem"
+     },
+     {
+      "Id": "878302724",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Book_Close_03.wav",
+      "CachePath": "52/{52044F93-BAF4-5CF5-11B9-4656FA45511C}.wem"
+     },
+     {
+      "Id": "882511093",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Answer_004.wav",
+      "CachePath": "0B/{0B5C5BA9-90EE-54A0-CA19-FE0E18CE1C1C}.wem"
+     },
+     {
+      "Id": "895153562",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paper\\Paper_Short_006.wav",
+      "CachePath": "9B/{9B432473-55B8-785B-E9BC-AEAC656773C2}.wem"
+     },
+     {
+      "Id": "918949280",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paper\\Paper_Short_004.wav",
+      "CachePath": "2E/{2EFFC19E-69B1-9203-8E26-013ECFF8E184}.wem"
+     },
+     {
+      "Id": "935227928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paper\\Paper_Short_001.wav",
+      "CachePath": "C2/{C2EB1D75-3DA9-6FC1-A566-B5B6D1149821}.wem"
+     },
+     {
+      "Id": "943567331",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Question_004.wav",
+      "CachePath": "73/{73FD11B0-6303-A025-F883-CD0E77DB169B}.wem"
+     },
+     {
       "Id": "946464386",
       "Language": "SFX",
       "Streaming": "false",
@@ -144,12 +344,36 @@
       "CachePath": "EE/{EE2147D4-651E-DDCB-7AC8-4979066EC01A}.wem"
      },
      {
+      "Id": "959292167",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Writing\\Writing_01.wav",
+      "CachePath": "EA/{EAD8164C-FD3B-23B1-E3CE-3AB1006B6D6A}.wem"
+     },
+     {
       "Id": "992543161",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "C6.wav",
       "CachePath": "3E/{3E082FFE-5650-4679-4D2C-D20100A92971}.wem"
+     },
+     {
+      "Id": "998271830",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Paper\\Paper_Short_002.wav",
+      "CachePath": "8A/{8A3011E7-39B0-4AFB-1BC7-AFFB4F471819}.wem"
+     },
+     {
+      "Id": "1013970139",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Investigation_Who_Answer_007.wav",
+      "CachePath": "3F/{3FDE7938-7363-E409-CFC5-4DBA7292DC83}.wem"
      },
      {
       "Id": "1019041251",
@@ -166,6 +390,14 @@
       "Location": "Memory",
       "ShortName": "G#7.wav",
       "CachePath": "88/{8832E8C7-1574-015F-A47B-E0E888A08AA9}.wem"
+     },
+     {
+      "Id": "1057976855",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Writing\\Writing_02.wav",
+      "CachePath": "88/{886D5E6D-35E8-C342-2CDA-32B198405BE2}.wem"
      }
     ],
     "Events": [
@@ -185,6 +417,78 @@
        },
        {
         "Id": "1019041251"
+       }
+      ]
+     },
+     {
+      "Id": "154002663",
+      "Name": "Book_Close",
+      "ObjectPath": "\\Events\\Events WU\\Book_Close",
+      "GUID": "{4407F1DC-C87E-4771-9F19-73EB44417E90}",
+      "Color": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1735076",
+      "DurationMax": "1.3172178",
+      "MediaRefs": [
+       {
+        "Id": "75443825"
+       },
+       {
+        "Id": "584739652"
+       },
+       {
+        "Id": "878302724"
+       }
+      ]
+     },
+     {
+      "Id": "3272851089",
+      "Name": "Book_Open",
+      "ObjectPath": "\\Events\\Events WU\\Book_Open",
+      "GUID": "{B11D67AF-49AA-42C0-AFEE-663B51C942F9}",
+      "Color": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "1.634101",
+      "DurationMax": "2.1000195",
+      "MediaRefs": [
+       {
+        "Id": "340559377"
+       },
+       {
+        "Id": "766684029"
+       },
+       {
+        "Id": "845408115"
+       }
+      ]
+     },
+     {
+      "Id": "2028968460",
+      "Name": "Book_Page",
+      "ObjectPath": "\\Events\\Events WU\\Book_Page",
+      "GUID": "{C7AC55F8-E831-41B2-954D-6A129B1B3D71}",
+      "Color": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17501134",
+      "DurationMax": "0.37797633",
+      "MediaRefs": [
+       {
+        "Id": "413938167"
+       },
+       {
+        "Id": "422780338"
+       },
+       {
+        "Id": "895153562"
+       },
+       {
+        "Id": "918949280"
+       },
+       {
+        "Id": "935227928"
+       },
+       {
+        "Id": "998271830"
        }
       ]
      },
@@ -257,6 +561,69 @@
         "Name": "Speed_3",
         "ObjectPath": "\\States\\States WU\\Clock_Speed\\Speed_3",
         "GUID": "{A7F51D89-C987-4A34-92CF-2A527D04FD99}"
+       }
+      ]
+     },
+     {
+      "Id": "2151796224",
+      "Name": "Investigation_Who",
+      "ObjectPath": "\\Events\\Events WU\\Investigation_Who",
+      "GUID": "{33B31FFF-3492-4CD7-91CD-3B5AC770B56A}",
+      "Color": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "3.6155102",
+      "DurationMax": "5.490363",
+      "MediaRefs": [
+       {
+        "Id": "18593163"
+       },
+       {
+        "Id": "57253533"
+       },
+       {
+        "Id": "82421477"
+       },
+       {
+        "Id": "304865415"
+       },
+       {
+        "Id": "370309890"
+       },
+       {
+        "Id": "379658438"
+       },
+       {
+        "Id": "431613195"
+       },
+       {
+        "Id": "463393898"
+       },
+       {
+        "Id": "473997009"
+       },
+       {
+        "Id": "635722371"
+       },
+       {
+        "Id": "675321975"
+       },
+       {
+        "Id": "807850072"
+       },
+       {
+        "Id": "882511093"
+       },
+       {
+        "Id": "943567331"
+       },
+       {
+        "Id": "959292167"
+       },
+       {
+        "Id": "1013970139"
+       },
+       {
+        "Id": "1057976855"
        }
       ]
      },
@@ -600,6 +967,6 @@
     ]
    }
   ],
-  "FileHash": "{077DB99F-1CCD-9B5A-DE9F-DF8E4D028341}"
+  "FileHash": "{24473A6B-B496-FAE2-8E74-FCA9A384C54B}"
  }
 }

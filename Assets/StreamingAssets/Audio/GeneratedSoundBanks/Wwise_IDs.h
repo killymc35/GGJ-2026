@@ -14,9 +14,13 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BOARD_SELECT = 4175590442U;
+        static const AkUniqueID BOOK_CLOSE = 154002663U;
+        static const AkUniqueID BOOK_OPEN = 3272851089U;
+        static const AkUniqueID BOOK_PAGE = 2028968460U;
         static const AkUniqueID CLOCK_SPEED_1 = 1985760409U;
         static const AkUniqueID CLOCK_SPEED_2 = 1985760410U;
         static const AkUniqueID CLOCK_SPEED_3 = 1985760411U;
+        static const AkUniqueID INVESTIGATION_WHO = 2151796224U;
         static const AkUniqueID MUSIC_INVESTIGATE = 1778574366U;
         static const AkUniqueID MUSIC_LEVEL_1 = 3508274217U;
         static const AkUniqueID MUSIC_LEVEL_2 = 3508274218U;

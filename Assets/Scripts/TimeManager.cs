@@ -48,11 +48,11 @@ public class TimeManager : MonoBehaviour
         activator.MarkAsRevealed();
 
         AkUnitySoundEngine.PostEvent("Music_Investigate", gameObject);
-        if (hoursRemaining >= 11 && hoursRemaining <= 16)
+        if (hoursRemaining >= 9 && hoursRemaining <= 16)
         {
             AkUnitySoundEngine.PostEvent("Music_Level_2", gameObject);
         }
-        else if (hoursRemaining >= 17 && hoursRemaining <= 24)
+        else if (hoursRemaining >= 1 && hoursRemaining <= 8)
         {
             AkUnitySoundEngine.PostEvent("Music_Level_3", gameObject);
         }

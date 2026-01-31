@@ -158,10 +158,15 @@ public class Ledger : MonoBehaviour
     public void OpenLedger()
     {
         FullLedger.SetActive(true);
+
+        AkUnitySoundEngine.PostEvent("Book_Open", gameObject);
     }
     public void CloseLedger()
     {
         FullLedger.SetActive(false);
+
+
+        AkUnitySoundEngine.PostEvent("Book_Close", gameObject);
     }
 
     public void GoToCover()
@@ -173,6 +178,9 @@ public class Ledger : MonoBehaviour
         Who.SetActive(false);
         When.SetActive(false);
         Where.SetActive(false);
+
+
+        AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
     public void GoToAccuse()
     {
@@ -183,6 +191,8 @@ public class Ledger : MonoBehaviour
         Who.SetActive(false);
         When.SetActive(false);
         Where.SetActive(false);
+
+        AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
     public void GoToFacts()
     {
@@ -193,6 +203,8 @@ public class Ledger : MonoBehaviour
         Who.SetActive(false);
         When.SetActive(false);
         Where.SetActive(false);
+
+        AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
     public void GoToWho()
     {
@@ -203,6 +215,8 @@ public class Ledger : MonoBehaviour
         Cover.SetActive(false);
         When.SetActive(false);
         Where.SetActive(false);
+
+        AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
     public void GoToWhen()
     {
@@ -213,6 +227,8 @@ public class Ledger : MonoBehaviour
         Who.SetActive(false);
         Cover.SetActive(false);
         Where.SetActive(false);
+
+        AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
     public void GoToWhere()
     {
@@ -223,6 +239,8 @@ public class Ledger : MonoBehaviour
         Who.SetActive(false);
         When.SetActive(false);
         Cover.SetActive(false);
+
+        AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
     
     public void QuitGame()

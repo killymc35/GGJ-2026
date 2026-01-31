@@ -248,7 +248,7 @@
 						<Action Name="" ID="{56401D94-1A7A-4C78-9C6C-445E59BD44E1}" ShortID="174065832">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
-								<Property Name="Delay" Type="Real64" Value="1.5"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -259,6 +259,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Investigation_Who" ID="{33B31FFF-3492-4CD7-91CD-3B5AC770B56A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{B0348DE6-83A6-4034-A47B-965FBEDE6E5A}" ShortID="467953360">
 							<ReferenceList>
@@ -290,6 +294,9 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Investigation_Where" ID="{A222D509-9241-402D-B93C-AD3C8890827E}"/>
+				<Event Name="Book_Pencil" ID="{3FBDAAC1-3DA6-4245-9834-6308D36E1F8E}"/>
+				<Event Name="Accuse_Fail" ID="{343BB2D9-98F5-4546-8295-550E2C1C7756}"/>
+				<Event Name="Accuse_Success" ID="{2664B611-D94F-45D0-9CB9-18F1584EF850}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
