@@ -64,7 +64,31 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Music_Level_1" ID="{38BA754C-459F-487B-8322-5BCF6332AA73}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{9FA5BE4E-717E-41F6-86FB-9E1925E6E672}" ShortID="63390576">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_1" ID="{F46F85A1-48A7-4994-806E-982F65B07884}" WorkUnitID="{D32D758D-ACA8-46FA-B62F-8BC50B4BFFB6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8C38D927-337C-4433-985C-762A10B39D31}" ShortID="135881902">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_1" ID="{6C03C70C-6D6D-4651-9871-DAB7671582E2}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{AF9A697B-B444-47EA-913B-B4F1EF228C46}" ShortID="18095325">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -74,8 +98,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Music_Level_2" ID="{6646746D-2B4B-4FD5-8FF1-DE6BC2AC2B1D}"/>
-				<Event Name="Music_Level_3" ID="{029253B1-3096-485C-94F3-97AE069701C0}"/>
+				<Event Name="Music_Level_2" ID="{6646746D-2B4B-4FD5-8FF1-DE6BC2AC2B1D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{9C37E1B5-52B9-4758-B076-1526EB3BA9E3}" ShortID="23818179">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_2" ID="{4FF85571-8A65-46F2-B639-A8EB152C51ED}" WorkUnitID="{D32D758D-ACA8-46FA-B62F-8BC50B4BFFB6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0BC8A244-4AB7-451C-BB36-6B3D29E85C5B}" ShortID="116820737">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_2" ID="{FCF94C89-2F7B-4F11-A024-C13000AB7B0F}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Level_3" ID="{029253B1-3096-485C-94F3-97AE069701C0}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{4E0CFD62-B6BB-44CB-8892-10C48D5F600A}" ShortID="707654875">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_3" ID="{D820D13D-31FE-4657-BE02-E7EEBB5324F0}" WorkUnitID="{D32D758D-ACA8-46FA-B62F-8BC50B4BFFB6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FE7D9283-5CE4-4B77-9902-1D49768DF6AB}" ShortID="413009824">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_3" ID="{8DE0918B-2946-4B6F-B758-81CC3CBB0A9C}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Clock_Speed_1" ID="{06F931BC-ABD5-4FBB-8A50-8F751777551A}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
@@ -152,6 +230,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Music_Investigate" ID="{6465DD77-4B7B-49C4-A13A-4DC5FAE53175}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{ECE2378D-1A50-41C4-8DC1-B0B9B491235D}" ShortID="622098592">
 							<PropertyList>
@@ -166,7 +248,7 @@
 						<Action Name="" ID="{56401D94-1A7A-4C78-9C6C-445E59BD44E1}" ShortID="174065832">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
-								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

@@ -14,6 +14,17 @@
 						<State Name="Speed_3" ID="{A7F51D89-C987-4A34-92CF-2A527D04FD99}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Music_Level" ID="{AC306169-14EA-4A6A-98B4-7487DCF6DA56}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{A5EEE632-338E-441E-97A5-B2B46CE6626F}"/>
+						<State Name="Level_1" ID="{F46F85A1-48A7-4994-806E-982F65B07884}"/>
+						<State Name="Level_2" ID="{4FF85571-8A65-46F2-B639-A8EB152C51ED}"/>
+						<State Name="Level_3" ID="{D820D13D-31FE-4657-BE02-E7EEBB5324F0}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

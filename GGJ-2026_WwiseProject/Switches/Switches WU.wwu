@@ -9,6 +9,13 @@
 						<Switch Name="Investigation" ID="{F1E385D3-C116-4CD9-BFDF-4C374CB84F1C}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Music_Level" ID="{DC52E24D-82C4-4DAD-92D9-752A98D43FD3}">
+					<ChildrenList>
+						<Switch Name="Level_1" ID="{6C03C70C-6D6D-4651-9871-DAB7671582E2}"/>
+						<Switch Name="Level_2" ID="{FCF94C89-2F7B-4F11-A024-C13000AB7B0F}"/>
+						<Switch Name="Level_3" ID="{8DE0918B-2946-4B6F-B758-81CC3CBB0A9C}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2DDE1A3C-3DF6-4C55-BB88-F9B2E1C5E6B6}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Soundcaster WU" ID="{2DDE1A3C-3DF6-4C55-BB88-F9B2E1C5E6B6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Soundcaster 1" ID="{AADFA332-105A-4D32-9F9C-D9539AEB62F8}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music_Level_1" ID="{38BA754C-459F-487B-8322-5BCF6332AA73}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Level_2" ID="{6646746D-2B4B-4FD5-8FF1-DE6BC2AC2B1D}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Level_3" ID="{029253B1-3096-485C-94F3-97AE069701C0}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Investigate" ID="{6465DD77-4B7B-49C4-A13A-4DC5FAE53175}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
