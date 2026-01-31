@@ -499,6 +499,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsSelectable
       value: 1
       objectReference: {fileID: 0}
@@ -1254,6 +1258,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
@@ -2184,6 +2192,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
       objectReference: {fileID: 0}
@@ -2653,6 +2665,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
@@ -3437,6 +3453,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
       objectReference: {fileID: 0}
@@ -4148,6 +4168,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
       objectReference: {fileID: 0}
@@ -4698,6 +4722,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
@@ -6911,6 +6939,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsSelectable
       value: 1
       objectReference: {fileID: 0}
@@ -7204,6 +7236,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
@@ -9344,6 +9380,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
@@ -12054,6 +12094,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
       objectReference: {fileID: 0}
@@ -12361,6 +12405,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
@@ -14302,6 +14350,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
@@ -16728,6 +16780,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
       objectReference: {fileID: 0}
@@ -17660,6 +17716,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
       objectReference: {fileID: 0}
@@ -18047,6 +18107,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
@@ -19154,6 +19218,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
       objectReference: {fileID: 0}
@@ -19380,6 +19448,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332154093786841128, guid: c88cbb821b87cb7488499684dcfb6645, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20043,6 +20115,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsSelectable
       value: 1
       objectReference: {fileID: 0}
@@ -20514,6 +20590,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsSelectable
       value: 1
@@ -24946,6 +25026,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
       objectReference: {fileID: 0}
@@ -26560,6 +26644,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
       objectReference: {fileID: 0}
@@ -26999,6 +27087,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
       objectReference: {fileID: 0}
@@ -27437,6 +27529,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
@@ -30711,6 +30807,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
+      propertyPath: ledger
+      value: 
+      objectReference: {fileID: 1890466927}
     - target: {fileID: 8332154093786841128, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
       propertyPath: beginsInvestigable
       value: 0
