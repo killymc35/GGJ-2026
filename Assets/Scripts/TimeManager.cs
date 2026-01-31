@@ -14,6 +14,7 @@ public class TimeManager : MonoBehaviour
     public static TimeManager Instance;
     
     public BoardItem activator;
+    public int activatorCost;
 
     private void Start()
     {
@@ -23,11 +24,23 @@ public class TimeManager : MonoBehaviour
     public void ShowInvestigatePopup(BoardItem activatingObject)
     {
         activator = activatingObject;
-        var cost = activator.timeCost;
+        activatorCost = activator.timeCost;
         
-        ChangeCostText(cost);
+        ChangeCostText(activatorCost);
         
         investigatePopup.SetActive(true);
+    }
+
+    public void HideInvestigatePopup()
+    {
+        investigatePopup.SetActive(false);
+    }
+
+    public void ConfirmInvestigate()
+    {
+        investigatePopup.SetActive(false);
+        SpendTime(activatorCost);
+        activator.MarkAsRevealed();
     }
 
     private void ChangeCostText(int cost)

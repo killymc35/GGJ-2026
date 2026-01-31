@@ -87,8 +87,9 @@ public class BoardItem : MonoBehaviour, InteractableObject
                 SelectionManager.Select(this);
                 break;
         }
-        
     }
+    
+    
     
     public void MarkAsRevealed()
     {
