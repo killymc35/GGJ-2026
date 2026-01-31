@@ -66,6 +66,7 @@ public class BoardItem : MonoBehaviour, InteractableObject
                 break;
             case State.Investigable:
                 currentState = State.Revealed;
+                SelectionManager.MakeSelectable(this);
                 SelectionManager.Select(this);
                 foreach (var neighbour in neighbours)
                 {

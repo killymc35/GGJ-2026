@@ -385,7 +385,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0.126, y: -0.298, z: 0}
-  m_LocalScale: {x: 0.31992197, y: 0.31992194, z: 0.31992194}
+  m_LocalScale: {x: 0.31992197, y: 0.31992188, z: 0.31992188}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 378032458374536291}
@@ -425,8 +425,7 @@ MeshRenderer:
   m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 37033e8c5941a6f4a8151f7230a0045a, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -484,7 +483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoardItem
   currentState: 0
-  beginsInvestigable: 1
+  beginsInvestigable: 0
   images:
   - {fileID: 6247864513947999328}
   - {fileID: 3239633421324127536}
