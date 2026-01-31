@@ -39,12 +39,9 @@ public class Ledger : MonoBehaviour
     {
         FullLedger.SetActive(true);
     }
-
     public void CloseLedger()
     {
         FullLedger.SetActive(false);
-
-        GoToCover();
     }
 
     public void GoToCover()
