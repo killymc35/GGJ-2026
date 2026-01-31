@@ -49,6 +49,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Board_Select" ID="{75621468-741B-403D-BD1F-1CBD679700B7}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{8AACBF19-2705-4022-BF9E-E1EDDFE8FDD6}" ShortID="76358200">
 							<ReferenceList>
@@ -59,7 +63,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Music_Level_1" ID="{38BA754C-459F-487B-8322-5BCF6332AA73}"/>
+				<Event Name="Music_Level_1" ID="{38BA754C-459F-487B-8322-5BCF6332AA73}">
+					<ChildrenList>
+						<Action Name="" ID="{AF9A697B-B444-47EA-913B-B4F1EF228C46}" ShortID="18095325">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Music Switch Container" ID="{26F16C3A-EB76-4E80-804F-145A8A0DB554}" WorkUnitID="{07BA2D5F-3949-4063-9C34-E2956906AFAF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Music_Level_2" ID="{6646746D-2B4B-4FD5-8FF1-DE6BC2AC2B1D}"/>
 				<Event Name="Music_Level_3" ID="{029253B1-3096-485C-94F3-97AE069701C0}"/>
 				<Event Name="Clock_Speed_1" ID="{06F931BC-ABD5-4FBB-8A50-8F751777551A}">
@@ -137,8 +151,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Music_Investigate" ID="{6465DD77-4B7B-49C4-A13A-4DC5FAE53175}"/>
-				<Event Name="Investigation_Who" ID="{33B31FFF-3492-4CD7-91CD-3B5AC770B56A}"/>
+				<Event Name="Music_Investigate" ID="{6465DD77-4B7B-49C4-A13A-4DC5FAE53175}">
+					<ChildrenList>
+						<Action Name="" ID="{ECE2378D-1A50-41C4-8DC1-B0B9B491235D}" ShortID="622098592">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Investigation" ID="{F1E385D3-C116-4CD9-BFDF-4C374CB84F1C}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{56401D94-1A7A-4C78-9C6C-445E59BD44E1}" ShortID="174065832">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{49CAA817-C3F6-481B-9D15-AE3658F37D6E}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Investigation_Who" ID="{33B31FFF-3492-4CD7-91CD-3B5AC770B56A}">
+					<ChildrenList>
+						<Action Name="" ID="{B0348DE6-83A6-4034-A47B-965FBEDE6E5A}" ShortID="467953360">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Writing" ID="{A314E381-43A2-481D-847E-6992F91E8F92}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3056080F-151A-4805-AB4C-0D284060E1EA}" ShortID="616477959">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voice_Q" ID="{B1750DE3-F99C-44FF-AAA1-0D56C772FAB5}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{043D49B0-DE97-417C-BD34-46937AAD4BDC}" ShortID="646622739">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voice_A" ID="{A34DC3F8-BB22-4146-908A-162DCA594866}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Investigation_Where" ID="{A222D509-9241-402D-B93C-AD3C8890827E}"/>
 			</ChildrenList>
 		</WorkUnit>

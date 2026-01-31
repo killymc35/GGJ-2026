@@ -4,7 +4,16 @@
 		<WorkUnit Name="Soundbanks WU" ID="{9166D95C-ABBF-4BC2-AE37-877DE14A30F7}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{C7050C0F-39E1-4DD5-862B-C441B40900A1}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Board_Select" ID="{75621468-741B-403D-BD1F-1CBD679700B7}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Clock_Speed_3" ID="{CC7DB6A0-48D9-4200-A20C-409252EF76D8}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Level_3" ID="{029253B1-3096-485C-94F3-97AE069701C0}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Level_1" ID="{38BA754C-459F-487B-8322-5BCF6332AA73}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Investigate" ID="{6465DD77-4B7B-49C4-A13A-4DC5FAE53175}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Clock_Speed_2" ID="{0CFB0ED3-AC53-4EB3-B9E9-6781E248020E}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Clock_Speed_1" ID="{06F931BC-ABD5-4FBB-8A50-8F751777551A}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Level_2" ID="{6646746D-2B4B-4FD5-8FF1-DE6BC2AC2B1D}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

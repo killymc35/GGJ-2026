@@ -79,7 +79,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: 5cd96691bfabc24bae37877de14a30f7
     GuidInternal: 
-    m_lastTime: -8584317867808951602
+    m_lastTime: -8584317259603125371
     List:
     - name: Main
       guid: 0f0c05c7e139d54d862bc441b40900a1
@@ -120,8 +120,229 @@ MonoBehaviour:
     ParentPath: Events\Events WU
     guid: feee21e1133ea146b5111c26982bede6
     GuidInternal: 
-    m_lastTime: -8584317867809181601
-    List: []
+    m_lastTime: -8584317253786465907
+    List:
+    - name: Board_Select
+      guid: 681462751b743d40bd1f1cbd679700b7
+      id: 4175590442
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Board_Select
+        ObjectType: 3
+        guid: 681462751b743d40bd1f1cbd679700b7
+      Path: Events\Events WU\Board_Select
+      maxAttenuation: 70
+      maxDuration: 0.9637647
+      minDuration: 0.42876717
+    - name: Book_Close
+      guid: dcf107447ec871479f1973eb44417e90
+      id: 154002663
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Book_Close
+        ObjectType: 3
+        guid: dcf107447ec871479f1973eb44417e90
+      Path: Events\Events WU\Book_Close
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Book_Open
+      guid: af671db1aa49c042afee663b51c942f9
+      id: 3272851089
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Book_Open
+        ObjectType: 3
+        guid: af671db1aa49c042afee663b51c942f9
+      Path: Events\Events WU\Book_Open
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Book_Page
+      guid: f855acc731e8b241954d6a129b1b3d71
+      id: 2028968460
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Book_Page
+        ObjectType: 3
+        guid: f855acc731e8b241954d6a129b1b3d71
+      Path: Events\Events WU\Book_Page
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Clock_Speed_1
+      guid: bc31f906d5abbb4f8a508f751777551a
+      id: 1985760409
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Clock_Speed_1
+        ObjectType: 3
+        guid: bc31f906d5abbb4f8a508f751777551a
+      Path: Events\Events WU\Clock_Speed_1
+      maxAttenuation: 0
+      maxDuration: 2.0952485
+      minDuration: 1.9776512
+    - name: Clock_Speed_2
+      guid: d30efb0c53acb34eb9e96781e248020e
+      id: 1985760410
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Clock_Speed_2
+        ObjectType: 3
+        guid: d30efb0c53acb34eb9e96781e248020e
+      Path: Events\Events WU\Clock_Speed_2
+      maxAttenuation: 0
+      maxDuration: 2.0952485
+      minDuration: 1.9776512
+    - name: Clock_Speed_3
+      guid: a0b67dccd9480042a20c409252ef76d8
+      id: 1985760411
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Clock_Speed_3
+        ObjectType: 3
+        guid: a0b67dccd9480042a20c409252ef76d8
+      Path: Events\Events WU\Clock_Speed_3
+      maxAttenuation: 0
+      maxDuration: 2.0952485
+      minDuration: 1.9776512
+    - name: Investigation_Where
+      guid: 09d522a241922d40b93cad3c8890827e
+      id: 490888257
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Investigation_Where
+        ObjectType: 3
+        guid: 09d522a241922d40b93cad3c8890827e
+      Path: Events\Events WU\Investigation_Where
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Investigation_Who
+      guid: ff1fb3339234d74c91cd3b5ac770b56a
+      id: 2151796224
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Investigation_Who
+        ObjectType: 3
+        guid: ff1fb3339234d74c91cd3b5ac770b56a
+      Path: Events\Events WU\Investigation_Who
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Investigate
+      guid: 77dd65647b4bc449a13a4dc5fae53175
+      id: 1778574366
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Music_Investigate
+        ObjectType: 3
+        guid: 77dd65647b4bc449a13a4dc5fae53175
+      Path: Events\Events WU\Music_Investigate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Level_1
+      guid: 4c75ba389f457b4883225bcf6332aa73
+      id: 3508274217
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Music_Level_1
+        ObjectType: 3
+        guid: 4c75ba389f457b4883225bcf6332aa73
+      Path: Events\Events WU\Music_Level_1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Music_Level_2
+      guid: 6d7446664b2bd54f8ff1de6bc2ac2b1d
+      id: 3508274218
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Music_Level_2
+        ObjectType: 3
+        guid: 6d7446664b2bd54f8ff1de6bc2ac2b1d
+      Path: Events\Events WU\Music_Level_2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Level_3
+      guid: b153920296305c4894f397ae069701c0
+      id: 3508274219
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Music_Level_3
+        ObjectType: 3
+        guid: b153920296305c4894f397ae069701c0
+      Path: Events\Events WU\Music_Level_3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -174,8 +395,90 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
     GuidInternal: 
-    m_lastTime: -8584317867808931609
-    List: []
+    m_lastTime: -8584317275459067545
+    List:
+    - name: Clock_Speed
+      guid: 07ef642e50ec5d48926b1e9711698981
+      id: 2662357725
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: States WU
+        ObjectType: 12
+        guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+      - ElementName: Clock_Speed
+        ObjectType: 9
+        guid: 07ef642e50ec5d48926b1e9711698981
+      Path: States\States WU\Clock_Speed
+      values:
+      - name: None
+        guid: 3219fd7955a7644b832c98d406e28b33
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+        - ElementName: Clock_Speed
+          ObjectType: 9
+          guid: 07ef642e50ec5d48926b1e9711698981
+        - ElementName: None
+          ObjectType: 8
+          guid: 3219fd7955a7644b832c98d406e28b33
+      - name: Speed_1
+        guid: 195d307f33dedd42840b9a26a0141ac0
+        id: 1590816526
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+        - ElementName: Clock_Speed
+          ObjectType: 9
+          guid: 07ef642e50ec5d48926b1e9711698981
+        - ElementName: Speed_1
+          ObjectType: 8
+          guid: 195d307f33dedd42840b9a26a0141ac0
+      - name: Speed_2
+        guid: d34ae72160e1ce44a50247fe3cc8ef7a
+        id: 1590816525
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+        - ElementName: Clock_Speed
+          ObjectType: 9
+          guid: 07ef642e50ec5d48926b1e9711698981
+        - ElementName: Speed_2
+          ObjectType: 8
+          guid: d34ae72160e1ce44a50247fe3cc8ef7a
+      - name: Speed_3
+        guid: 891df5a787c9344a92cf2a527d04fd99
+        id: 1590816524
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+        - ElementName: Clock_Speed
+          ObjectType: 9
+          guid: 07ef642e50ec5d48926b1e9711698981
+        - ElementName: Speed_3
+          ObjectType: 8
+          guid: 891df5a787c9344a92cf2a527d04fd99
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -218,7 +521,7 @@ MonoBehaviour:
     m_lastTime: -8584317867808901598
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 1c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
