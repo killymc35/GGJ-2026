@@ -10,8 +10,21 @@ public class Ledger : MonoBehaviour
     public GameObject When;
     public GameObject Where;
 
-    public void ToggleLedger()
+    public void ToggleLedgerESC()
     {
+        GoToCover();
+        if (FullLedger.activeSelf)
+        {
+            CloseLedger();
+        }
+        else
+        {
+            OpenLedger();
+        }
+    }
+    public void ToggleLedgerTAB()
+    {
+        GoToAccuse();
         if (FullLedger.activeSelf)
         {
             CloseLedger();

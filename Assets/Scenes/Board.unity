@@ -4505,7 +4505,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1890466929}
         m_TargetAssemblyTypeName: Ledger, Assembly-CSharp
-        m_MethodName: ToggleLedger
+        m_MethodName: ToggleLedgerESC
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4517,6 +4517,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 00fb3913-7d36-41a7-9cbc-a0ba3a97d5e7
     m_ActionName: 'Board/Open Ledger[/Keyboard/escape]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1890466929}
+        m_TargetAssemblyTypeName: Ledger, Assembly-CSharp
+        m_MethodName: ToggleLedgerTAB
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 4a282188-7b58-4d71-b860-b2c69e9b4603
+    m_ActionName: 'Board/Ledger - Accuse[/Keyboard/tab]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: 
