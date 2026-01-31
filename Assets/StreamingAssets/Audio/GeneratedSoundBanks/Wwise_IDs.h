@@ -38,10 +38,35 @@ namespace AK
             } // namespace STATE
         } // namespace CLOCK_SPEED
 
+        namespace MUSIC_LEVEL
+        {
+            static const AkUniqueID GROUP = 2177735725U;
+
+            namespace STATE
+            {
+                static const AkUniqueID LEVEL_1 = 1290008369U;
+                static const AkUniqueID LEVEL_2 = 1290008370U;
+                static const AkUniqueID LEVEL_3 = 1290008371U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MUSIC_LEVEL
+
     } // namespace STATES
 
     namespace SWITCHES
     {
+        namespace MUSIC_LEVEL
+        {
+            static const AkUniqueID GROUP = 2177735725U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID LEVEL_1 = 1290008369U;
+                static const AkUniqueID LEVEL_2 = 1290008370U;
+                static const AkUniqueID LEVEL_3 = 1290008371U;
+            } // namespace SWITCH
+        } // namespace MUSIC_LEVEL
+
         namespace MUSIC_SWITCH
         {
             static const AkUniqueID GROUP = 2724869341U;

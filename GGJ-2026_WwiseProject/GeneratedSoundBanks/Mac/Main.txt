@@ -16,30 +16,35 @@ Switch	ID	Name	Switch Group			Notes
 	2676391117	Investigation	Music_Switch			
 
 State Group	ID	Name			Wwise Object Path	Notes
+	2177735725	Music_Level			\States WU\Music_Level	
 	2662357725	Clock_Speed			\States WU\Clock_Speed	
 
 State	ID	Name	State Group			Notes
+	748895195	None	Music_Level			
+	1290008369	Level_1	Music_Level			
+	1290008370	Level_2	Music_Level			
+	1290008371	Level_3	Music_Level			
 	748895195	None	Clock_Speed			
 	1590816524	Speed_3	Clock_Speed			
 	1590816525	Speed_2	Clock_Speed			
 	1590816526	Speed_1	Clock_Speed			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	76942340	Mask Game Acoustic Guitar	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\B3\{B39D6F68-B1FC-1083-563C-413976299015}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Full Track\Mask Game Acoustic Guitar		14817696
-	141687909	Mask Game Vibrophone	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\EF\{EF8EA927-B239-CF7A-4F5E-CB88FCA0368D}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Full Track\Mask Game Vibrophone		11289696
-	369982678	Mask Game Left Hand Piano	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\97\{975E3E98-B88B-378D-4E96-47C83898A365}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Full Track\Mask Game Left Hand Piano		24595576
-	388653632	Mask Game Sax	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\E8\{E87F1A5C-C608-EBBA-F82A-272042C2C3BC}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Full Track\Mask Game Sax		8820096
+	34747750	Melody	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\93\{9312A4CC-FC4A-F1C5-E6CF-B85C34F4B99F}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Melody		2469696
+	124411451	Drums	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\86\{868A46A7-E59B-F8E3-FADF-ED753525771A}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Drums		3239984
+	226996030	Strings	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\36\{36ECC40B-6706-609E-1435-DFD074813FC5}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Strings		4586496
+	319317228	Piano	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\6F\{6F35FD75-FB9F-B725-7C8A-9ECA04CF1FA9}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Piano		3053636
+	342446807	Bass	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\4B\{4B0C17AA-F262-46CA-2260-AA49DA9D7153}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Bass		3089988
 	516770803	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\29\{293E2E0D-A518-FCDB-F8A2-F19B1CDEAF70}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Investigation\CmM7		705696
+	521591982	Melody	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\3A\{3A7C212E-EC54-B834-3ED9-1D5BA364D791}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Melody		2822496
 	548162533	Board_Select_05	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\6F\{6F4184CE-E549-2177-704F-DB52176D998F}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Select\Board_Select_05		151556
 	552878639	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\72\{72F04EE8-5808-CC1E-C5B5-881011D81DFD}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Investigation\CmM7		705696
-	567606282	Mask Game Upright Bass	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\D1\{D1342D43-B6A1-2BEE-F545-AE4F26BFC91C}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Full Track\Mask Game Upright Bass		23199584
 	582891858	Investigation_Clock	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\96\{9657EF33-1B3B-030F-1EFE-0F3951CC41CB}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Investigation_Clock		359176
-	617641236	Mask Game Clarinet	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\10\{1003FD3E-5BCB-FA48-40C2-E9ADE92E23D0}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Full Track\Mask Game Clarinet		11289696
-	703769832	Mask Game Right Hand Piano	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\C5\{C59E4D1B-14DF-9184-2164-03FEAA56CB69}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Full Track\Mask Game Right Hand Piano		23659160
-	826229342	Mask Game Drums	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\65\{654807AE-39AE-6DA8-CE33-5A72E8541D9E}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Full Track\Mask Game Drums		24760788
-	890451446	Mask Game Viola Section	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\BA\{BA7281DE-7D29-9E6F-B54E-B63DFB149C46}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Full Track\Mask Game Viola Section		21873728
-	896102461	Mask Game Violoncello Section	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\20\{20C63BA8-B1BC-C4CF-907D-C4A2B881E3FE}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Full Track\Mask Game Violoncello Section		20136112
-	904650216	Mask Game Violin Section	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\65\{65C98F60-72AB-E6C8-BF7A-DEC5D77046A6}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Full Track\Mask Game Violin Section		21873760
+	614274499	Bass Upbeat	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\E2\{E21B23DF-367B-EEA9-187A-0083C493D130}.wem		\Interactive Music Hierarchy\Music WU\Bass Upbeat\Bass Upbeat		705696
+	637521224	Piano	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\16\{16336F93-1AE6-7B73-DFB1-76675EEF293B}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Piano		3087096
+	643615133	Piano 2	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\40\{402D5DEB-85E0-3E12-F845-D041EAA412CD}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Piano 2		3550164
+	769338634	Bass	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\91\{915587A8-E26C-7F4A-2F25-4A82AC573003}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Bass		3087096
+	795855467	Melody	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\EC\{ECE43B0C-5AC9-9F37-25E8-5FB78D8DDFC3}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Melody		2822496
 	946464386	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\EE\{EE2147D4-651E-DDCB-7AC8-4979066EC01A}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Investigation\CmM7		705696
 	992543161	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\3E\{3E082FFE-5650-4679-4D2C-D20100A92971}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Investigation\CmM7		705696
 	1019041251	Board_Select_04	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\2D\{2DAEFE0F-0995-14A8-D8A7-E42DFCEA37A4}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Select\Board_Select_04		80228

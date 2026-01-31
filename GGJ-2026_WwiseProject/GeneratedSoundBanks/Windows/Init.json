@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{F06FF2AB-EB1B-9E43-0764-915FCE81017E}",
+    "Hash": "{A38269F8-44F9-005A-6EE8-09676ED99443}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -43,6 +43,38 @@
      }
     ],
     "StateGroups": [
+     {
+      "Id": "2177735725",
+      "Name": "Music_Level",
+      "ObjectPath": "\\States\\States WU\\Music_Level",
+      "GUID": "{AC306169-14EA-4A6A-98B4-7487DCF6DA56}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\States WU\\Music_Level\\None",
+        "GUID": "{A5EEE632-338E-441E-97A5-B2B46CE6626F}"
+       },
+       {
+        "Id": "1290008369",
+        "Name": "Level_1",
+        "ObjectPath": "\\States\\States WU\\Music_Level\\Level_1",
+        "GUID": "{F46F85A1-48A7-4994-806E-982F65B07884}"
+       },
+       {
+        "Id": "1290008370",
+        "Name": "Level_2",
+        "ObjectPath": "\\States\\States WU\\Music_Level\\Level_2",
+        "GUID": "{4FF85571-8A65-46F2-B639-A8EB152C51ED}"
+       },
+       {
+        "Id": "1290008371",
+        "Name": "Level_3",
+        "ObjectPath": "\\States\\States WU\\Music_Level\\Level_3",
+        "GUID": "{D820D13D-31FE-4657-BE02-E7EEBB5324F0}"
+       }
+      ]
+     },
      {
       "Id": "2662357725",
       "Name": "Clock_Speed",
@@ -78,6 +110,32 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "2177735725",
+      "Name": "Music_Level",
+      "ObjectPath": "\\Switches\\Switches WU\\Music_Level",
+      "GUID": "{DC52E24D-82C4-4DAD-92D9-752A98D43FD3}",
+      "Switches": [
+       {
+        "Id": "1290008369",
+        "Name": "Level_1",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Level\\Level_1",
+        "GUID": "{6C03C70C-6D6D-4651-9871-DAB7671582E2}"
+       },
+       {
+        "Id": "1290008370",
+        "Name": "Level_2",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Level\\Level_2",
+        "GUID": "{FCF94C89-2F7B-4F11-A024-C13000AB7B0F}"
+       },
+       {
+        "Id": "1290008371",
+        "Name": "Level_3",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Level\\Level_3",
+        "GUID": "{8DE0918B-2946-4B6F-B758-81CC3CBB0A9C}"
+       }
+      ]
+     },
+     {
       "Id": "2724869341",
       "Name": "Music_Switch",
       "ObjectPath": "\\Switches\\Switches WU\\Music_Switch",
@@ -100,6 +158,6 @@
     ]
    }
   ],
-  "FileHash": "{3C037577-2CF7-B668-E1EA-4E7F728C4C49}"
+  "FileHash": "{9C876BE2-30B1-D8A7-D05A-65A979C09896}"
  }
 }

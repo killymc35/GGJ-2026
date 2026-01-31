@@ -10,42 +10,50 @@
     "Type": "User",
     "GUID": "{C7050C0F-39E1-4DD5-862B-C441B40900A1}",
     "Language": "SFX",
-    "Hash": "{A0A347F5-E9A6-F914-EE47-5781EA125346}",
+    "Hash": "{A5268B0C-2203-8492-20A3-3FE9E7FD4054}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
      {
-      "Id": "76942340",
+      "Id": "34747750",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Mask Game Acoustic Guitar.wav",
-      "CachePath": "B3/{B39D6F68-B1FC-1083-563C-413976299015}.wem"
+      "ShortName": "Clarinet+Vibraphone.wav",
+      "CachePath": "93/{9312A4CC-FC4A-F1C5-E6CF-B85C34F4B99F}.wem"
      },
      {
-      "Id": "141687909",
+      "Id": "124411451",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Mask Game Vibrophone.wav",
-      "CachePath": "EF/{EF8EA927-B239-CF7A-4F5E-CB88FCA0368D}.wem"
+      "ShortName": "Drums.wav",
+      "CachePath": "86/{868A46A7-E59B-F8E3-FADF-ED753525771A}.wem"
      },
      {
-      "Id": "369982678",
+      "Id": "226996030",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Mask Game Left Hand Piano.wav",
-      "CachePath": "97/{975E3E98-B88B-378D-4E96-47C83898A365}.wem"
+      "ShortName": "Strings.wav",
+      "CachePath": "36/{36ECC40B-6706-609E-1435-DFD074813FC5}.wem"
      },
      {
-      "Id": "388653632",
+      "Id": "319317228",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Mask Game Sax.wav",
-      "CachePath": "E8/{E87F1A5C-C608-EBBA-F82A-272042C2C3BC}.wem"
+      "ShortName": "Piano B.wav",
+      "CachePath": "6F/{6F35FD75-FB9F-B725-7C8A-9ECA04CF1FA9}.wem"
+     },
+     {
+      "Id": "342446807",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bass B.wav",
+      "CachePath": "4B/{4B0C17AA-F262-46CA-2260-AA49DA9D7153}.wem"
      },
      {
       "Id": "516770803",
@@ -54,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "C9.wav",
       "CachePath": "29/{293E2E0D-A518-FCDB-F8A2-F19B1CDEAF70}.wem"
+     },
+     {
+      "Id": "521591982",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Saxophone.wav",
+      "CachePath": "3A/{3A7C212E-EC54-B834-3ED9-1D5BA364D791}.wem"
      },
      {
       "Id": "548162533",
@@ -72,14 +88,6 @@
       "CachePath": "72/{72F04EE8-5808-CC1E-C5B5-881011D81DFD}.wem"
      },
      {
-      "Id": "567606282",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Mask Game Upright Bass.wav",
-      "CachePath": "D1/{D1342D43-B6A1-2BEE-F545-AE4F26BFC91C}.wem"
-     },
-     {
       "Id": "582891858",
       "Language": "SFX",
       "Streaming": "false",
@@ -88,52 +96,44 @@
       "CachePath": "96/{9657EF33-1B3B-030F-1EFE-0F3951CC41CB}.wem"
      },
      {
-      "Id": "617641236",
+      "Id": "614274499",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Mask Game Clarinet.wav",
-      "CachePath": "10/{1003FD3E-5BCB-FA48-40C2-E9ADE92E23D0}.wem"
+      "ShortName": "Bass Upbeat.wav",
+      "CachePath": "E2/{E21B23DF-367B-EEA9-187A-0083C493D130}.wem"
      },
      {
-      "Id": "703769832",
+      "Id": "637521224",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Mask Game Right Hand Piano.wav",
-      "CachePath": "C5/{C59E4D1B-14DF-9184-2164-03FEAA56CB69}.wem"
+      "ShortName": "Piano A.wav",
+      "CachePath": "16/{16336F93-1AE6-7B73-DFB1-76675EEF293B}.wem"
      },
      {
-      "Id": "826229342",
+      "Id": "643615133",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Mask Game Drums.wav",
-      "CachePath": "65/{654807AE-39AE-6DA8-CE33-5A72E8541D9E}.wem"
+      "ShortName": "Piano 2.wav",
+      "CachePath": "40/{402D5DEB-85E0-3E12-F845-D041EAA412CD}.wem"
      },
      {
-      "Id": "890451446",
+      "Id": "769338634",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Mask Game Viola Section.wav",
-      "CachePath": "BA/{BA7281DE-7D29-9E6F-B54E-B63DFB149C46}.wem"
+      "ShortName": "Bass A.wav",
+      "CachePath": "91/{915587A8-E26C-7F4A-2F25-4A82AC573003}.wem"
      },
      {
-      "Id": "896102461",
+      "Id": "795855467",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Instrument_12.wav",
-      "CachePath": "20/{20C63BA8-B1BC-C4CF-907D-C4A2B881E3FE}.wem"
-     },
-     {
-      "Id": "904650216",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Mask Game Violin Section.wav",
-      "CachePath": "65/{65C98F60-72AB-E6C8-BF7A-DEC5D77046A6}.wem"
+      "ShortName": "Guitar.wav",
+      "CachePath": "EC/{ECE43B0C-5AC9-9F37-25E8-5FB78D8DDFC3}.wem"
      },
      {
       "Id": "946464386",
@@ -265,6 +265,7 @@
       "Name": "Music_Investigate",
       "ObjectPath": "\\Events\\Events WU\\Music_Investigate",
       "GUID": "{6465DD77-4B7B-49C4-A13A-4DC5FAE53175}",
+      "Color": "4",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -291,7 +292,13 @@
       "Name": "Music_Level_1",
       "ObjectPath": "\\Events\\Events WU\\Music_Level_1",
       "GUID": "{38BA754C-459F-487B-8322-5BCF6332AA73}",
+      "Color": "4",
       "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "614274499"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -302,37 +309,34 @@
         },
         "MediaRefs": [
          {
-          "Id": "76942340"
+          "Id": "34747750"
          },
          {
-          "Id": "141687909"
+          "Id": "124411451"
          },
          {
-          "Id": "369982678"
+          "Id": "226996030"
          },
          {
-          "Id": "388653632"
+          "Id": "319317228"
          },
          {
-          "Id": "567606282"
+          "Id": "342446807"
          },
          {
-          "Id": "617641236"
+          "Id": "521591982"
          },
          {
-          "Id": "703769832"
+          "Id": "637521224"
          },
          {
-          "Id": "826229342"
+          "Id": "643615133"
          },
          {
-          "Id": "890451446"
+          "Id": "769338634"
          },
          {
-          "Id": "896102461"
-         },
-         {
-          "Id": "904650216"
+          "Id": "795855467"
          }
         ]
        },
@@ -370,39 +374,54 @@
         },
         "MediaRefs": [
          {
-          "Id": "76942340"
+          "Id": "34747750"
          },
          {
-          "Id": "141687909"
+          "Id": "124411451"
          },
          {
-          "Id": "369982678"
+          "Id": "226996030"
          },
          {
-          "Id": "388653632"
+          "Id": "319317228"
          },
          {
-          "Id": "567606282"
+          "Id": "342446807"
          },
          {
-          "Id": "617641236"
+          "Id": "521591982"
          },
          {
-          "Id": "703769832"
+          "Id": "637521224"
          },
          {
-          "Id": "826229342"
+          "Id": "643615133"
          },
          {
-          "Id": "890451446"
+          "Id": "769338634"
          },
          {
-          "Id": "896102461"
-         },
-         {
-          "Id": "904650216"
+          "Id": "795855467"
          }
         ]
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "2177735725",
+        "Id": "1290008369",
+        "Name": "Level_1",
+        "ObjectPath": "\\States\\States WU\\Music_Level\\Level_1",
+        "GUID": "{F46F85A1-48A7-4994-806E-982F65B07884}"
+       }
+      ],
+      "ActionSetSwitch": [
+       {
+        "GroupId": "2177735725",
+        "Id": "1290008369",
+        "Name": "Level_1",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Level\\Level_1",
+        "GUID": "{6C03C70C-6D6D-4651-9871-DAB7671582E2}"
        }
       ]
      },
@@ -411,23 +430,93 @@
       "Name": "Music_Level_2",
       "ObjectPath": "\\Events\\Events WU\\Music_Level_2",
       "GUID": "{6646746D-2B4B-4FD5-8FF1-DE6BC2AC2B1D}",
+      "Color": "4",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "2177735725",
+        "Id": "1290008370",
+        "Name": "Level_2",
+        "ObjectPath": "\\States\\States WU\\Music_Level\\Level_2",
+        "GUID": "{4FF85571-8A65-46F2-B639-A8EB152C51ED}"
+       }
+      ],
+      "ActionSetSwitch": [
+       {
+        "GroupId": "2177735725",
+        "Id": "1290008370",
+        "Name": "Level_2",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Level\\Level_2",
+        "GUID": "{FCF94C89-2F7B-4F11-A024-C13000AB7B0F}"
+       }
+      ]
      },
      {
       "Id": "3508274219",
       "Name": "Music_Level_3",
       "ObjectPath": "\\Events\\Events WU\\Music_Level_3",
       "GUID": "{029253B1-3096-485C-94F3-97AE069701C0}",
+      "Color": "4",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "2177735725",
+        "Id": "1290008371",
+        "Name": "Level_3",
+        "ObjectPath": "\\States\\States WU\\Music_Level\\Level_3",
+        "GUID": "{D820D13D-31FE-4657-BE02-E7EEBB5324F0}"
+       }
+      ],
+      "ActionSetSwitch": [
+       {
+        "GroupId": "2177735725",
+        "Id": "1290008371",
+        "Name": "Level_3",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Level\\Level_3",
+        "GUID": "{8DE0918B-2946-4B6F-B758-81CC3CBB0A9C}"
+       }
+      ]
      }
     ],
     "StateGroups": [
+     {
+      "Id": "2177735725",
+      "Name": "Music_Level",
+      "ObjectPath": "\\States\\States WU\\Music_Level",
+      "GUID": "{AC306169-14EA-4A6A-98B4-7487DCF6DA56}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\States WU\\Music_Level\\None",
+        "GUID": "{A5EEE632-338E-441E-97A5-B2B46CE6626F}"
+       },
+       {
+        "Id": "1290008369",
+        "Name": "Level_1",
+        "ObjectPath": "\\States\\States WU\\Music_Level\\Level_1",
+        "GUID": "{F46F85A1-48A7-4994-806E-982F65B07884}"
+       },
+       {
+        "Id": "1290008370",
+        "Name": "Level_2",
+        "ObjectPath": "\\States\\States WU\\Music_Level\\Level_2",
+        "GUID": "{4FF85571-8A65-46F2-B639-A8EB152C51ED}"
+       },
+       {
+        "Id": "1290008371",
+        "Name": "Level_3",
+        "ObjectPath": "\\States\\States WU\\Music_Level\\Level_3",
+        "GUID": "{D820D13D-31FE-4657-BE02-E7EEBB5324F0}"
+       }
+      ]
+     },
      {
       "Id": "2662357725",
       "Name": "Clock_Speed",
@@ -463,6 +552,32 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "2177735725",
+      "Name": "Music_Level",
+      "ObjectPath": "\\Switches\\Switches WU\\Music_Level",
+      "GUID": "{DC52E24D-82C4-4DAD-92D9-752A98D43FD3}",
+      "Switches": [
+       {
+        "Id": "1290008369",
+        "Name": "Level_1",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Level\\Level_1",
+        "GUID": "{6C03C70C-6D6D-4651-9871-DAB7671582E2}"
+       },
+       {
+        "Id": "1290008370",
+        "Name": "Level_2",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Level\\Level_2",
+        "GUID": "{FCF94C89-2F7B-4F11-A024-C13000AB7B0F}"
+       },
+       {
+        "Id": "1290008371",
+        "Name": "Level_3",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Level\\Level_3",
+        "GUID": "{8DE0918B-2946-4B6F-B758-81CC3CBB0A9C}"
+       }
+      ]
+     },
+     {
       "Id": "2724869341",
       "Name": "Music_Switch",
       "ObjectPath": "\\Switches\\Switches WU\\Music_Switch",
@@ -485,6 +600,6 @@
     ]
    }
   ],
-  "FileHash": "{281E2126-04E8-0E4E-E562-334FF95CF5E8}"
+  "FileHash": "{077DB99F-1CCD-9B5A-DE9F-DF8E4D028341}"
  }
 }
