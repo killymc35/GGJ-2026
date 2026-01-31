@@ -13,6 +13,8 @@ public class BoardItem : MonoBehaviour, InteractableObject
     }
     public State currentState = State.Hidden;
     public bool beginsInvestigable = true;
+
+    public GameObject[] images;
     
     public InteractableObject[] neighbours;
     
@@ -47,6 +49,7 @@ public class BoardItem : MonoBehaviour, InteractableObject
                 break;
             }
         }
+        images[(int)currentState].SetActive(true);
     }
 
     public void Interact()
