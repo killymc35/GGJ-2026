@@ -47,12 +47,6 @@ public class BoardItem : MonoBehaviour, InteractableObject
                 break;
             }
         }
-        
-        
-        else {
-            gameObject.GetComponent<MeshRenderer>().enabled = true;
-            gameObject.GetComponent<MeshCollider>().enabled = true;
-        }
     }
 
     public void Interact()
