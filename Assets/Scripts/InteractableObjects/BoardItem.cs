@@ -1,11 +1,44 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using Unity.Cinemachine;
 using UnityEngine;
 
 public class BoardItem : MonoBehaviour, InteractableObject
 {
+
+    public Dictionary<int, Ledger.Character> dropdownConversion = new Dictionary<int, Ledger.Character>
+    {
+        {0, Ledger.Green},
+        {1, Ledger.Purple},
+        {2, Ledger.Black},
+        {3, Ledger.Yellow}
+    };
+    
+    public TMP_Dropdown whoDropdown;
+    
+    public GameObject ledger;
+    
+    public enum Type
+    {
+        Fact,
+        Who,
+        Where,
+        When
+    }
+    public Type type;
+
+    public struct Clue
+    {
+        public Type type;
+        public string description;
+        public Ledger.Character whoInterviewee;
+        public Ledger.Character whoTarget;
+    }
+
+    public Clue clue;
+    
     public enum State
     {
         Hidden,
@@ -32,8 +65,6 @@ public class BoardItem : MonoBehaviour, InteractableObject
             currentState = State.Investigable;
             SelectionManager.MakeSelectable(this);
         }
-        
-        
     }
 
     private void Update()
@@ -89,8 +120,6 @@ public class BoardItem : MonoBehaviour, InteractableObject
         }
     }
     
-    
-    
     public void MarkAsRevealed()
     {
         currentState = State.Revealed;
@@ -103,6 +132,26 @@ public class BoardItem : MonoBehaviour, InteractableObject
                 neighbour.GetComponent<BoardItem>().currentState = State.Investigable;
             }
         }
+
+        var ledgerScript = ledger.GetComponent<Ledger>();
+
+        if (clue.type != Type.Who)
+        {
+            ledgerScript.GiveInfo(clue);
+        }
+    }
+
+    public void WhoGiveInfo()
+    {
+        var number = whoDropdown.value;
+        var character = dropdownConversion[number];
+
+        if (character.Equals(clue.whoInterviewee)) return;
+        
+        var ledgerScript = ledger.GetComponent<Ledger>();
+        ledgerScript.GiveInfo(clue);
+        
+        Destroy(whoDropdown.gameObject);
     }
     
     public void OnSelect()

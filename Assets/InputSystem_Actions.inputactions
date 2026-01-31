@@ -16,9 +16,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Open Ledger",
+                    "name": "Ledger - Cover",
                     "type": "Button",
                     "id": "00fb3913-7d36-41a7-9cbc-a0ba3a97d5e7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ledger - Accuse",
+                    "type": "Button",
+                    "id": "4a282188-7b58-4d71-b860-b2c69e9b4603",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -44,7 +53,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Open Ledger",
+                    "action": "Ledger - Cover",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6a933c7d-1a66-4126-a1fd-8f9dd375c5b0",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ledger - Accuse",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
