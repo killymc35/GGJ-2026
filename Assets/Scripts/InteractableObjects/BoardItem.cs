@@ -49,7 +49,13 @@ public class BoardItem : MonoBehaviour, InteractableObject
                 break;
             }
         }
-        images[(int)currentState].SetActive(true);
+
+        var stateNumber = (int)currentState;
+        images[stateNumber].SetActive(true);
+        for (var i = 0; i < stateNumber; i++)
+        {
+            images[i].SetActive(false);
+        }
     }
 
     public void Interact()
