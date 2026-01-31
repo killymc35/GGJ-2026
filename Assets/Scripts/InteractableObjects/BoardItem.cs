@@ -54,7 +54,26 @@ public class BoardItem : MonoBehaviour, InteractableObject
 
     public void Interact()
     {
-        SelectionManager.Select(this);
+        switch (currentState)
+        {
+            case State.Hidden:
+                break;
+            case State.Investigable:
+                currentState = State.Revealed;
+                SelectionManager.Select(this);
+                foreach (var neighbour in neighbours)
+                {
+                    if (neighbour.GetComponent<BoardItem>().currentState == State.Hidden)
+                    {
+                        neighbour.GetComponent<BoardItem>().currentState = State.Investigable;
+                    }
+                }
+                break;
+            case State.Revealed:
+                SelectionManager.Select(this);
+                break;
+        }
+        
     }
 
     public void OnSelect()
