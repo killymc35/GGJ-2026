@@ -489,6 +489,7 @@ MonoBehaviour:
   - {fileID: 6247864513947999328}
   - {fileID: 3239633421324127536}
   - {fileID: 1044798627392624365}
+  neighbours: []
 --- !u!1 &5519685515795185959
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,7 +502,7 @@ GameObject:
   - component: {fileID: 8860348499602632708}
   - component: {fileID: 7595029649292980288}
   m_Layer: 0
-  m_Name: Centre Pin
+  m_Name: Pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

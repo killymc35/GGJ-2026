@@ -16,7 +16,7 @@ public class BoardItem : MonoBehaviour, InteractableObject
 
     public GameObject[] images;
     
-    public InteractableObject[] neighbours;
+    public GameObject[] neighbours;
     
     private MeshCollider meshCollider;
 
