@@ -1,6 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ledger : MonoBehaviour
 {
@@ -362,5 +363,21 @@ public class Ledger : MonoBehaviour
     {
         Debug.Log("Quitting Game");
         Application.Quit();
+    }
+    public void GoToTitle()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void GoToBoard()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void GoToLoss()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void GoToWin()
+    {
+        SceneManager.LoadScene(3);
     }
 }
