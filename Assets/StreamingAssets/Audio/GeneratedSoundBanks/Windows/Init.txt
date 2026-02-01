@@ -1,0 +1,21 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2177735725	Music_Level			\States WU\Music_Level	
+	2662357725	Clock_Speed			\States WU\Clock_Speed	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music_Level			
+	1290008369	Level_1	Music_Level			
+	1290008370	Level_2	Music_Level			
+	1290008371	Level_3	Music_Level			
+	748895195	None	Clock_Speed			
+	1590816524	Speed_3	Clock_Speed			
+	1590816525	Speed_2	Clock_Speed			
+	1590816526	Speed_1	Clock_Speed			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
