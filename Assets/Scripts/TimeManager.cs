@@ -25,8 +25,11 @@ public class TimeManager : MonoBehaviour
 
     public void ShowInvestigatePopup(BoardItem activatingObject)
     {
+        
+
         activator = activatingObject;
         activatorCost = activator.timeCost;
+        if (hoursRemaining < activatorCost) return;
         
         ChangeCostText(activatorCost);
         
