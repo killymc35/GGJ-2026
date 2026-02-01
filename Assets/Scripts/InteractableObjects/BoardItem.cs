@@ -35,7 +35,8 @@ public class BoardItem : MonoBehaviour, InteractableObject
         public Type type;
         public string description;
         public Ledger.Character whoInterviewee;
-        public Ledger.Character whoTarget;
+        public Ledger.WhereLocation whereLocation;
+        public Ledger.WhenTime whenTime;
     }
 
     public Clue clue;

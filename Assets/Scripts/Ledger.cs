@@ -40,6 +40,15 @@ public class Ledger : MonoBehaviour
     public TextMeshProUGUI yellowWeapon;
     public GameObject yellowPortrait;
     
+    public TextMeshProUGUI ballroomDescription;
+    public TextMeshProUGUI courtyardDescription;
+    public TextMeshProUGUI bedchambersDescription;
+    public TextMeshProUGUI studyDescription;
+    
+    public TextMeshProUGUI afternoonDescription;
+    public TextMeshProUGUI eveningDescription;
+    public TextMeshProUGUI nightDescription;
+    public TextMeshProUGUI morningDescription;
 
     public void GiveInfo(BoardItem.Clue clue)
     {
@@ -52,10 +61,10 @@ public class Ledger : MonoBehaviour
                 LogWho(clue.whoInterviewee);
                 break;
             case BoardItem.Type.When:
-                LogWhen();
+                LogWhen(clue.whenTime, clue.description);
                 break;
             case BoardItem.Type.Where:
-                LogWhere();
+                LogWhere(clue.whereLocation, clue.description);
                 break;
         }
     }
@@ -91,15 +100,57 @@ public class Ledger : MonoBehaviour
                 break;
         }
     }
-    public void LogWhere()
+    public void LogWhere(WhereLocation location, string info)
     {
-        
+        switch (location)
+        {
+            case WhereLocation.Ballroom:
+                ballroomDescription.text =  info;
+                break;
+            case  WhereLocation.Courtyard:
+                courtyardDescription.text = info;
+                break;
+            case WhereLocation.Bedchambers:
+                bedchambersDescription.text = info;
+                break;
+            case WhereLocation.Study:
+                studyDescription.text  = info;
+                break;
+        }
     }
-    public void LogWhen()
+    public void LogWhen(WhenTime time, string info)
     {
-        
+        switch (time)
+        {
+            case WhenTime.Afternoon:
+                afternoonDescription.text = info;
+                break;
+            case  WhenTime.Evening:
+                eveningDescription.text = info;
+                break;
+            case WhenTime.Night:
+                nightDescription.text = info;
+                break;
+            case WhenTime.Morning:
+                morningDescription.text = info;
+                break;
+        }
     }
 
+    public enum WhereLocation
+    {
+        Ballroom,
+        Courtyard,
+        Bedchambers,
+        Study
+    }
+    public enum WhenTime
+    {
+        Afternoon,
+        Evening,
+        Night,
+        Morning
+    }
     public struct Character : IEquatable<Character>
     {
         public string name;
