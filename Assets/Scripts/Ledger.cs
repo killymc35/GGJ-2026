@@ -23,6 +23,23 @@ public class Ledger : MonoBehaviour
     
     public int factCounter = 0;
     public TextMeshProUGUI[] facts;
+    
+    public TextMeshProUGUI greenDescription;
+    public TextMeshProUGUI greenWeapon;
+    public GameObject greenPortrait;
+    
+    public TextMeshProUGUI purpleDescription;
+    public TextMeshProUGUI purpleWeapon;
+    public GameObject purplePortrait;
+    
+    public TextMeshProUGUI blackDescription;
+    public TextMeshProUGUI blackWeapon;
+    public GameObject blackPortrait;
+    
+    public TextMeshProUGUI yellowDescription;
+    public TextMeshProUGUI yellowWeapon;
+    public GameObject yellowPortrait;
+    
 
     public void GiveInfo(BoardItem.Clue clue)
     {
@@ -32,10 +49,13 @@ public class Ledger : MonoBehaviour
                 LogFact(clue.description);
                 break;
             case BoardItem.Type.Who:
+                LogWho(clue.whoInterviewee);
                 break;
             case BoardItem.Type.When:
+                LogWhen();
                 break;
             case BoardItem.Type.Where:
+                LogWhere();
                 break;
         }
     }
@@ -45,9 +65,31 @@ public class Ledger : MonoBehaviour
         facts[factCounter].text = "•  " + fact;
         factCounter++;
     }
-    public void LogWho()
+    public void LogWho(Character who)
     {
-        
+        switch (who.name)
+        {
+            case "Green": 
+                greenDescription.text = who.description;
+                greenWeapon.text = who.weapon;
+                greenPortrait.SetActive(true);
+                break;
+            case "Purple": 
+                purpleDescription.text = who.description;
+                purpleWeapon.text = who.weapon;
+                purplePortrait.SetActive(true);
+                break;
+            case "Black": 
+                blackDescription.text = who.description;
+                blackWeapon.text = who.weapon;
+                blackPortrait.SetActive(true);
+                break;
+            case "Yellow": 
+                yellowDescription.text = who.description;
+                yellowWeapon.text = who.weapon;
+                yellowPortrait.SetActive(true);
+                break;
+        }
     }
     public void LogWhere()
     {
