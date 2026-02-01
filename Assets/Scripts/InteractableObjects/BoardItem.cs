@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class BoardItem : MonoBehaviour, InteractableObject
 {
@@ -166,7 +167,9 @@ public class BoardItem : MonoBehaviour, InteractableObject
         var ledgerScript = ledger.GetComponent<Ledger>();
         ledgerScript.GiveInfo(clue);
 
-        dialogue.text = ledgerScript.GetDialogue(character);
+        var textUpdate = ledgerScript.GetDialogue(character);
+        dialogue.text = textUpdate;
+        dialogue.gameObject.SetActive(true);
 
         AkUnitySoundEngine.PostEvent("Investigation_Who", gameObject);
 

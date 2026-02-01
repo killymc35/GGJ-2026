@@ -86,7 +86,7 @@ public class Ledger : MonoBehaviour
 
     public string GetDialogue(string name)
     {
-        string dialogue;
+        string dialogue = "DEFAULT DIALOGUE TEXT";
         switch (name)
         {
             case "Green":
@@ -95,11 +95,11 @@ public class Ledger : MonoBehaviour
                     case 1:
                         dialogue = Green.dialogue1;
                         Green.dialogueProgress++;
-                        return dialogue;
+                        break;
                     case 2:
                         dialogue = Green.dialogue2;
                         Green.dialogueProgress++;
-                        return dialogue;
+                        break;
                 }
                 break;
 
@@ -109,11 +109,11 @@ public class Ledger : MonoBehaviour
                     case 1:
                         dialogue = Purple.dialogue1;
                         Purple.dialogueProgress++;
-                        return dialogue;
+                        break;
                     case 2:
                         dialogue = Purple.dialogue2;
                         Purple.dialogueProgress++;
-                        return dialogue;
+                        break;
                 }
                 break;
 
@@ -123,11 +123,11 @@ public class Ledger : MonoBehaviour
                     case 1:
                         dialogue = Black.dialogue1;
                         Black.dialogueProgress++;
-                        return dialogue;
+                        break;
                     case 2:
                         dialogue = Black.dialogue2;
                         Black.dialogueProgress++;
-                        return dialogue;
+                        break;
                 }
                 break;
             case "Yellow":
@@ -137,17 +137,15 @@ public class Ledger : MonoBehaviour
                     case 1:
                         dialogue = Yellow.dialogue1;
                         Yellow.dialogueProgress++;
-                        return dialogue;
+                        break;
                     case 2:
                         dialogue = Yellow.dialogue2;
                         Yellow.dialogueProgress++;
-                        return dialogue;
+                        break;
                 }
                 break;
-            default:
-                return string.Empty;
         }
-        return string.Empty;
+        return dialogue;
     }
 
     public void LogFact(string fact)
