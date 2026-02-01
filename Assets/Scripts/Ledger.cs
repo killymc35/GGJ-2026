@@ -260,7 +260,7 @@ public class Ledger : MonoBehaviour
         else
         {
             accuseAttempts++;
-            ShowFalseAccusation();
+            StartCoroutine(ShowFalseAccusation());
             Debug.Log("Incorrect");
         }
     }
