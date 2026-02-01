@@ -12,14 +12,888 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2d1f7954bf15dc409a488e1791cf469, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: AK.Wwise.Unity.API.Editor::AkWwiseProjectData
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cae7f63eeb8b9c47b14f4620afd02257
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: cae7f63eeb8b9c47b14f4620afd02257
+    GuidInternal: 
+    m_lastTime: -8584317502526066036
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4861511e48aa7548b42262975d5c21fc
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 4861511e48aa7548b42262975d5c21fc
+    GuidInternal: 
+    m_lastTime: -8584317502526179077
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4861511e48aa7548b42262975d5c21fc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 757323e3df73164c8cee57bd62df5b3b
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 757323e3df73164c8cee57bd62df5b3b
+    GuidInternal: 
+    m_lastTime: -8584317502526119134
+    List: []
+  - PhysicalPath: SoundBanks\Soundbanks WU.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Soundbanks WU
+      ObjectType: 12
+      guid: 5cd96691bfabc24bae37877de14a30f7
+    ParentPath: SoundBanks\Soundbanks WU
+    guid: 5cd96691bfabc24bae37877de14a30f7
+    GuidInternal: 
+    m_lastTime: -8584316454030561962
+    List:
+    - name: Main
+      guid: 0f0c05c7e139d54d862bc441b40900a1
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Soundbanks WU
+        ObjectType: 12
+        guid: 5cd96691bfabc24bae37877de14a30f7
+      - ElementName: Main
+        ObjectType: 7
+        guid: 0f0c05c7e139d54d862bc441b40900a1
+      Path: SoundBanks\Soundbanks WU\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cbffac3cf3dce04a8886bc525678162b
+    ParentPath: Events\Default Work Unit
+    guid: cbffac3cf3dce04a8886bc525678162b
+    GuidInternal: 
+    m_lastTime: -8584317502526292076
+    List: []
+  - PhysicalPath: Events\Events WU.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Events WU
+      ObjectType: 12
+      guid: feee21e1133ea146b5111c26982bede6
+    ParentPath: Events\Events WU
+    guid: feee21e1133ea146b5111c26982bede6
+    GuidInternal: 
+    m_lastTime: -8584316454034241358
+    List:
+    - name: Accuse_Fail_Continue
+      guid: d9b23b34f59846458295550e2c1c7756
+      id: 3469579780
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Accuse_Fail_Continue
+        ObjectType: 3
+        guid: d9b23b34f59846458295550e2c1c7756
+      Path: Events\Events WU\Accuse_Fail_Continue
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Accuse_Fail_Game_Over
+      guid: 8ad12a1ead0b0e47a727d0ad73656fa9
+      id: 2719411662
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Accuse_Fail_Game_Over
+        ObjectType: 3
+        guid: 8ad12a1ead0b0e47a727d0ad73656fa9
+      Path: Events\Events WU\Accuse_Fail_Game_Over
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Accuse_Success
+      guid: 11b664264fd9d0459cb918f1584ef850
+      id: 901505053
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Accuse_Success
+        ObjectType: 3
+        guid: 11b664264fd9d0459cb918f1584ef850
+      Path: Events\Events WU\Accuse_Success
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Board_Select
+      guid: 681462751b743d40bd1f1cbd679700b7
+      id: 4175590442
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Board_Select
+        ObjectType: 3
+        guid: 681462751b743d40bd1f1cbd679700b7
+      Path: Events\Events WU\Board_Select
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Book_Close
+      guid: dcf107447ec871479f1973eb44417e90
+      id: 154002663
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Book_Close
+        ObjectType: 3
+        guid: dcf107447ec871479f1973eb44417e90
+      Path: Events\Events WU\Book_Close
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Book_Open
+      guid: af671db1aa49c042afee663b51c942f9
+      id: 3272851089
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Book_Open
+        ObjectType: 3
+        guid: af671db1aa49c042afee663b51c942f9
+      Path: Events\Events WU\Book_Open
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Book_Page
+      guid: f855acc731e8b241954d6a129b1b3d71
+      id: 2028968460
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Book_Page
+        ObjectType: 3
+        guid: f855acc731e8b241954d6a129b1b3d71
+      Path: Events\Events WU\Book_Page
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Book_Pencil
+      guid: c1aabd3fa63d454298346308d36e1f8e
+      id: 2310916530
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Book_Pencil
+        ObjectType: 3
+        guid: c1aabd3fa63d454298346308d36e1f8e
+      Path: Events\Events WU\Book_Pencil
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Clock_Speed_1
+      guid: bc31f906d5abbb4f8a508f751777551a
+      id: 1985760409
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Clock_Speed_1
+        ObjectType: 3
+        guid: bc31f906d5abbb4f8a508f751777551a
+      Path: Events\Events WU\Clock_Speed_1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Clock_Speed_2
+      guid: d30efb0c53acb34eb9e96781e248020e
+      id: 1985760410
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Clock_Speed_2
+        ObjectType: 3
+        guid: d30efb0c53acb34eb9e96781e248020e
+      Path: Events\Events WU\Clock_Speed_2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Clock_Speed_3
+      guid: a0b67dccd9480042a20c409252ef76d8
+      id: 1985760411
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Clock_Speed_3
+        ObjectType: 3
+        guid: a0b67dccd9480042a20c409252ef76d8
+      Path: Events\Events WU\Clock_Speed_3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Investigation_When
+      guid: 10718f4d1ad30b4d8627539ee2e2e9f3
+      id: 4053227984
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Investigation_When
+        ObjectType: 3
+        guid: 10718f4d1ad30b4d8627539ee2e2e9f3
+      Path: Events\Events WU\Investigation_When
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Investigation_Where
+      guid: 09d522a241922d40b93cad3c8890827e
+      id: 490888257
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Investigation_Where
+        ObjectType: 3
+        guid: 09d522a241922d40b93cad3c8890827e
+      Path: Events\Events WU\Investigation_Where
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Investigation_Who
+      guid: ff1fb3339234d74c91cd3b5ac770b56a
+      id: 2151796224
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Investigation_Who
+        ObjectType: 3
+        guid: ff1fb3339234d74c91cd3b5ac770b56a
+      Path: Events\Events WU\Investigation_Who
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Investigate
+      guid: 77dd65647b4bc449a13a4dc5fae53175
+      id: 1778574366
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Music_Investigate
+        ObjectType: 3
+        guid: 77dd65647b4bc449a13a4dc5fae53175
+      Path: Events\Events WU\Music_Investigate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Level_1
+      guid: 4c75ba389f457b4883225bcf6332aa73
+      id: 3508274217
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Music_Level_1
+        ObjectType: 3
+        guid: 4c75ba389f457b4883225bcf6332aa73
+      Path: Events\Events WU\Music_Level_1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Level_2
+      guid: 6d7446664b2bd54f8ff1de6bc2ac2b1d
+      id: 3508274218
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Music_Level_2
+        ObjectType: 3
+        guid: 6d7446664b2bd54f8ff1de6bc2ac2b1d
+      Path: Events\Events WU\Music_Level_2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Level_3
+      guid: b153920296305c4894f397ae069701c0
+      id: 3508274219
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Music_Level_3
+        ObjectType: 3
+        guid: b153920296305c4894f397ae069701c0
+      Path: Events\Events WU\Music_Level_3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c76d942155f7a04e9132af6db5af8ebe
+    ParentPath: Game Parameters\Default Work Unit
+    guid: c76d942155f7a04e9132af6db5af8ebe
+    GuidInternal: 
+    m_lastTime: -8584317502526269215
+    List: []
+  - PhysicalPath: Game Parameters\Parameters WU.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Parameters WU
+      ObjectType: 12
+      guid: 2ce4594959b02347824da8b8480da9ea
+    ParentPath: Game Parameters\Parameters WU
+    guid: 2ce4594959b02347824da8b8480da9ea
+    GuidInternal: 
+    m_lastTime: -8584317502526269215
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 871e9ba9c91d46438e24d9d0f5473314
+    ParentPath: States\Default Work Unit
+    guid: 871e9ba9c91d46438e24d9d0f5473314
+    GuidInternal: 
+    m_lastTime: -8584317502526098996
+    List: []
+  - PhysicalPath: States\States WU.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: States WU
+      ObjectType: 12
+      guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+    ParentPath: States\States WU
+    guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+    GuidInternal: 
+    m_lastTime: -8584316740477151651
+    List:
+    - name: Clock_Speed
+      guid: 07ef642e50ec5d48926b1e9711698981
+      id: 2662357725
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: States WU
+        ObjectType: 12
+        guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+      - ElementName: Clock_Speed
+        ObjectType: 9
+        guid: 07ef642e50ec5d48926b1e9711698981
+      Path: States\States WU\Clock_Speed
+      values:
+      - name: None
+        guid: 3219fd7955a7644b832c98d406e28b33
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+        - ElementName: Clock_Speed
+          ObjectType: 9
+          guid: 07ef642e50ec5d48926b1e9711698981
+        - ElementName: None
+          ObjectType: 8
+          guid: 3219fd7955a7644b832c98d406e28b33
+      - name: Speed_1
+        guid: 195d307f33dedd42840b9a26a0141ac0
+        id: 1590816526
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+        - ElementName: Clock_Speed
+          ObjectType: 9
+          guid: 07ef642e50ec5d48926b1e9711698981
+        - ElementName: Speed_1
+          ObjectType: 8
+          guid: 195d307f33dedd42840b9a26a0141ac0
+      - name: Speed_2
+        guid: d34ae72160e1ce44a50247fe3cc8ef7a
+        id: 1590816525
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+        - ElementName: Clock_Speed
+          ObjectType: 9
+          guid: 07ef642e50ec5d48926b1e9711698981
+        - ElementName: Speed_2
+          ObjectType: 8
+          guid: d34ae72160e1ce44a50247fe3cc8ef7a
+      - name: Speed_3
+        guid: 891df5a787c9344a92cf2a527d04fd99
+        id: 1590816524
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+        - ElementName: Clock_Speed
+          ObjectType: 9
+          guid: 07ef642e50ec5d48926b1e9711698981
+        - ElementName: Speed_3
+          ObjectType: 8
+          guid: 891df5a787c9344a92cf2a527d04fd99
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_Level
+      guid: 696130acea146a4a98b47487dcf6da56
+      id: 2177735725
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: States WU
+        ObjectType: 12
+        guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+      - ElementName: Music_Level
+        ObjectType: 9
+        guid: 696130acea146a4a98b47487dcf6da56
+      Path: States\States WU\Music_Level
+      values:
+      - name: Level_1
+        guid: a1856ff4a7489449806e982f65b07884
+        id: 1290008369
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+        - ElementName: Music_Level
+          ObjectType: 9
+          guid: 696130acea146a4a98b47487dcf6da56
+        - ElementName: Level_1
+          ObjectType: 8
+          guid: a1856ff4a7489449806e982f65b07884
+      - name: Level_2
+        guid: 7155f84f658af246b639a8eb152c51ed
+        id: 1290008370
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+        - ElementName: Music_Level
+          ObjectType: 9
+          guid: 696130acea146a4a98b47487dcf6da56
+        - ElementName: Level_2
+          ObjectType: 8
+          guid: 7155f84f658af246b639a8eb152c51ed
+      - name: Level_3
+        guid: 3dd120d8fe315746be02e7eebb5324f0
+        id: 1290008371
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+        - ElementName: Music_Level
+          ObjectType: 9
+          guid: 696130acea146a4a98b47487dcf6da56
+        - ElementName: Level_3
+          ObjectType: 8
+          guid: 3dd120d8fe315746be02e7eebb5324f0
+      - name: None
+        guid: 32e6eea58e331e4497a5b2b46ce6626f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 8d752dd3a8acfa46b62f8bc50b4bffb6
+        - ElementName: Music_Level
+          ObjectType: 9
+          guid: 696130acea146a4a98b47487dcf6da56
+        - ElementName: None
+          ObjectType: 8
+          guid: 32e6eea58e331e4497a5b2b46ce6626f
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 040738bb05bb744bafb4934ba92c5e81
+    ParentPath: Switches\Default Work Unit
+    guid: 040738bb05bb744bafb4934ba92c5e81
+    GuidInternal: 
+    m_lastTime: -8584317502526086139
+    List: []
+  - PhysicalPath: Switches\Switches WU.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Switches WU
+      ObjectType: 12
+      guid: 332d87265a55444ca59020f1c1878a49
+    ParentPath: Switches\Switches WU
+    guid: 332d87265a55444ca59020f1c1878a49
+    GuidInternal: 
+    m_lastTime: -8584316454030561962
+    List:
+    - name: Music_Level
+      guid: 4de252dcc482ad4d92d9752a98d43fd3
+      id: 2177735725
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Switches WU
+        ObjectType: 12
+        guid: 332d87265a55444ca59020f1c1878a49
+      - ElementName: Music_Level
+        ObjectType: 11
+        guid: 4de252dcc482ad4d92d9752a98d43fd3
+      Path: Switches\Switches WU\Music_Level
+      values:
+      - name: Level_1
+        guid: 0cc7036c6d6d51469871dab7671582e2
+        id: 1290008369
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: 332d87265a55444ca59020f1c1878a49
+        - ElementName: Music_Level
+          ObjectType: 11
+          guid: 4de252dcc482ad4d92d9752a98d43fd3
+        - ElementName: Level_1
+          ObjectType: 10
+          guid: 0cc7036c6d6d51469871dab7671582e2
+      - name: Level_2
+        guid: 894cf9fc7b2f114fa024c13000ab7b0f
+        id: 1290008370
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: 332d87265a55444ca59020f1c1878a49
+        - ElementName: Music_Level
+          ObjectType: 11
+          guid: 4de252dcc482ad4d92d9752a98d43fd3
+        - ElementName: Level_2
+          ObjectType: 10
+          guid: 894cf9fc7b2f114fa024c13000ab7b0f
+      - name: Level_3
+        guid: 8b91e08d46296f4bb75881cc3cbb0a9c
+        id: 1290008371
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: 332d87265a55444ca59020f1c1878a49
+        - ElementName: Music_Level
+          ObjectType: 11
+          guid: 4de252dcc482ad4d92d9752a98d43fd3
+        - ElementName: Level_3
+          ObjectType: 10
+          guid: 8b91e08d46296f4bb75881cc3cbb0a9c
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_Switch
+      guid: ca2d92868ca8754790598dcf7bacb7c9
+      id: 2724869341
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Switches WU
+        ObjectType: 12
+        guid: 332d87265a55444ca59020f1c1878a49
+      - ElementName: Music_Switch
+        ObjectType: 11
+        guid: ca2d92868ca8754790598dcf7bacb7c9
+      Path: Switches\Switches WU\Music_Switch
+      values:
+      - name: Accuse_Fail
+        guid: c504f72013985a428cf76852dfc4506b
+        id: 1341489792
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: 332d87265a55444ca59020f1c1878a49
+        - ElementName: Music_Switch
+          ObjectType: 11
+          guid: ca2d92868ca8754790598dcf7bacb7c9
+        - ElementName: Accuse_Fail
+          ObjectType: 10
+          guid: c504f72013985a428cf76852dfc4506b
+      - name: Accuse_Success
+        guid: 4a8d88e8f440564caa1ef888c3823b17
+        id: 901505053
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: 332d87265a55444ca59020f1c1878a49
+        - ElementName: Music_Switch
+          ObjectType: 11
+          guid: ca2d92868ca8754790598dcf7bacb7c9
+        - ElementName: Accuse_Success
+          ObjectType: 10
+          guid: 4a8d88e8f440564caa1ef888c3823b17
+      - name: Game_Over_Lose
+        guid: 87c199cbe34a994795d3637a544d47f4
+        id: 1088246884
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: 332d87265a55444ca59020f1c1878a49
+        - ElementName: Music_Switch
+          ObjectType: 11
+          guid: ca2d92868ca8754790598dcf7bacb7c9
+        - ElementName: Game_Over_Lose
+          ObjectType: 10
+          guid: 87c199cbe34a994795d3637a544d47f4
+      - name: Game_Over_Win
+        guid: 2df3e39755a40749865b72a113f19e44
+        id: 1409528287
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: 332d87265a55444ca59020f1c1878a49
+        - ElementName: Music_Switch
+          ObjectType: 11
+          guid: ca2d92868ca8754790598dcf7bacb7c9
+        - ElementName: Game_Over_Win
+          ObjectType: 10
+          guid: 2df3e39755a40749865b72a113f19e44
+      - name: Investigation
+        guid: d385e3f116c1d94cbfdf4c374cb84f1c
+        id: 2676391117
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: 332d87265a55444ca59020f1c1878a49
+        - ElementName: Music_Switch
+          ObjectType: 11
+          guid: ca2d92868ca8754790598dcf7bacb7c9
+        - ElementName: Investigation
+          ObjectType: 10
+          guid: d385e3f116c1d94cbfdf4c374cb84f1c
+      - name: Normal
+        guid: 17a8ca49f6c31b489d15ae3658f37d6e
+        id: 1160234136
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: 332d87265a55444ca59020f1c1878a49
+        - ElementName: Music_Switch
+          ObjectType: 11
+          guid: ca2d92868ca8754790598dcf7bacb7c9
+        - ElementName: Normal
+          ObjectType: 10
+          guid: 17a8ca49f6c31b489d15ae3658f37d6e
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: e226e092ab8923409b833d0f6bfd24fa
+    ParentPath: Triggers\Default Work Unit
+    guid: e226e092ab8923409b833d0f6bfd24fa
+    GuidInternal: 
+    m_lastTime: -8584317502526076065
+    List: []
+  - PhysicalPath: Triggers\Triggers WU.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Triggers WU
+      ObjectType: 12
+      guid: fd3143f2cc320d44a88033dbb564f15e
+    ParentPath: Triggers\Triggers WU
+    guid: fd3143f2cc320d44a88033dbb564f15e
+    GuidInternal: 
+    m_lastTime: -8584316740477131586
+    List:
+    - name: Investigation
+      guid: 17b24d92e82fa54fb396ac5eacf297bd
+      id: 2676391117
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Triggers WU
+        ObjectType: 12
+        guid: fd3143f2cc320d44a88033dbb564f15e
+      - ElementName: Investigation
+        ObjectType: 14
+        guid: 17b24d92e82fa54fb396ac5eacf297bd
+      Path: Triggers\Triggers WU\Investigation
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0

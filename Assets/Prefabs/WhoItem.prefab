@@ -109,7 +109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -5.16}
+  m_AnchoredPosition: {x: 0, y: -5.537}
   m_SizeDelta: {x: 3, y: 2.2000122}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2532950377960704434
@@ -167,8 +167,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2
-  m_fontSizeBase: 2
+  m_fontSize: 0.8
+  m_fontSizeBase: 0.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1342,7 +1342,7 @@ MonoBehaviour:
   dialogue: {fileID: 544545636372102448}
   ledger: {fileID: 0}
   clue:
-    type: 0
+    type: 1
     description: 
     whoCharacter: 
     whereLocation: 0
@@ -1355,7 +1355,7 @@ MonoBehaviour:
   - {fileID: 3239633421324127536}
   - {fileID: 1044798627392624365}
   neighbours: []
-  timeCost: 1
+  timeCost: 3
 --- !u!1 &4662901137704606510
 GameObject:
   m_ObjectHideFlags: 0
