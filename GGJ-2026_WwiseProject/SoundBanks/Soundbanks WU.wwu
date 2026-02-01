@@ -5,15 +5,21 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{C7050C0F-39E1-4DD5-862B-C441B40900A1}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Investigation_Where" ID="{A222D509-9241-402D-B93C-AD3C8890827E}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Board_Select" ID="{75621468-741B-403D-BD1F-1CBD679700B7}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Book_Page" ID="{C7AC55F8-E831-41B2-954D-6A129B1B3D71}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Clock_Speed_3" ID="{CC7DB6A0-48D9-4200-A20C-409252EF76D8}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Book_Pencil" ID="{3FBDAAC1-3DA6-4245-9834-6308D36E1F8E}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Book_Open" ID="{B11D67AF-49AA-42C0-AFEE-663B51C942F9}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Accuse_Fail_Continue" ID="{343BB2D9-98F5-4546-8295-550E2C1C7756}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Accuse_Success" ID="{2664B611-D94F-45D0-9CB9-18F1584EF850}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Accuse_Fail_Game_Over" ID="{1E2AD18A-0BAD-470E-A727-D0AD73656FA9}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Book_Close" ID="{4407F1DC-C87E-4771-9F19-73EB44417E90}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Level_3" ID="{029253B1-3096-485C-94F3-97AE069701C0}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Level_1" ID="{38BA754C-459F-487B-8322-5BCF6332AA73}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Investigate" ID="{6465DD77-4B7B-49C4-A13A-4DC5FAE53175}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Investigation_Who" ID="{33B31FFF-3492-4CD7-91CD-3B5AC770B56A}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Investigation_When" ID="{4D8F7110-D31A-4D0B-8627-539EE2E2E9F3}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Clock_Speed_2" ID="{0CFB0ED3-AC53-4EB3-B9E9-6781E248020E}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Clock_Speed_1" ID="{06F931BC-ABD5-4FBB-8A50-8F751777551A}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Level_2" ID="{6646746D-2B4B-4FD5-8FF1-DE6BC2AC2B1D}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}" Origin="Manual" Filter="7"/>

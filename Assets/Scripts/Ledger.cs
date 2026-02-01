@@ -81,6 +81,8 @@ public class Ledger : MonoBehaviour
     {
         facts[factCounter].text = "•  " + fact;
         factCounter++;
+
+        AkUnitySoundEngine.PostEvent("Book_Pencil", gameObject);
     }
     public void LogWho(string who)
     {
@@ -107,6 +109,8 @@ public class Ledger : MonoBehaviour
                 yellowPortrait.SetActive(true);
                 break;
         }
+
+        AkUnitySoundEngine.PostEvent("Book_Pencil", gameObject);
     }
     public void LogWhere(WhereLocation location, string info)
     {
@@ -125,6 +129,8 @@ public class Ledger : MonoBehaviour
                 studyDescription.text  = info;
                 break;
         }
+
+        AkUnitySoundEngine.PostEvent("Book_Pencil", gameObject);
     }
     public void LogWhen(WhenTime time, string info)
     {
@@ -143,6 +149,8 @@ public class Ledger : MonoBehaviour
                 morningDescription.text = info;
                 break;
         }
+
+        AkUnitySoundEngine.PostEvent("Book_Pencil", gameObject);
     }
 
     public enum WhereLocation
@@ -248,6 +256,8 @@ public class Ledger : MonoBehaviour
     }
     public void CorrectAccusation()
     {
+        AkUnitySoundEngine.PostEvent("Accuse_Success", gameObject);
+        
         SceneManager.LoadScene(3);
         Debug.Log("Correct");
     }
@@ -255,6 +265,8 @@ public class Ledger : MonoBehaviour
     {
         if (accuseAttempts >= maxAccuseAttempts)
         {
+            AkUnitySoundEngine.PostEvent("Accuse_Fail_Game_Over", gameObject);
+
             SceneManager.LoadScene(3);
         }
         else
@@ -262,6 +274,8 @@ public class Ledger : MonoBehaviour
             accuseAttempts++;
             StartCoroutine(ShowFalseAccusation());
             Debug.Log("Incorrect");
+
+            AkUnitySoundEngine.PostEvent("Accuse_Fail_Continue", gameObject);
         }
     }
     

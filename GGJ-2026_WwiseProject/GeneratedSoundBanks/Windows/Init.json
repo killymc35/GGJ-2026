@@ -142,10 +142,28 @@
       "GUID": "{86922DCA-A88C-4775-9059-8DCF7BACB7C9}",
       "Switches": [
        {
+        "Id": "901505053",
+        "Name": "Accuse_Success",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Switch\\Accuse_Success",
+        "GUID": "{E8888D4A-40F4-4C56-AA1E-F888C3823B17}"
+       },
+       {
         "Id": "1160234136",
         "Name": "Normal",
         "ObjectPath": "\\Switches\\Switches WU\\Music_Switch\\Normal",
         "GUID": "{49CAA817-C3F6-481B-9D15-AE3658F37D6E}"
+       },
+       {
+        "Id": "1341489792",
+        "Name": "Accuse_Fail",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Switch\\Accuse_Fail",
+        "GUID": "{20F704C5-9813-425A-8CF7-6852DFC4506B}"
+       },
+       {
+        "Id": "1409528287",
+        "Name": "Game_Over_Win",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Switch\\Game_Over_Win",
+        "GUID": "{97E3F32D-A455-4907-865B-72A113F19E44}"
        },
        {
         "Id": "2676391117",
@@ -158,6 +176,6 @@
     ]
    }
   ],
-  "FileHash": "{9C876BE2-30B1-D8A7-D05A-65A979C09896}"
+  "FileHash": "{13BEAD27-9F5E-3522-2358-826C54543908}"
  }
 }

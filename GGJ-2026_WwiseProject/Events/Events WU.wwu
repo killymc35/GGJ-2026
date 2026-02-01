@@ -344,6 +344,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Accuse_Fail_Continue" ID="{343BB2D9-98F5-4546-8295-550E2C1C7756}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{18340E49-8762-4286-B26A-92D2F17DB3CA}" ShortID="1034316833">
 							<PropertyList>
@@ -369,6 +373,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Accuse_Success" ID="{2664B611-D94F-45D0-9CB9-18F1584EF850}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{9BBC8BD9-B0DE-4C70-A779-01D908E050FA}" ShortID="914905830">
 							<PropertyList>

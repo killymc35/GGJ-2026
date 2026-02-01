@@ -13,13 +13,19 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ACCUSE_FAIL_CONTINUE = 3469579780U;
+        static const AkUniqueID ACCUSE_FAIL_GAME_OVER = 2719411662U;
+        static const AkUniqueID ACCUSE_SUCCESS = 901505053U;
         static const AkUniqueID BOARD_SELECT = 4175590442U;
         static const AkUniqueID BOOK_CLOSE = 154002663U;
         static const AkUniqueID BOOK_OPEN = 3272851089U;
         static const AkUniqueID BOOK_PAGE = 2028968460U;
+        static const AkUniqueID BOOK_PENCIL = 2310916530U;
         static const AkUniqueID CLOCK_SPEED_1 = 1985760409U;
         static const AkUniqueID CLOCK_SPEED_2 = 1985760410U;
         static const AkUniqueID CLOCK_SPEED_3 = 1985760411U;
+        static const AkUniqueID INVESTIGATION_WHEN = 4053227984U;
+        static const AkUniqueID INVESTIGATION_WHERE = 490888257U;
         static const AkUniqueID INVESTIGATION_WHO = 2151796224U;
         static const AkUniqueID MUSIC_INVESTIGATE = 1778574366U;
         static const AkUniqueID MUSIC_LEVEL_1 = 3508274217U;
@@ -77,6 +83,9 @@ namespace AK
 
             namespace SWITCH
             {
+                static const AkUniqueID ACCUSE_FAIL = 1341489792U;
+                static const AkUniqueID ACCUSE_SUCCESS = 901505053U;
+                static const AkUniqueID GAME_OVER_WIN = 1409528287U;
                 static const AkUniqueID INVESTIGATION = 2676391117U;
                 static const AkUniqueID NORMAL = 1160234136U;
             } // namespace SWITCH

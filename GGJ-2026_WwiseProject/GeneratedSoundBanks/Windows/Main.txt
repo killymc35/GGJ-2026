@@ -1,22 +1,31 @@
 Event	ID	Name			Wwise Object Path	Notes
 	154002663	Book_Close			\Events WU\Book_Close	
+	490888257	Investigation_Where			\Events WU\Investigation_Where	
+	901505053	Accuse_Success			\Events WU\Accuse_Success	
 	1778574366	Music_Investigate			\Events WU\Music_Investigate	
 	1985760409	Clock_Speed_1			\Events WU\Clock_Speed_1	
 	1985760410	Clock_Speed_2			\Events WU\Clock_Speed_2	
 	1985760411	Clock_Speed_3			\Events WU\Clock_Speed_3	
 	2028968460	Book_Page			\Events WU\Book_Page	
 	2151796224	Investigation_Who			\Events WU\Investigation_Who	
+	2310916530	Book_Pencil			\Events WU\Book_Pencil	
+	2719411662	Accuse_Fail_Game_Over			\Events WU\Accuse_Fail_Game_Over	
 	3272851089	Book_Open			\Events WU\Book_Open	
+	3469579780	Accuse_Fail_Continue			\Events WU\Accuse_Fail_Continue	
 	3508274217	Music_Level_1			\Events WU\Music_Level_1	
 	3508274218	Music_Level_2			\Events WU\Music_Level_2	
 	3508274219	Music_Level_3			\Events WU\Music_Level_3	
+	4053227984	Investigation_When			\Events WU\Investigation_When	
 	4175590442	Board_Select			\Events WU\Board_Select	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2724869341	Music_Switch			\Switches WU\Music_Switch	
 
 Switch	ID	Name	Switch Group			Notes
+	901505053	Accuse_Success	Music_Switch			
 	1160234136	Normal	Music_Switch			
+	1341489792	Accuse_Fail	Music_Switch			
+	1409528287	Game_Over_Win	Music_Switch			
 	2676391117	Investigation	Music_Switch			
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -35,51 +44,75 @@ State	ID	Name	State Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	18593163	Investigation_Who_Answer_Rare_002	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\D6\{D629EA46-42B8-2510-4D4D-5AFEAE3B19BC}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_A\Investigation_Who_Answer_Rare_002		285072
-	34747750	Melody	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\93\{9312A4CC-FC4A-F1C5-E6CF-B85C34F4B99F}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Melody		2469696
+	34747750	Melody	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\93\{9312A4CC-FC4A-F1C5-E6CF-B85C34F4B99F}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Melody		2469696
+	56776074	Book_Flip_003	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\70\{704A985C-730D-7948-FAA2-6F71D5353F62}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Book Flips\Book_Flip_003		188008
 	57253533	Investigation_Who_Answer_005	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\40\{401F2F85-C8D6-2B43-983F-AB7AECEDB4AC}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_A\Investigation_Who_Answer_005		334352
 	75443825	Book_Close_02	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\C0\{C0981123-86CE-03DD-6852-FA45FCC81B5F}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Close\Book_Close_02		219412
 	82421477	Writing_04	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\4C\{4C1DD0B3-BFB4-E4A5-15ED-6AC8D52C9C10}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Writing\Writing_04		548824
-	124411451	Drums	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\86\{868A46A7-E59B-F8E3-FADF-ED753525771A}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Drums		3239984
-	226996030	Strings	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\36\{36ECC40B-6706-609E-1435-DFD074813FC5}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Strings		4586496
+	124411451	Drums	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\86\{868A46A7-E59B-F8E3-FADF-ED753525771A}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Drums		3239984
+	126138824	Page_Turn_003	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\EA\{EA05863D-96A0-C7EC-267B-42F330EA8386}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Page Turns\Page_Turn_003		90944
+	175713162	Pencil_Scratch_005	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\DF\{DF385617-29CA-30DC-B8C8-1622B765EA23}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Pencil\Pencil_Scratch_005		101332
+	186968109	Pencil_Scratch_003	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\E6\{E638C33F-9699-1C35-21BE-A89EBF816061}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Pencil\Pencil_Scratch_003		96512
+	193073845	Footstep_002	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\FC\{FC0B847F-9EEE-CC91-D9A4-95BE8058A28C}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Footsteps\Footstep_002		93796
+	226996030	Strings	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\36\{36ECC40B-6706-609E-1435-DFD074813FC5}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Strings		4586496
+	260983739	Page_Turn_004	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\24\{2450E6FC-1C20-FC6B-76B5-7518E6AC6B56}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Page Turns\Page_Turn_004		166720
+	279784777	Game_Over_Win_004	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\4C\{4C22989B-9CBD-C4E5-30F0-CB0DB2CE8066}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Game_Over_Win\Game_Over_Win\Game_Over_Win_004		2734296
 	304865415	Investigation_Who_Answer_002	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\4B\{4B8E8AA5-2456-F027-0B75-65C8D05963F6}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_A\Investigation_Who_Answer_002		391364
-	319317228	Piano	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\6F\{6F35FD75-FB9F-B725-7C8A-9ECA04CF1FA9}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Piano		3053636
+	319317228	Piano	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\6F\{6F35FD75-FB9F-B725-7C8A-9ECA04CF1FA9}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Piano		3053636
+	333419424	Page_Turn_005	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\07\{07435B80-2602-1CE9-6098-233D1931EC19}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Page Turns\Page_Turn_005		156456
 	340559377	Book_Open_01	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\91\{91BBABD0-8542-F6B4-457B-2D7A47CEB2C2}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Open\Book_Open_01		305492
-	342446807	Bass	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\4B\{4B0C17AA-F262-46CA-2260-AA49DA9D7153}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Bass		3089988
+	342446807	Bass	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\4B\{4B0C17AA-F262-46CA-2260-AA49DA9D7153}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Bass		3089988
+	362426346	Book_Flip_002	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\2C\{2CF78C13-B4D4-7111-3C97-2174683F76D2}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Book Flips\Book_Flip_002		179116
 	370309890	Investigation_Who_Question_003	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\9B\{9B0FED47-1C79-9677-EE71-77368567BFEC}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_Q\Investigation_Who_Question_003		329324
+	379230304	Game_Over_Win_005	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\BC\{BC34026D-2D80-0548-8167-62F667778285}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Game_Over_Win\Game_Over_Win\Game_Over_Win_005		2734296
 	379658438	Investigation_Who_Answer_001	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\DF\{DF9E131A-A7CF-EB50-1B2A-DBC27F1D0F80}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_A\Investigation_Who_Answer_001		286864
+	381906071	Footstep_003	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\FC\{FC727B00-4F43-2A38-5271-C71E2876B326}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Footsteps\Footstep_003		93796
+	387832761	Book_Flip_001	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\7F\{7FDE4FCB-1A4C-B557-B883-34AE1FB3D8A7}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Book Flips\Book_Flip_001		273532
+	389276939	Pencil_Scratch_001	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\B3\{B3B219CA-8D63-EAD2-758B-F976F69DAC5B}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Pencil\Pencil_Scratch_001		63128
 	413938167	Paper_Short_005	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\9B\{9BB99DFA-B507-FB57-EF28-0EF9B98F093F}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Page Turn\Paper_Short_005		36812
 	422780338	Paper_Short_003	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\2A\{2AC564A9-473D-F261-DC1A-1AA846DB83E4}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Page Turn\Paper_Short_003		35520
 	431613195	Investigation_Who_Question_002	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\8A\{8A9C3537-B320-3D7B-FB70-FBA5AE532877}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_Q\Investigation_Who_Question_002		157520
+	447206348	Game_Over_Win_003	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\CA\{CA37733A-2418-BD0F-1302-39591DAB37CF}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Game_Over_Win\Game_Over_Win\Game_Over_Win_003		2734296
 	463393898	Writing_03	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\31\{3149724B-1158-0A1B-9686-183179A08FC0}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Writing\Writing_03		548824
 	473997009	Investigation_Who_Answer_003	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\2F\{2F021C8F-96DA-3EB6-9583-0FB166E10492}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_A\Investigation_Who_Answer_003		378804
-	516770803	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\29\{293E2E0D-A518-FCDB-F8A2-F19B1CDEAF70}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Investigation\CmM7		705696
-	521591982	Melody	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\3A\{3A7C212E-EC54-B834-3ED9-1D5BA364D791}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Melody		2822496
+	516770803	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\29\{293E2E0D-A518-FCDB-F8A2-F19B1CDEAF70}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Investigation\CmM7		705696
+	521591982	Melody	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\3A\{3A7C212E-EC54-B834-3ED9-1D5BA364D791}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Melody		2822496
 	548162533	Board_Select_05	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\6F\{6F4184CE-E549-2177-704F-DB52176D998F}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Select\Board_Select_05		151556
-	552878639	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\72\{72F04EE8-5808-CC1E-C5B5-881011D81DFD}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Investigation\CmM7		705696
+	552878639	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\72\{72F04EE8-5808-CC1E-C5B5-881011D81DFD}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Investigation\CmM7		705696
 	582891858	Investigation_Clock	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\96\{9657EF33-1B3B-030F-1EFE-0F3951CC41CB}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Investigation_Clock		359176
 	584739652	Book_Close_01	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\8E\{8E2BA722-7A78-8A50-E590-7AC01CEBA39A}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Close\Book_Close_01		219412
+	585344227	Game_Over_Win_002	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\31\{317E1C61-74C6-21C1-6D94-2C8003B1D305}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Game_Over_Win\Game_Over_Win\Game_Over_Win_002		2734296
 	614274499	Bass Upbeat	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\E2\{E21B23DF-367B-EEA9-187A-0083C493D130}.wem		\Interactive Music Hierarchy\Music WU\Bass Upbeat\Bass Upbeat		705696
+	624583824	Page_Turn_002	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\AC\{ACABCE33-0F53-2AE0-A288-2A1904BA3CF2}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Page Turns\Page_Turn_002		104992
 	635722371	Investigation_Who_Question_001	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\0C\{0CE5C2F4-B02F-C970-7746-63FC60D4FE76}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_Q\Investigation_Who_Question_001		207884
-	637521224	Piano	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\16\{16336F93-1AE6-7B73-DFB1-76675EEF293B}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Piano		3087096
-	643615133	Piano 2	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\40\{402D5DEB-85E0-3E12-F845-D041EAA412CD}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Piano 2		3550164
+	637521224	Piano	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\16\{16336F93-1AE6-7B73-DFB1-76675EEF293B}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Piano		3087096
+	643615133	Piano 2	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\40\{402D5DEB-85E0-3E12-F845-D041EAA412CD}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Piano 2		3550164
 	675321975	Investigation_Who_Answer_Rare_001	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\D8\{D8EC4F8B-3476-3979-62EF-6749C96A0A9A}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_A\Investigation_Who_Answer_Rare_001		395628
 	766684029	Book_Open_03	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\44\{44233852-4D99-A7DD-202B-BFD44EE9CE5C}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Open\Book_Open_03		349748
-	769338634	Bass	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\91\{915587A8-E26C-7F4A-2F25-4A82AC573003}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Bass		3087096
-	795855467	Melody	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\EC\{ECE43B0C-5AC9-9F37-25E8-5FB78D8DDFC3}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\8-Bar Loop\8-Bar Loop\Melody		2822496
+	769338634	Bass	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\91\{915587A8-E26C-7F4A-2F25-4A82AC573003}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Bass		3087096
+	781654520	Door	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\4E\{4E233CDD-9CA4-20B2-9E5F-8BED98BF2BB2}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Door		330336
+	795855467	Melody	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\EC\{ECE43B0C-5AC9-9F37-25E8-5FB78D8DDFC3}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Melody		2822496
 	807850072	Investigation_Who_Answer_006	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\38\{38121815-6AD5-A7D6-0892-73276886132B}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_A\Investigation_Who_Answer_006		384492
 	845408115	Book_Open_02	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\1F\{1F5182E5-9C0D-46BD-822A-B34C1178F3C9}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Open\Book_Open_02		349748
+	858160450	Game_Over_Win_001	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\10\{107F0061-A479-35C0-BBE7-EF955C461C49}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Game_Over_Win\Game_Over_Win\Game_Over_Win_001		2734296
 	878302724	Book_Close_03	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\52\{52044F93-BAF4-5CF5-11B9-4656FA45511C}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Close\Book_Close_03		219412
 	882511093	Investigation_Who_Answer_004	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\0B\{0B5C5BA9-90EE-54A0-CA19-FE0E18CE1C1C}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_A\Investigation_Who_Answer_004		615796
 	895153562	Paper_Short_006	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\9B\{9B432473-55B8-785B-E9BC-AEAC656773C2}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Page Turn\Paper_Short_006		30968
 	918949280	Paper_Short_004	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\2E\{2EFFC19E-69B1-9203-8E26-013ECFF8E184}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Page Turn\Paper_Short_004		53016
+	922723650	Accuse_Fail	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\D0\{D0C572A2-E341-EF69-BE96-06B89E889B6B}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Accuse Fail\Accuse_Fail		1411296
 	935227928	Paper_Short_001	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\C2\{C2EB1D75-3DA9-6FC1-A566-B5B6D1149821}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Page Turn\Paper_Short_001		45960
+	939090400	Footstep_001	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\14\{14148B8C-FAB3-72D0-E71D-E4F23FFD7573}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Footsteps\Footstep_001		93796
 	943567331	Investigation_Who_Question_004	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\73\{73FD11B0-6303-A025-F883-CD0E77DB169B}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_Q\Investigation_Who_Question_004		306136
-	946464386	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\EE\{EE2147D4-651E-DDCB-7AC8-4979066EC01A}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Investigation\CmM7		705696
+	946464386	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\EE\{EE2147D4-651E-DDCB-7AC8-4979066EC01A}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Investigation\CmM7		705696
 	959292167	Writing_01	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\EA\{EAD8164C-FD3B-23B1-E3CE-3AB1006B6D6A}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Writing\Writing_01		548824
-	992543161	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\3E\{3E082FFE-5650-4679-4D2C-D20100A92971}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Investigation\CmM7		705696
+	964010629	Pencil_Scratch_002	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\B0\{B0C163C0-ED4B-A583-3822-48EBE9B8192E}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Pencil\Pencil_Scratch_002		91272
+	983416200	Accuse_Success	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\BB\{BB24F71B-272A-98F4-88E6-C325EACD62A9}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Accuse Success\Accuse_Success		1411296
+	992543161	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\3E\{3E082FFE-5650-4679-4D2C-D20100A92971}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Investigation\CmM7		705696
+	992594463	Pencil_Scratch_004	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\6F\{6F9B2825-AA5B-3A27-7BCC-16016E62C990}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Pencil\Pencil_Scratch_004		82812
 	998271830	Paper_Short_002	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\8A\{8A3011E7-39B0-4AFB-1BC7-AFFB4F471819}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Page Turn\Paper_Short_002		40668
+	1010429956	Footstep_004	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\16\{1672BDE8-69AB-7066-3F97-9947509B7F91}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Footsteps\Footstep_004		93796
 	1013970139	Investigation_Who_Answer_007	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\3F\{3FDE7938-7363-E409-CFC5-4DBA7292DC83}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_A\Investigation_Who_Answer_007		609532
 	1019041251	Board_Select_04	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\2D\{2DAEFE0F-0995-14A8-D8A7-E42DFCEA37A4}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Select\Board_Select_04		80228
-	1034644095	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\88\{8832E8C7-1574-015F-A47B-E0E888A08AA9}.wem		\Interactive Music Hierarchy\Music WU\New Music Switch Container\Investigation\CmM7		705696
+	1034644095	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\88\{8832E8C7-1574-015F-A47B-E0E888A08AA9}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Investigation\CmM7		705696
 	1057976855	Writing_02	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\88\{886D5E6D-35E8-C342-2CDA-32B198405BE2}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Writing\Writing_02		548824
 
