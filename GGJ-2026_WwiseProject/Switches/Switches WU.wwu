@@ -7,6 +7,9 @@
 					<ChildrenList>
 						<Switch Name="Normal" ID="{49CAA817-C3F6-481B-9D15-AE3658F37D6E}"/>
 						<Switch Name="Investigation" ID="{F1E385D3-C116-4CD9-BFDF-4C374CB84F1C}"/>
+						<Switch Name="Accuse_Success" ID="{E8888D4A-40F4-4C56-AA1E-F888C3823B17}"/>
+						<Switch Name="Accuse_Fail" ID="{20F704C5-9813-425A-8CF7-6852DFC4506B}"/>
+						<Switch Name="Game_Over_Win" ID="{97E3F32D-A455-4907-865B-72A113F19E44}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Music_Level" ID="{DC52E24D-82C4-4DAD-92D9-752A98D43FD3}">

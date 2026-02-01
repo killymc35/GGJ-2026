@@ -21,6 +21,18 @@
 							<ObjectRef Name="Music_Investigate" ID="{6465DD77-4B7B-49C4-A13A-4DC5FAE53175}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Accuse_Fail_Continue" ID="{343BB2D9-98F5-4546-8295-550E2C1C7756}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Accuse_Success" ID="{2664B611-D94F-45D0-9CB9-18F1584EF850}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Accuse_Fail_Game_Over" ID="{1E2AD18A-0BAD-470E-A727-D0AD73656FA9}" WorkUnitID="{E121EEFE-3E13-46A1-B511-1C26982BEDE6}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>

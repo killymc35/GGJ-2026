@@ -89,10 +89,20 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{4D834874-64FD-4439-96CD-35E711543445}" ShortID="372073612">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{49CAA817-C3F6-481B-9D15-AE3658F37D6E}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{AF9A697B-B444-47EA-913B-B4F1EF228C46}" ShortID="18095325">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="New Music Switch Container" ID="{26F16C3A-EB76-4E80-804F-145A8A0DB554}" WorkUnitID="{07BA2D5F-3949-4063-9C34-E2956906AFAF}"/>
+									<ObjectRef Name="Music Switch Container" ID="{26F16C3A-EB76-4E80-804F-145A8A0DB554}" WorkUnitID="{07BA2D5F-3949-4063-9C34-E2956906AFAF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -293,10 +303,135 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Investigation_Where" ID="{A222D509-9241-402D-B93C-AD3C8890827E}"/>
-				<Event Name="Book_Pencil" ID="{3FBDAAC1-3DA6-4245-9834-6308D36E1F8E}"/>
-				<Event Name="Accuse_Fail" ID="{343BB2D9-98F5-4546-8295-550E2C1C7756}"/>
-				<Event Name="Accuse_Success" ID="{2664B611-D94F-45D0-9CB9-18F1584EF850}"/>
+				<Event Name="Investigation_Where" ID="{A222D509-9241-402D-B93C-AD3C8890827E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{3C0335D5-A8A6-482C-91A1-05BAC083D2D4}" ShortID="629181124">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{7F82263A-AC8F-443B-85A0-11906D033313}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EF83AA56-1F9C-4593-A834-F6D7E53FA58C}" ShortID="262270155">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door" ID="{47280401-3414-4FB9-9E98-264B7ADFCEA4}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Book_Pencil" ID="{3FBDAAC1-3DA6-4245-9834-6308D36E1F8E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{AD277874-5A4C-4C5B-8979-BEF24BCE4050}" ShortID="603206220">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pencil" ID="{CAB419A1-B22D-452F-A46A-2F44D7D497BE}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Accuse_Fail_Continue" ID="{343BB2D9-98F5-4546-8295-550E2C1C7756}">
+					<ChildrenList>
+						<Action Name="" ID="{18340E49-8762-4286-B26A-92D2F17DB3CA}" ShortID="1034316833">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Accuse_Fail" ID="{20F704C5-9813-425A-8CF7-6852DFC4506B}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{387332E7-88D1-4623-B544-8E934204E7E9}" ShortID="20657189">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{49CAA817-C3F6-481B-9D15-AE3658F37D6E}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Accuse_Success" ID="{2664B611-D94F-45D0-9CB9-18F1584EF850}">
+					<ChildrenList>
+						<Action Name="" ID="{9BBC8BD9-B0DE-4C70-A779-01D908E050FA}" ShortID="914905830">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Accuse_Success" ID="{E8888D4A-40F4-4C56-AA1E-F888C3823B17}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FCBA2F29-EF32-4F73-A42B-276326BE9D7F}" ShortID="635505029">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_Over_Win" ID="{97E3F32D-A455-4907-865B-72A113F19E44}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Investigation_When" ID="{4D8F7110-D31A-4D0B-8627-539EE2E2E9F3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{9DA766AA-A855-4967-9ABC-D4E47A4D2877}" ShortID="867687421">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Book Flips" ID="{39F4B61C-BA8C-40A1-9F07-26972A6F85B6}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{918E933B-81A3-490E-8EDF-537931EF21EE}" ShortID="888374236">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.75"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Page Turns" ID="{77277407-790D-49BA-8432-52E1EEB87543}" WorkUnitID="{8C370C32-2C71-4AAF-9900-9ABCC9F4C705}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Accuse_Fail_Game_Over" ID="{1E2AD18A-0BAD-470E-A727-D0AD73656FA9}">
+					<ChildrenList>
+						<Action Name="" ID="{B13AA13C-69F6-43B2-BC44-38D5CED7F22E}" ShortID="791141673">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Accuse_Fail" ID="{20F704C5-9813-425A-8CF7-6852DFC4506B}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
