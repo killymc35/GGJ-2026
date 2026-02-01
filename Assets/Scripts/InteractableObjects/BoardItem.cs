@@ -29,6 +29,7 @@ public class BoardItem : MonoBehaviour, InteractableObject
     }
     public Type type;
 
+    [Serializable]
     public struct Clue
     {
         public Type type;
