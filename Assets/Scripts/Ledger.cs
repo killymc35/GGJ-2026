@@ -277,42 +277,44 @@ public class Ledger : MonoBehaviour
             return HashCode.Combine(name, description, weapon, dialogue1, dialogue2, dialogue3, dialogueProgress);
         }
     }
-    
-    public static Character Green = new Character (
-        "Green",
-        string.Empty,
-        string.Empty,
-        string.Empty,
-        string.Empty,
-        string.Empty,
-        1);
-    
-    public static Character Purple = new Character (
+
+    public static Character Green = new Character(
+     "Green",
+     "Wears a Hat, Tie, and a Full Mask.",
+     "Weapon: Knuckledusters",
+     "Green wears a Hat and a Tie.",
+     "Green wears a Full mask.",
+     string.Empty,
+     1);
+
+    public static Character Purple = new Character(
         "Purple",
-        string.Empty,
-        string.Empty,
-        string.Empty,
-        string.Empty,
+        "Wears a Half mask, Tie and no Hat.",
+        "Weapon: Gun",
+        "Purple wears a Half-mask and a Tie.",
+        "Purple does not wear a Hat.",
         string.Empty,
         1);
-    
-    public static Character Black = new Character (
+
+    public static Character Black = new Character(
         "Black",
-        string.Empty,
-        string.Empty,
-        string.Empty,
-        string.Empty,
+        "Wears a Half mask, a Hat, and no Tie.",
+        "Weapon: Poison",
+        "Black wears a half-mask but doesn’t wear a Tie.",
+        "Black wears a Hat.",
         string.Empty,
         1);
-    
-    public static Character Yellow = new Character (
+
+    public static Character Yellow = new Character(
         "Yellow",
-        string.Empty,
-        string.Empty,
-        string.Empty,
-        string.Empty,
+        "Wears a Full mask, no Hat, and no Tie.",
+        "Weapon: Dagger",
+        "Yellow doesn’t wear a Tie or a Hat.",
+        "Yellow wears a Full mask.",
         string.Empty,
         1);
+
+
 
     public void Accusation()
     {
