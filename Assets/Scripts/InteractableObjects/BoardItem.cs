@@ -8,12 +8,12 @@ using UnityEngine;
 public class BoardItem : MonoBehaviour, InteractableObject
 {
 
-    public Dictionary<int, Ledger.Character> dropdownConversion = new Dictionary<int, Ledger.Character>
+    public Dictionary<int, string> dropdownConversion = new Dictionary<int, string>
     {
-        {0, Ledger.Green},
-        {1, Ledger.Purple},
-        {2, Ledger.Black},
-        {3, Ledger.Yellow}
+        {0, "Green"},
+        {1, "Purple"},
+        {2, "Black"},
+        {3, "Yellow"}
     };
     
     public TMP_Dropdown whoDropdown;
@@ -27,14 +27,13 @@ public class BoardItem : MonoBehaviour, InteractableObject
         Where,
         When
     }
-    public Type type;
 
     [Serializable]
     public struct Clue
     {
         public Type type;
         public string description;
-        public Ledger.Character whoInterviewee;
+        public string whoCharacter;
         public Ledger.WhereLocation whereLocation;
         public Ledger.WhenTime whenTime;
     }
@@ -148,7 +147,7 @@ public class BoardItem : MonoBehaviour, InteractableObject
         var number = whoDropdown.value;
         var character = dropdownConversion[number];
 
-        if (character.Equals(clue.whoInterviewee)) return;
+        if (character == clue.whoCharacter) return;
         
         var ledgerScript = ledger.GetComponent<Ledger>();
         ledgerScript.GiveInfo(clue);

@@ -66,7 +66,7 @@ public class Ledger : MonoBehaviour
                 LogFact(clue.description);
                 break;
             case BoardItem.Type.Who:
-                LogWho(clue.whoInterviewee);
+                LogWho(clue.whoCharacter);
                 break;
             case BoardItem.Type.When:
                 LogWhen(clue.whenTime, clue.description);
@@ -82,28 +82,28 @@ public class Ledger : MonoBehaviour
         facts[factCounter].text = "•  " + fact;
         factCounter++;
     }
-    public void LogWho(Character who)
+    public void LogWho(string who)
     {
-        switch (who.name)
+        switch (who)
         {
             case "Green": 
-                greenDescription.text = who.description;
-                greenWeapon.text = who.weapon;
+                greenDescription.text = Green.description;
+                greenWeapon.text = Green.weapon;
                 greenPortrait.SetActive(true);
                 break;
             case "Purple": 
-                purpleDescription.text = who.description;
-                purpleWeapon.text = who.weapon;
+                purpleDescription.text = Purple.description;
+                purpleWeapon.text = Purple.weapon;
                 purplePortrait.SetActive(true);
                 break;
             case "Black": 
-                blackDescription.text = who.description;
-                blackWeapon.text = who.weapon;
+                blackDescription.text = Black.description;
+                blackWeapon.text = Black.weapon;
                 blackPortrait.SetActive(true);
                 break;
             case "Yellow": 
-                yellowDescription.text = who.description;
-                yellowWeapon.text = who.weapon;
+                yellowDescription.text = Yellow.description;
+                yellowWeapon.text = Yellow.weapon;
                 yellowPortrait.SetActive(true);
                 break;
         }
@@ -159,6 +159,7 @@ public class Ledger : MonoBehaviour
         Night,
         Morning
     }
+    [Serializable]
     public struct Character : IEquatable<Character>
     {
         public string name;
