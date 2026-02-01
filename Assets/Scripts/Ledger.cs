@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -50,6 +51,12 @@ public class Ledger : MonoBehaviour
     public TextMeshProUGUI eveningDescription;
     public TextMeshProUGUI nightDescription;
     public TextMeshProUGUI morningDescription;
+    
+    public float showFalseAccuseTime = 1.5f;
+    public GameObject falseAccuse;
+
+    public int accuseAttempts = 0;
+    public int maxAccuseAttempts = 1;
 
     public void GiveInfo(BoardItem.Clue clue)
     {
@@ -240,11 +247,33 @@ public class Ledger : MonoBehaviour
     }
     public void CorrectAccusation()
     {
+        SceneManager.LoadScene(3);
         Debug.Log("Correct");
     }
     public void FalseAccusation()
     {
-        Debug.Log("Incorrect");
+        if (accuseAttempts >= maxAccuseAttempts)
+        {
+            SceneManager.LoadScene(3);
+        }
+        else
+        {
+            accuseAttempts++;
+            ShowFalseAccusation();
+            Debug.Log("Incorrect");
+        }
+    }
+    
+    public IEnumerator ShowFalseAccusation()
+    {
+        var showingFor = 0f;
+        falseAccuse.SetActive(true);
+        while (showingFor < showFalseAccuseTime)
+        {
+            showingFor += Time.deltaTime;
+            yield return null;
+        }
+        falseAccuse.SetActive(false);
     }
     
     public void ToggleLedgerESC()
