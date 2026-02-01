@@ -20,16 +20,12 @@ public class Ledger : MonoBehaviour
     public int correctWhoGuess;
     public int correctWhereGuess;
     public int correctWhenGuess;
-    
-    public int factCounter = 0;
-    public TextMeshProUGUI[] facts;
 
     public void GiveInfo(BoardItem.Clue clue)
     {
         switch (clue.type)
         {
             case BoardItem.Type.Fact:
-                LogFact(clue.description);
                 break;
             case BoardItem.Type.Who:
                 break;
@@ -38,12 +34,6 @@ public class Ledger : MonoBehaviour
             case BoardItem.Type.Where:
                 break;
         }
-    }
-    
-    public void LogFact(string fact)
-    {
-        facts[factCounter].text = "•  " + fact;
-        factCounter++;
     }
 
     public struct Character : IEquatable<Character>

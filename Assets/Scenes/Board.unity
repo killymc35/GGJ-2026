@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 58083342}
   - component: {fileID: 58083341}
   m_Layer: 5
-  m_Name: Point 11
+  m_Name: Point 4 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2956,7 +2956,7 @@ GameObject:
   - component: {fileID: 203352377}
   - component: {fileID: 203352376}
   m_Layer: 5
-  m_Name: Point 8
+  m_Name: Point 4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4858,7 +4858,7 @@ GameObject:
   - component: {fileID: 327297612}
   - component: {fileID: 327297611}
   m_Layer: 5
-  m_Name: Point 2
+  m_Name: Point 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14100,7 +14100,7 @@ GameObject:
   - component: {fileID: 938083991}
   - component: {fileID: 938083990}
   m_Layer: 5
-  m_Name: Point 12
+  m_Name: Point 4 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15871,7 +15871,7 @@ GameObject:
   - component: {fileID: 1033494193}
   - component: {fileID: 1033494192}
   m_Layer: 5
-  m_Name: Point 7
+  m_Name: Point 4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16299,7 +16299,7 @@ GameObject:
   - component: {fileID: 1060992555}
   - component: {fileID: 1060992554}
   m_Layer: 5
-  m_Name: Point 6
+  m_Name: Point 4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19840,18 +19840,6 @@ PrefabInstance:
       propertyPath: ledger
       value: 
       objectReference: {fileID: 1890466927}
-    - target: {fileID: 8332154093786841128, guid: c88cbb821b87cb7488499684dcfb6645, type: 3}
-      propertyPath: currentState
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8332154093786841128, guid: c88cbb821b87cb7488499684dcfb6645, type: 3}
-      propertyPath: clue.description
-      value: waffle
-      objectReference: {fileID: 0}
-    - target: {fileID: 8332154093786841128, guid: c88cbb821b87cb7488499684dcfb6645, type: 3}
-      propertyPath: beginsInvestigable
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21633,7 +21621,7 @@ GameObject:
   - component: {fileID: 1500211647}
   - component: {fileID: 1500211646}
   m_Layer: 5
-  m_Name: Point 10
+  m_Name: Point 4 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25088,7 +25076,7 @@ GameObject:
   - component: {fileID: 1706834207}
   - component: {fileID: 1706834206}
   m_Layer: 5
-  m_Name: Point 5
+  m_Name: Point 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25657,7 +25645,7 @@ GameObject:
   - component: {fileID: 1756248374}
   - component: {fileID: 1756248373}
   m_Layer: 5
-  m_Name: Point 3
+  m_Name: Point 1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26181,7 +26169,7 @@ GameObject:
   - component: {fileID: 1781931586}
   - component: {fileID: 1781931585}
   m_Layer: 5
-  m_Name: Point 14
+  m_Name: Point 4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26578,7 +26566,7 @@ GameObject:
   - component: {fileID: 1797758051}
   - component: {fileID: 1797758050}
   m_Layer: 5
-  m_Name: Point 9
+  m_Name: Point 4 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27459,22 +27447,6 @@ MonoBehaviour:
   correctWhoGuess: 1
   correctWhereGuess: 3
   correctWhenGuess: 4
-  factCounter: 0
-  facts:
-  - {fileID: 1702752951}
-  - {fileID: 327297611}
-  - {fileID: 1756248373}
-  - {fileID: 2061962861}
-  - {fileID: 1706834206}
-  - {fileID: 1060992554}
-  - {fileID: 1033494192}
-  - {fileID: 203352376}
-  - {fileID: 1797758050}
-  - {fileID: 1500211646}
-  - {fileID: 58083341}
-  - {fileID: 938083990}
-  - {fileID: 2050562275}
-  - {fileID: 1781931585}
 --- !u!1001 &1892373049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29776,7 +29748,7 @@ GameObject:
   - component: {fileID: 2050562276}
   - component: {fileID: 2050562275}
   m_Layer: 5
-  m_Name: Point 13
+  m_Name: Point 4 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30014,7 +29986,7 @@ GameObject:
   - component: {fileID: 2061962862}
   - component: {fileID: 2061962861}
   m_Layer: 5
-  m_Name: Point 4
+  m_Name: Point 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
