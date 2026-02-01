@@ -120,11 +120,11 @@ MonoBehaviour:
     ParentPath: Events\Events WU
     guid: feee21e1133ea146b5111c26982bede6
     GuidInternal: 
-    m_lastTime: -8584316593173372237
+    m_lastTime: -8584316489970606864
     List:
-    - name: Accuse_Fail
+    - name: Accuse_Fail_Continue
       guid: d9b23b34f59846458295550e2c1c7756
-      id: 1341489792
+      id: 3469579780
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -132,10 +132,27 @@ MonoBehaviour:
       - ElementName: Events WU
         ObjectType: 12
         guid: feee21e1133ea146b5111c26982bede6
-      - ElementName: Accuse_Fail
+      - ElementName: Accuse_Fail_Continue
         ObjectType: 3
         guid: d9b23b34f59846458295550e2c1c7756
-      Path: Events\Events WU\Accuse_Fail
+      Path: Events\Events WU\Accuse_Fail_Continue
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Accuse_Fail_Game_Over
+      guid: 8ad12a1ead0b0e47a727d0ad73656fa9
+      id: 2719411662
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Accuse_Fail_Game_Over
+        ObjectType: 3
+        guid: 8ad12a1ead0b0e47a727d0ad73656fa9
+      Path: Events\Events WU\Accuse_Fail_Game_Over
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -289,6 +306,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: a0b67dccd9480042a20c409252ef76d8
       Path: Events\Events WU\Clock_Speed_3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Investigation_When
+      guid: 10718f4d1ad30b4d8627539ee2e2e9f3
+      id: 4053227984
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Events WU
+        ObjectType: 12
+        guid: feee21e1133ea146b5111c26982bede6
+      - ElementName: Investigation_When
+        ObjectType: 3
+        guid: 10718f4d1ad30b4d8627539ee2e2e9f3
+      Path: Events\Events WU\Investigation_When
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -637,7 +671,7 @@ MonoBehaviour:
     ParentPath: Switches\Switches WU
     guid: 332d87265a55444ca59020f1c1878a49
     GuidInternal: 
-    m_lastTime: -8584316593170477634
+    m_lastTime: -8584316489966320396
     List:
     - name: Music_Level
       guid: 4de252dcc482ad4d92d9752a98d43fd3
@@ -720,6 +754,54 @@ MonoBehaviour:
         guid: ca2d92868ca8754790598dcf7bacb7c9
       Path: Switches\Switches WU\Music_Switch
       values:
+      - name: Accuse_Fail
+        guid: c504f72013985a428cf76852dfc4506b
+        id: 1341489792
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: 332d87265a55444ca59020f1c1878a49
+        - ElementName: Music_Switch
+          ObjectType: 11
+          guid: ca2d92868ca8754790598dcf7bacb7c9
+        - ElementName: Accuse_Fail
+          ObjectType: 10
+          guid: c504f72013985a428cf76852dfc4506b
+      - name: Accuse_Success
+        guid: 4a8d88e8f440564caa1ef888c3823b17
+        id: 901505053
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: 332d87265a55444ca59020f1c1878a49
+        - ElementName: Music_Switch
+          ObjectType: 11
+          guid: ca2d92868ca8754790598dcf7bacb7c9
+        - ElementName: Accuse_Success
+          ObjectType: 10
+          guid: 4a8d88e8f440564caa1ef888c3823b17
+      - name: Game_Over_Win
+        guid: 2df3e39755a40749865b72a113f19e44
+        id: 1409528287
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: 332d87265a55444ca59020f1c1878a49
+        - ElementName: Music_Switch
+          ObjectType: 11
+          guid: ca2d92868ca8754790598dcf7bacb7c9
+        - ElementName: Game_Over_Win
+          ObjectType: 10
+          guid: 2df3e39755a40749865b72a113f19e44
       - name: Investigation
         guid: d385e3f116c1d94cbfdf4c374cb84f1c
         id: 2676391117

@@ -17,6 +17,7 @@ public class BoardItem : MonoBehaviour, InteractableObject
     };
     
     public TMP_Dropdown whoDropdown;
+    public TextMeshProUGUI dialogue;
     
     public GameObject ledger;
     
@@ -151,6 +152,8 @@ public class BoardItem : MonoBehaviour, InteractableObject
         
         var ledgerScript = ledger.GetComponent<Ledger>();
         ledgerScript.GiveInfo(clue);
+
+        dialogue.text = ledgerScript.GetDialogue(character);
 
         AkUnitySoundEngine.PostEvent("Investigation_Who", gameObject);
 
