@@ -427,6 +427,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Accuse_Fail_Game_Over" ID="{1E2AD18A-0BAD-470E-A727-D0AD73656FA9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{B13AA13C-69F6-43B2-BC44-38D5CED7F22E}" ShortID="791141673">
 							<PropertyList>
@@ -435,6 +439,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Accuse_Fail" ID="{20F704C5-9813-425A-8CF7-6852DFC4506B}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D2D4E58F-4D10-4042-BDAD-41C026C14163}" ShortID="427705732">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_Over_Lose" ID="{CB99C187-4AE3-4799-95D3-637A544D47F4}" WorkUnitID="{26872D33-555A-4C44-A590-20F1C1878A49}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

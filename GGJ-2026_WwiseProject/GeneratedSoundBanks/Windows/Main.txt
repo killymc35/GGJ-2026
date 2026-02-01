@@ -23,6 +23,7 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 
 Switch	ID	Name	Switch Group			Notes
 	901505053	Accuse_Success	Music_Switch			
+	1088246884	Game_Over_Lose	Music_Switch			
 	1160234136	Normal	Music_Switch			
 	1341489792	Accuse_Fail	Music_Switch			
 	1409528287	Game_Over_Win	Music_Switch			
@@ -69,6 +70,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	381906071	Footstep_003	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\FC\{FC727B00-4F43-2A38-5271-C71E2876B326}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Footsteps\Footstep_003		93796
 	387832761	Book_Flip_001	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\7F\{7FDE4FCB-1A4C-B557-B883-34AE1FB3D8A7}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Book Flips\Book_Flip_001		273532
 	389276939	Pencil_Scratch_001	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\B3\{B3B219CA-8D63-EAD2-758B-F976F69DAC5B}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Pencil\Pencil_Scratch_001		63128
+	390138108	1 Fail Saxaphone	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\E6\{E68B762C-8636-CD20-81F2-87686B2EA015}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Game_Over_Lose\Game_Over_Lose\1 Fail Saxaphone		1740480
 	413938167	Paper_Short_005	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\9B\{9BB99DFA-B507-FB57-EF28-0EF9B98F093F}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Page Turn\Paper_Short_005		36812
 	422780338	Paper_Short_003	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\2A\{2AC564A9-473D-F261-DC1A-1AA846DB83E4}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Page Turn\Paper_Short_003		35520
 	431613195	Investigation_Who_Question_002	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\8A\{8A9C3537-B320-3D7B-FB70-FBA5AE532877}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_Q\Investigation_Who_Question_002		157520
@@ -77,6 +79,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	473997009	Investigation_Who_Answer_003	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\2F\{2F021C8F-96DA-3EB6-9583-0FB166E10492}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_A\Investigation_Who_Answer_003		378804
 	516770803	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\29\{293E2E0D-A518-FCDB-F8A2-F19B1CDEAF70}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Investigation\CmM7		705696
 	521591982	Melody	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\3A\{3A7C212E-EC54-B834-3ED9-1D5BA364D791}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Melody		2822496
+	537535583	1Fail Drums	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\B7\{B7A3E767-EB80-5519-A347-A0A10EFA9F8D}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Game_Over_Lose\Game_Over_Lose\1Fail Drums		1886696
 	548162533	Board_Select_05	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\6F\{6F4184CE-E549-2177-704F-DB52176D998F}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Select\Board_Select_05		151556
 	552878639	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\72\{72F04EE8-5808-CC1E-C5B5-881011D81DFD}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Investigation\CmM7		705696
 	582891858	Investigation_Clock	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\96\{9657EF33-1B3B-030F-1EFE-0F3951CC41CB}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Investigation_Clock		359176
@@ -86,6 +89,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	624583824	Page_Turn_002	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\AC\{ACABCE33-0F53-2AE0-A288-2A1904BA3CF2}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Page Turns\Page_Turn_002		104992
 	635722371	Investigation_Who_Question_001	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\0C\{0CE5C2F4-B02F-C970-7746-63FC60D4FE76}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_Q\Investigation_Who_Question_001		207884
 	637521224	Piano	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\16\{16336F93-1AE6-7B73-DFB1-76675EEF293B}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Piano		3087096
+	642699764	1Fail Piano	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\69\{69699112-AE4C-7141-4073-A8DFDE282AA4}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Game_Over_Lose\Game_Over_Lose\1Fail Piano		1715680
 	643615133	Piano 2	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\40\{402D5DEB-85E0-3E12-F845-D041EAA412CD}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\8-Bar Loop\8-Bar Loop\Piano 2		3550164
 	675321975	Investigation_Who_Answer_Rare_001	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\D8\{D8EC4F8B-3476-3979-62EF-6749C96A0A9A}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_A\Investigation_Who_Answer_Rare_001		395628
 	766684029	Book_Open_03	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\44\{44233852-4D99-A7DD-202B-BFD44EE9CE5C}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Book\Open\Book_Open_03		349748
@@ -113,6 +117,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1010429956	Footstep_004	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\16\{1672BDE8-69AB-7066-3F97-9947509B7F91}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Footsteps\Footstep_004		93796
 	1013970139	Investigation_Who_Answer_007	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\3F\{3FDE7938-7363-E409-CFC5-4DBA7292DC83}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Voice_A\Investigation_Who_Answer_007		609532
 	1019041251	Board_Select_04	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\2D\{2DAEFE0F-0995-14A8-D8A7-E42DFCEA37A4}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Select\Board_Select_04		80228
+	1033774829	1 Fail Vibraphone	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\1A\{1AC3BF75-F001-DAB0-D76D-B1BD523F8AA0}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Game_Over_Lose\Game_Over_Lose\1 Fail Vibraphone		3488104
 	1034644095	CmM7	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\88\{8832E8C7-1574-015F-A47B-E0E888A08AA9}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Investigation\CmM7		705696
 	1057976855	Writing_02	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\88\{886D5E6D-35E8-C342-2CDA-32B198405BE2}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Board\Investigation\Writing\Writing_02		548824
+	1068839308	1Fail Bass	C:\Work\GGJ2026\GGJ2026 - PROJECT\GGJ-2026\GGJ-2026_WwiseProject\.cache\F6\{F6600B74-EAF4-F240-E80C-CB245A6616C6}.wem		\Interactive Music Hierarchy\Music WU\Music Switch Container\Game_Over_Lose\Game_Over_Lose\1Fail Bass		1685820
 

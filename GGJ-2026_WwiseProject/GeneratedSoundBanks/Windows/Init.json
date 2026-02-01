@@ -148,6 +148,12 @@
         "GUID": "{E8888D4A-40F4-4C56-AA1E-F888C3823B17}"
        },
        {
+        "Id": "1088246884",
+        "Name": "Game_Over_Lose",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Switch\\Game_Over_Lose",
+        "GUID": "{CB99C187-4AE3-4799-95D3-637A544D47F4}"
+       },
+       {
         "Id": "1160234136",
         "Name": "Normal",
         "ObjectPath": "\\Switches\\Switches WU\\Music_Switch\\Normal",
@@ -176,6 +182,6 @@
     ]
    }
   ],
-  "FileHash": "{13BEAD27-9F5E-3522-2358-826C54543908}"
+  "FileHash": "{36B8ACD1-E6D6-AA7B-66B7-75F39C705F5D}"
  }
 }

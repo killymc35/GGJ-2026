@@ -85,6 +85,7 @@ namespace AK
             {
                 static const AkUniqueID ACCUSE_FAIL = 1341489792U;
                 static const AkUniqueID ACCUSE_SUCCESS = 901505053U;
+                static const AkUniqueID GAME_OVER_LOSE = 1088246884U;
                 static const AkUniqueID GAME_OVER_WIN = 1409528287U;
                 static const AkUniqueID INVESTIGATION = 2676391117U;
                 static const AkUniqueID NORMAL = 1160234136U;

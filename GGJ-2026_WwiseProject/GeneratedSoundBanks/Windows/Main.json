@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C7050C0F-39E1-4DD5-862B-C441B40900A1}",
     "Language": "SFX",
-    "Hash": "{CAFC8BC8-4D3F-1319-66CC-0918FE3F0BE2}",
+    "Hash": "{D9F5C029-7439-08A8-BD59-AFA61316AB66}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -224,6 +224,14 @@
       "CachePath": "B3/{B3B219CA-8D63-EAD2-758B-F976F69DAC5B}.wem"
      },
      {
+      "Id": "390138108",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1 Fail Saxaphone.wav",
+      "CachePath": "E6/{E68B762C-8636-CD20-81F2-87686B2EA015}.wem"
+     },
+     {
       "Id": "413938167",
       "Language": "SFX",
       "Streaming": "false",
@@ -286,6 +294,14 @@
       "Location": "Memory",
       "ShortName": "Saxophone.wav",
       "CachePath": "3A/{3A7C212E-EC54-B834-3ED9-1D5BA364D791}.wem"
+     },
+     {
+      "Id": "537535583",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1Fail Drums.wav",
+      "CachePath": "B7/{B7A3E767-EB80-5519-A347-A0A10EFA9F8D}.wem"
      },
      {
       "Id": "548162533",
@@ -358,6 +374,14 @@
       "Location": "Memory",
       "ShortName": "Piano A.wav",
       "CachePath": "16/{16336F93-1AE6-7B73-DFB1-76675EEF293B}.wem"
+     },
+     {
+      "Id": "642699764",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1Fail Piano.wav",
+      "CachePath": "69/{69699112-AE4C-7141-4073-A8DFDE282AA4}.wem"
      },
      {
       "Id": "643615133",
@@ -576,6 +600,14 @@
       "CachePath": "2D/{2DAEFE0F-0995-14A8-D8A7-E42DFCEA37A4}.wem"
      },
      {
+      "Id": "1033774829",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1 Fail Vibraphone.wav",
+      "CachePath": "1A/{1AC3BF75-F001-DAB0-D76D-B1BD523F8AA0}.wem"
+     },
+     {
       "Id": "1034644095",
       "Language": "SFX",
       "Streaming": "false",
@@ -590,6 +622,14 @@
       "Location": "Memory",
       "ShortName": "Writing\\Writing_02.wav",
       "CachePath": "88/{886D5E6D-35E8-C342-2CDA-32B198405BE2}.wem"
+     },
+     {
+      "Id": "1068839308",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1Fail Bass.wav",
+      "CachePath": "F6/{F6600B74-EAF4-F240-E80C-CB245A6616C6}.wem"
      }
     ],
     "Events": [
@@ -625,11 +665,19 @@
       "Name": "Accuse_Fail_Game_Over",
       "ObjectPath": "\\Events\\Events WU\\Accuse_Fail_Game_Over",
       "GUID": "{1E2AD18A-0BAD-470E-A727-D0AD73656FA9}",
+      "Color": "4",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0",
       "ActionSetSwitch": [
+       {
+        "GroupId": "2724869341",
+        "Id": "1088246884",
+        "Name": "Game_Over_Lose",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Switch\\Game_Over_Lose",
+        "GUID": "{CB99C187-4AE3-4799-95D3-637A544D47F4}"
+       },
        {
         "GroupId": "2724869341",
         "Id": "1341489792",
@@ -1174,6 +1222,31 @@
           "Id": "858160450"
          }
         ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2724869341",
+         "Id": "1088246884",
+         "GUID": "{CB99C187-4AE3-4799-95D3-637A544D47F4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "390138108"
+         },
+         {
+          "Id": "537535583"
+         },
+         {
+          "Id": "642699764"
+         },
+         {
+          "Id": "1033774829"
+         },
+         {
+          "Id": "1068839308"
+         }
+        ]
        }
       ],
       "ActionSetState": [
@@ -1367,6 +1440,12 @@
         "GUID": "{E8888D4A-40F4-4C56-AA1E-F888C3823B17}"
        },
        {
+        "Id": "1088246884",
+        "Name": "Game_Over_Lose",
+        "ObjectPath": "\\Switches\\Switches WU\\Music_Switch\\Game_Over_Lose",
+        "GUID": "{CB99C187-4AE3-4799-95D3-637A544D47F4}"
+       },
+       {
         "Id": "1160234136",
         "Name": "Normal",
         "ObjectPath": "\\Switches\\Switches WU\\Music_Switch\\Normal",
@@ -1395,6 +1474,6 @@
     ]
    }
   ],
-  "FileHash": "{4833C032-1071-69B6-22EC-4881CCFC176F}"
+  "FileHash": "{2BA762D1-1880-E7AB-C849-7EFE1DBD461D}"
  }
 }

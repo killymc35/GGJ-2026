@@ -140,6 +140,19 @@ public class BoardItem : MonoBehaviour, InteractableObject
         {
             ledgerScript.GiveInfo(clue);
         }
+
+        if (clue.type == Type.Who)
+        {
+            AkUnitySoundEngine.PostEvent("Investigation_Who", gameObject);
+        }
+        else if (clue.type == Type.Where)
+        {
+            AkUnitySoundEngine.PostEvent("Investigation_Where", gameObject);
+        }
+        else if (clue.type == Type.When)
+        {
+            AkUnitySoundEngine.PostEvent("Investigation_When", gameObject);
+        }
     }
 
     public void WhoGiveInfo()
@@ -151,8 +164,6 @@ public class BoardItem : MonoBehaviour, InteractableObject
         
         var ledgerScript = ledger.GetComponent<Ledger>();
         ledgerScript.GiveInfo(clue);
-
-        AkUnitySoundEngine.PostEvent("Investigation_Who", gameObject);
 
         Destroy(whoDropdown.gameObject);
     }

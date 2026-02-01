@@ -10,6 +10,7 @@
 						<Switch Name="Accuse_Success" ID="{E8888D4A-40F4-4C56-AA1E-F888C3823B17}"/>
 						<Switch Name="Accuse_Fail" ID="{20F704C5-9813-425A-8CF7-6852DFC4506B}"/>
 						<Switch Name="Game_Over_Win" ID="{97E3F32D-A455-4907-865B-72A113F19E44}"/>
+						<Switch Name="Game_Over_Lose" ID="{CB99C187-4AE3-4799-95D3-637A544D47F4}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Music_Level" ID="{DC52E24D-82C4-4DAD-92D9-752A98D43FD3}">
