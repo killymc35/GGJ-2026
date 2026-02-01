@@ -340,7 +340,7 @@ public class Ledger : MonoBehaviour
         {
             AkUnitySoundEngine.PostEvent("Accuse_Fail_Game_Over", timeManagerObject);
 
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(2);
         }
         else
         {
