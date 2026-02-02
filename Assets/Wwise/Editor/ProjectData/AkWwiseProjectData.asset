@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: cae7f63eeb8b9c47b14f4620afd02257
     GuidInternal: 
-    m_lastTime: -8584317502526066036
+    m_lastTime: -8584317277516305440
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 4861511e48aa7548b42262975d5c21fc
     GuidInternal: 
-    m_lastTime: -8584317502526179077
+    m_lastTime: -8584317277516408522
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 757323e3df73164c8cee57bd62df5b3b
     GuidInternal: 
-    m_lastTime: -8584317502526119134
+    m_lastTime: -8584317277516305440
     List: []
   - PhysicalPath: SoundBanks\Soundbanks WU.wwu
     PathAndIcons:
@@ -107,7 +107,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: cbffac3cf3dce04a8886bc525678162b
     GuidInternal: 
-    m_lastTime: -8584317502526292076
+    m_lastTime: -8584317277516475996
     List: []
   - PhysicalPath: Events\Events WU.wwu
     PathAndIcons:
@@ -137,8 +137,8 @@ MonoBehaviour:
         guid: d9b23b34f59846458295550e2c1c7756
       Path: Events\Events WU\Accuse_Fail_Continue
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Accuse_Fail_Game_Over
       guid: 8ad12a1ead0b0e47a727d0ad73656fa9
       id: 2719411662
@@ -154,8 +154,8 @@ MonoBehaviour:
         guid: 8ad12a1ead0b0e47a727d0ad73656fa9
       Path: Events\Events WU\Accuse_Fail_Game_Over
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Accuse_Success
       guid: 11b664264fd9d0459cb918f1584ef850
       id: 901505053
@@ -171,8 +171,8 @@ MonoBehaviour:
         guid: 11b664264fd9d0459cb918f1584ef850
       Path: Events\Events WU\Accuse_Success
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Board_Select
       guid: 681462751b743d40bd1f1cbd679700b7
       id: 4175590442
@@ -187,9 +187,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 681462751b743d40bd1f1cbd679700b7
       Path: Events\Events WU\Board_Select
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 70
+      maxDuration: 0.9637647
+      minDuration: 0.42876717
     - name: Book_Close
       guid: dcf107447ec871479f1973eb44417e90
       id: 154002663
@@ -205,8 +205,8 @@ MonoBehaviour:
         guid: dcf107447ec871479f1973eb44417e90
       Path: Events\Events WU\Book_Close
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.3172178
+      minDuration: 1.1735076
     - name: Book_Open
       guid: af671db1aa49c042afee663b51c942f9
       id: 3272851089
@@ -222,8 +222,8 @@ MonoBehaviour:
         guid: af671db1aa49c042afee663b51c942f9
       Path: Events\Events WU\Book_Open
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.1000195
+      minDuration: 1.634101
     - name: Book_Page
       guid: f855acc731e8b241954d6a129b1b3d71
       id: 2028968460
@@ -239,8 +239,8 @@ MonoBehaviour:
         guid: f855acc731e8b241954d6a129b1b3d71
       Path: Events\Events WU\Book_Page
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.37797633
+      minDuration: 0.17501134
     - name: Book_Pencil
       guid: c1aabd3fa63d454298346308d36e1f8e
       id: 2310916530
@@ -256,8 +256,8 @@ MonoBehaviour:
         guid: c1aabd3fa63d454298346308d36e1f8e
       Path: Events\Events WU\Book_Pencil
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.66304463
+      minDuration: 0.3372692
     - name: Clock_Speed_1
       guid: bc31f906d5abbb4f8a508f751777551a
       id: 1985760409
@@ -273,8 +273,8 @@ MonoBehaviour:
         guid: bc31f906d5abbb4f8a508f751777551a
       Path: Events\Events WU\Clock_Speed_1
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.0952485
+      minDuration: 1.9776512
     - name: Clock_Speed_2
       guid: d30efb0c53acb34eb9e96781e248020e
       id: 1985760410
@@ -290,8 +290,8 @@ MonoBehaviour:
         guid: d30efb0c53acb34eb9e96781e248020e
       Path: Events\Events WU\Clock_Speed_2
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.0952485
+      minDuration: 1.9776512
     - name: Clock_Speed_3
       guid: a0b67dccd9480042a20c409252ef76d8
       id: 1985760411
@@ -307,8 +307,8 @@ MonoBehaviour:
         guid: a0b67dccd9480042a20c409252ef76d8
       Path: Events\Events WU\Clock_Speed_3
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.0952485
+      minDuration: 1.9776512
     - name: Investigation_When
       guid: 10718f4d1ad30b4d8627539ee2e2e9f3
       id: 4053227984
@@ -324,8 +324,8 @@ MonoBehaviour:
         guid: 10718f4d1ad30b4d8627539ee2e2e9f3
       Path: Events\Events WU\Investigation_When
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.4945805
+      minDuration: 3.0650115
     - name: Investigation_Where
       guid: 09d522a241922d40b93cad3c8890827e
       id: 490888257
@@ -341,8 +341,8 @@ MonoBehaviour:
         guid: 09d522a241922d40b93cad3c8890827e
       Path: Events\Events WU\Investigation_Where
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.5111792
+      minDuration: 3.5111792
     - name: Investigation_Who
       guid: ff1fb3339234d74c91cd3b5ac770b56a
       id: 2151796224
@@ -358,8 +358,8 @@ MonoBehaviour:
         guid: ff1fb3339234d74c91cd3b5ac770b56a
       Path: Events\Events WU\Investigation_Who
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.490363
+      minDuration: 3.6155102
     - name: Music_Investigate
       guid: 77dd65647b4bc449a13a4dc5fae53175
       id: 1778574366
@@ -375,8 +375,8 @@ MonoBehaviour:
         guid: 77dd65647b4bc449a13a4dc5fae53175
       Path: Events\Events WU\Music_Investigate
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Music_Level_1
       guid: 4c75ba389f457b4883225bcf6332aa73
       id: 3508274217
@@ -392,8 +392,8 @@ MonoBehaviour:
         guid: 4c75ba389f457b4883225bcf6332aa73
       Path: Events\Events WU\Music_Level_1
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Music_Level_2
       guid: 6d7446664b2bd54f8ff1de6bc2ac2b1d
       id: 3508274218
@@ -409,8 +409,8 @@ MonoBehaviour:
         guid: 6d7446664b2bd54f8ff1de6bc2ac2b1d
       Path: Events\Events WU\Music_Level_2
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Music_Level_3
       guid: b153920296305c4894f397ae069701c0
       id: 3508274219
@@ -426,8 +426,8 @@ MonoBehaviour:
         guid: b153920296305c4894f397ae069701c0
       Path: Events\Events WU\Music_Level_3
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -440,7 +440,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: c76d942155f7a04e9132af6db5af8ebe
     GuidInternal: 
-    m_lastTime: -8584317502526269215
+    m_lastTime: -8584317277516408522
     List: []
   - PhysicalPath: Game Parameters\Parameters WU.wwu
     PathAndIcons:
@@ -453,7 +453,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Parameters WU
     guid: 2ce4594959b02347824da8b8480da9ea
     GuidInternal: 
-    m_lastTime: -8584317502526269215
+    m_lastTime: -8584317277516408522
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -467,7 +467,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 871e9ba9c91d46438e24d9d0f5473314
     GuidInternal: 
-    m_lastTime: -8584317502526098996
+    m_lastTime: -8584317277516305440
     List: []
   - PhysicalPath: States\States WU.wwu
     PathAndIcons:
@@ -658,7 +658,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 040738bb05bb744bafb4934ba92c5e81
     GuidInternal: 
-    m_lastTime: -8584317502526086139
+    m_lastTime: -8584317277516305440
     List: []
   - PhysicalPath: Switches\Switches WU.wwu
     PathAndIcons:
@@ -865,7 +865,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: e226e092ab8923409b833d0f6bfd24fa
     GuidInternal: 
-    m_lastTime: -8584317502526076065
+    m_lastTime: -8584317277516305440
     List: []
   - PhysicalPath: Triggers\Triggers WU.wwu
     PathAndIcons:
