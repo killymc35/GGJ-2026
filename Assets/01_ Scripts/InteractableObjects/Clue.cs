@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using Unity.Cinemachine;
 using UnityEngine;
 using TMPro;
@@ -27,10 +29,12 @@ public abstract class Clue : MonoBehaviour, InteractableObject
     public TextMeshProUGUI costText;
     
     private MeshCollider meshCollider;
+
+    public List<Clue> neighbours;
     
     private void Awake()
     {
-        meshCollider  = GetComponent<MeshCollider>();
+        meshCollider = GetComponent<MeshCollider>();
         ChangeState(state);
     }
 
@@ -85,6 +89,14 @@ public abstract class Clue : MonoBehaviour, InteractableObject
                 meshCollider.enabled = true;
                 hidden.SetActive(false);
                 investigable.SetActive(false);
+
+                foreach (var neighbour in neighbours )
+                {
+                    if (neighbour.state != State.Revealed)
+                    {
+                        neighbour.ChangeState(State.Investigable);
+                    }
+                }
                 
                 if (RevealedSoundEffectName != string.Empty) AkUnitySoundEngine.PostEvent(RevealedSoundEffectName, gameObject);
                 
