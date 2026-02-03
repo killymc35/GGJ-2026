@@ -11,6 +11,9 @@ public abstract class Clue : MonoBehaviour, InteractableObject
         Investigable,
         Revealed
     }
+
+    [Header("String")] public GameObject pin;
+    
     [Header("State")]
     public State state = State.Hidden;
 

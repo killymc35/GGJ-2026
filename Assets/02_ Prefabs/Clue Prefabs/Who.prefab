@@ -1460,7 +1460,7 @@ GameObject:
   - component: {fileID: 5650033814828839178}
   - component: {fileID: 6472113214268217401}
   m_Layer: 0
-  m_Name: Pin (1)
+  m_Name: Pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1475,7 +1475,7 @@ Transform:
   m_GameObject: {fileID: 4322262645672235327}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.02, y: 0.1, z: 2.98}
+  m_LocalPosition: {x: 0.02, y: 0.1, z: 3.5}
   m_LocalScale: {x: 0.76172024, y: 0.17257339, z: 0.58896697}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -3048,6 +3048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b55a5ebd221aef848812429e19ba3990, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Who
+  pin: {fileID: 4322262645672235327}
   state: 0
   hidden: {fileID: 2277360170944054340}
   investigable: {fileID: 9032172941512215532}
