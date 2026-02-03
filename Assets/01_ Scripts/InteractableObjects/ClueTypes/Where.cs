@@ -47,9 +47,4 @@ public class Where : Clue
 
         placeImage.texture = locationImage;
     }
-
-    public override void LogInfo()
-    {
-        throw new System.NotImplementedException();
-    }
 }

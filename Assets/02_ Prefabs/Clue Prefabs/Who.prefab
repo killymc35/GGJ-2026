@@ -3051,6 +3051,8 @@ MonoBehaviour:
   state: 0
   hidden: {fileID: 2277360170944054340}
   investigable: {fileID: 9032172941512215532}
+  timeToInvestigate: 3
+  costText: {fileID: 1040503117703588305}
   character: 0
   characterName: {fileID: 852738031470053281}
   characterDescription: {fileID: 3898806599364438328}

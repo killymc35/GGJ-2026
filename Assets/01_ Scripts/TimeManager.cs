@@ -13,7 +13,7 @@ public class TimeManager : MonoBehaviour
     
     public static TimeManager Instance;
     
-    public BoardItem activator;
+    public Clue activator;
     public int activatorCost;
 
     private void Start()
@@ -23,12 +23,10 @@ public class TimeManager : MonoBehaviour
         AkUnitySoundEngine.PostEvent("Music_Level_1", gameObject);
     }
 
-    public void ShowInvestigatePopup(BoardItem activatingObject)
+    public void ShowInvestigatePopup(Clue activatingObject)
     {
-        
-
         activator = activatingObject;
-        activatorCost = activator.timeCost;
+        activatorCost = activator.timeToInvestigate;
         if (hoursRemaining < activatorCost) return;
         
         ChangeCostText(activatorCost);
@@ -48,7 +46,7 @@ public class TimeManager : MonoBehaviour
     {
         investigatePopup.SetActive(false);
         SpendTime(activatorCost);
-        /*activator.MarkAsRevealed();*/
+        activator.ChangeState(Clue.State.Revealed);
 
         AkUnitySoundEngine.PostEvent("Music_Investigate", gameObject);
         if (hoursRemaining >= 9 && hoursRemaining <= 16)
@@ -72,7 +70,7 @@ public class TimeManager : MonoBehaviour
                 costText.text = "3 hours";
                 break;
             default:
-                costText.text = "1 hour";
+                costText.text = "0 hours";
                 break;
         }
     }

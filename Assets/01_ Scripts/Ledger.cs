@@ -9,10 +9,10 @@ public class Ledger : MonoBehaviour
     public GameObject FullLedger;
     public GameObject Cover;
     public GameObject Accuse;
-    public GameObject Facts;
-    public GameObject Who;
-    public GameObject When;
-    public GameObject Where;
+    public GameObject FactsPage;
+    public GameObject WhoPage;
+    public GameObject WhenPage;
+    public GameObject WherePage;
 
     public TMP_Dropdown whoGuess;
     public TMP_Dropdown whereGuess;
@@ -68,164 +68,100 @@ public class Ledger : MonoBehaviour
         timeManagerObject = GameObject.Find("TimeManager");
     }
 
-    /*public void GiveInfo(BoardItem.Clue clue)
+    public void GiveInfo(Clue clue)
     {
-        switch (clue.type)
+        switch (clue)
         {
-            case BoardItem.Type.Fact:
-                LogFact(clue.description);
+            case Fact:
+                LogFact(clue as Fact);
                 break;
-            case BoardItem.Type.Who:
-                LogWho(clue.whoCharacter);
+            case Who:
+                LogWho(clue as Who);
                 break;
-            case BoardItem.Type.When:
-                LogWhen(clue.whenTime, clue.description);
+            case When:
+                LogWhen(clue as When);
                 break;
-            case BoardItem.Type.Where:
-                LogWhere(clue.whereLocation, clue.description);
+            case Where:
+                LogWhere(clue as Where);
                 break;
         }
-    }*/
+    }
 
-    /*public string GetDialogue(string name)
-    {
-        string dialogue = "DEFAULT DIALOGUE TEXT";
-        switch (name)
-        {
-            case "Green":
-                switch (Green.dialogueProgress)
-                {
-                    case 1:
-                        dialogue = Green.dialogue1;
-                        Green.dialogueProgress++;
-                        break;
-                    case 2:
-                        dialogue = Green.dialogue2;
-                        Green.dialogueProgress++;
-                        break;
-                }
-                break;
-
-            case "Purple":
-                switch (Purple.dialogueProgress)
-                {
-                    case 1:
-                        dialogue = Purple.dialogue1;
-                        Purple.dialogueProgress++;
-                        break;
-                    case 2:
-                        dialogue = Purple.dialogue2;
-                        Purple.dialogueProgress++;
-                        break;
-                }
-                break;
-
-            case "Black":
-                switch (Black.dialogueProgress)
-                {
-                    case 1:
-                        dialogue = Black.dialogue1;
-                        Black.dialogueProgress++;
-                        break;
-                    case 2:
-                        dialogue = Black.dialogue2;
-                        Black.dialogueProgress++;
-                        break;
-                }
-                break;
-            case "Yellow":
-
-                switch (Yellow.dialogueProgress)
-                {
-                    case 1:
-                        dialogue = Yellow.dialogue1;
-                        Yellow.dialogueProgress++;
-                        break;
-                    case 2:
-                        dialogue = Yellow.dialogue2;
-                        Yellow.dialogueProgress++;
-                        break;
-                }
-                break;
-        }
-        return dialogue;
-    }*/
-
-    public void LogFact(string fact)
+    public void LogFact(Fact fact)
     {
         AkUnitySoundEngine.PostEvent("Book_Pencil", gameObject);
 
         facts[factCounter].text = "•  " + fact;
         factCounter++;
     }
-    public void LogWho(string who)
+    public void LogWho(Who who)
     {
         AkUnitySoundEngine.PostEvent("Book_Pencil", gameObject);
 
-        switch (who)
+        switch (who.character.ToString())
         {
-            /*case "Green": 
-                greenDescription.text = Green.description;
-                greenWeapon.text = Green.weapon;
+            case "Green": 
+                greenDescription.text = Who.Green.description;
+                greenWeapon.text = Who.Green.weapon;
                 greenPortrait.SetActive(true);
                 break;
             case "Purple": 
-                purpleDescription.text = Purple.description;
-                purpleWeapon.text = Purple.weapon;
+                purpleDescription.text = Who.Purple.description;
+                purpleWeapon.text = Who.Purple.weapon;
                 purplePortrait.SetActive(true);
                 break;
             case "Black": 
-                blackDescription.text = Black.description;
-                blackWeapon.text = Black.weapon;
+                blackDescription.text = Who.Black.description;
+                blackWeapon.text = Who.Black.weapon;
                 blackPortrait.SetActive(true);
                 break;
             case "Yellow": 
-                yellowDescription.text = Yellow.description;
-                yellowWeapon.text = Yellow.weapon;
+                yellowDescription.text = Who.Yellow.description;
+                yellowWeapon.text = Who.Yellow.weapon;
                 yellowPortrait.SetActive(true);
-                break; */
+                break; 
         }
     }
-    /*public void LogWhere(WhereLocation location, string info)
+    public void LogWhere(Where where)
     {
         AkUnitySoundEngine.PostEvent("Book_Pencil", gameObject);
 
-        switch (location)
+        switch (where.place)
         {
             case WhereLocation.Ballroom:
-                ballroomDescription.text =  info;
+                ballroomDescription.text = where.info;
                 break;
             case  WhereLocation.Courtyard:
-                courtyardDescription.text = info;
+                courtyardDescription.text = where.info;
                 break;
             case WhereLocation.Bedchambers:
-                bedchambersDescription.text = info;
+                bedchambersDescription.text = where.info;
                 break;
             case WhereLocation.Study:
-                studyDescription.text  = info;
+                studyDescription.text  = where.info;
                 break;
         }
     }
-    public void LogWhen(WhenTime time, string info)
+    public void LogWhen(When when)
     {
         AkUnitySoundEngine.PostEvent("Book_Pencil", gameObject);
 
-        switch (time)
+        switch (when.time)
         {
             case WhenTime.Afternoon:
-                afternoonDescription.text = info;
+                afternoonDescription.text = when.info;
                 break;
             case  WhenTime.Evening:
-                eveningDescription.text = info;
+                eveningDescription.text = when.info;
                 break;
             case WhenTime.Night:
-                nightDescription.text = info;
+                nightDescription.text = when.info;
                 break;
             case WhenTime.Morning:
-                morningDescription.text = info;
+                morningDescription.text = when.info;
                 break;
         }
-    }*/
+    }
 
     public enum WhereLocation
     {
@@ -336,10 +272,10 @@ public class Ledger : MonoBehaviour
         Cover.SetActive(true);
         
         Accuse.SetActive(false);
-        Facts.SetActive(false);
-        Who.SetActive(false);
-        When.SetActive(false);
-        Where.SetActive(false);
+        FactsPage.SetActive(false);
+        WhoPage.SetActive(false);
+        WhenPage.SetActive(false);
+        WherePage.SetActive(false);
 
 
         AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
@@ -349,57 +285,57 @@ public class Ledger : MonoBehaviour
         Accuse.SetActive(true);
         
         Cover.SetActive(false);
-        Facts.SetActive(false);
-        Who.SetActive(false);
-        When.SetActive(false);
-        Where.SetActive(false);
+        FactsPage.SetActive(false);
+        WhoPage.SetActive(false);
+        WhenPage.SetActive(false);
+        WherePage.SetActive(false);
 
         AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
     public void GoToFacts()
     {
-        Facts.SetActive(true);
+        FactsPage.SetActive(true);
         
         Accuse.SetActive(false);
         Cover.SetActive(false);
-        Who.SetActive(false);
-        When.SetActive(false);
-        Where.SetActive(false);
+        WhoPage.SetActive(false);
+        WhenPage.SetActive(false);
+        WherePage.SetActive(false);
 
         AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
     public void GoToWho()
     {
-        Who.SetActive(true);
+        WhoPage.SetActive(true);
         
         Accuse.SetActive(false);
-        Facts.SetActive(false);
+        FactsPage.SetActive(false);
         Cover.SetActive(false);
-        When.SetActive(false);
-        Where.SetActive(false);
+        WhenPage.SetActive(false);
+        WherePage.SetActive(false);
 
         AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
     public void GoToWhen()
     {
-        When.SetActive(true);
+        WhenPage.SetActive(true);
         
         Accuse.SetActive(false);
-        Facts.SetActive(false);
-        Who.SetActive(false);
+        FactsPage.SetActive(false);
+        WhoPage.SetActive(false);
         Cover.SetActive(false);
-        Where.SetActive(false);
+        WherePage.SetActive(false);
 
         AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
     public void GoToWhere()
     {
-        Where.SetActive(true);
+        WherePage.SetActive(true);
     
         Accuse.SetActive(false);
-        Facts.SetActive(false);
-        Who.SetActive(false);
-        When.SetActive(false);
+        FactsPage.SetActive(false);
+        WhoPage.SetActive(false);
+        WhenPage.SetActive(false);
         Cover.SetActive(false);
 
         AkUnitySoundEngine.PostEvent("Book_Page", gameObject);

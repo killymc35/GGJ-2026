@@ -44,7 +44,7 @@ public class ClueCreator : MonoBehaviour
     {
         if (transform.childCount > 0)
         {
-            if (transform.GetChild(0).gameObject == child) return;
+            if (transform.GetChild(0).gameObject.name == child.name) return;
         }
         
         PurgeChildren();

@@ -1087,6 +1087,8 @@ MonoBehaviour:
   state: 0
   hidden: {fileID: 8990585106291308218}
   investigable: {fileID: 3006426666599335954}
+  timeToInvestigate: 3
+  costText: {fileID: 4874530442265913828}
   place: 0
   info: 
   placeText: {fileID: 4255856532127684104}

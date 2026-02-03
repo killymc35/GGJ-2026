@@ -14,9 +14,4 @@ public class Fact : Clue
     {
         factText.text = fact;
     }
-
-    public override void LogInfo()
-    {
-        throw new NotImplementedException();
-    }
 }

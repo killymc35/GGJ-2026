@@ -1,6 +1,7 @@
 using System;
 using Unity.Cinemachine;
 using UnityEngine;
+using TMPro;
 
 public abstract class Clue : MonoBehaviour, InteractableObject
 {
@@ -18,8 +19,15 @@ public abstract class Clue : MonoBehaviour, InteractableObject
 
     protected string RevealedSoundEffectName = string.Empty;
     
+    [Header("Investigation")]
+    public int timeToInvestigate;
+    public TextMeshProUGUI costText;
+    
+    private MeshCollider meshCollider;
+    
     private void Awake()
     {
+        meshCollider  = GetComponent<MeshCollider>();
         ChangeState(state);
     }
 
@@ -30,11 +38,10 @@ public abstract class Clue : MonoBehaviour, InteractableObject
             case State.Hidden:
                 break;
             case State.Investigable:
-                // TimeManager.Instance.ShowInvestigatePopup(this);
+                TimeManager.Instance.ShowInvestigatePopup(this);
                 break;
             case State.Revealed:
                 if (SelectionManager.IsSelected(this)) return;
-                if (RevealedSoundEffectName != string.Empty) AkUnitySoundEngine.PostEvent(RevealedSoundEffectName, gameObject);
                 SelectionManager.Select(this);
                 break;
         }
@@ -57,19 +64,29 @@ public abstract class Clue : MonoBehaviour, InteractableObject
         switch (state)
         {
             case State.Hidden:
+                meshCollider.enabled = false;
+                costText.text = string.Empty;
                 hidden.SetActive(true);
                 investigable.SetActive(false);
                 break;
             case State.Investigable:
+                meshCollider.enabled = true;
+
+                if (timeToInvestigate == 1) costText.text = timeToInvestigate.ToString() + "hr";
+                else  costText.text = timeToInvestigate.ToString() + "hrs";
+                
                 hidden.SetActive(false);
                 investigable.SetActive(true);
                 break;
             case State.Revealed:
+                meshCollider.enabled = true;
                 hidden.SetActive(false);
                 investigable.SetActive(false);
+                
+                if (RevealedSoundEffectName != string.Empty) AkUnitySoundEngine.PostEvent(RevealedSoundEffectName, gameObject);
+                
+                Ledger.Instance.GiveInfo(this);
                 break;
         }
     }
-    
-    public abstract void LogInfo();
 }

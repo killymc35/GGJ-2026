@@ -19,9 +19,4 @@ public class When : Clue
         timeText.text = time.ToString();
         infoText.text = info;
     }
-
-    public override void LogInfo()
-    {
-        throw new System.NotImplementedException();
-    }
 }

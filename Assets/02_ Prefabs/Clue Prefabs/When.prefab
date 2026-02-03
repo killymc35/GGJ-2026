@@ -1167,7 +1167,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Afternoon
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 78688c5d80e4b1e468a658b52e0b6011, type: 2}
   m_sharedMaterial: {fileID: 4675543696585733064, guid: 78688c5d80e4b1e468a658b52e0b6011, type: 2}
@@ -1640,6 +1640,8 @@ MonoBehaviour:
   state: 0
   hidden: {fileID: 168713527594805591}
   investigable: {fileID: 163253517277510621}
+  timeToInvestigate: 3
+  costText: {fileID: 1713730176717380944}
   time: 0
   info: 
   timeText: {fileID: 8194036611331260600}

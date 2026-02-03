@@ -23,7 +23,7 @@ public class Who : Clue
 
     private void OnValidate()
     {
-        characterDetails = GetCharacter(character);
+        characterDetails = GetCharacterDetails(character);
 
         characterName.text = characterDetails.name;
         characterDescription.text = characterDetails.description;
@@ -46,19 +46,13 @@ public class Who : Clue
         }
     }
 
-    public override void LogInfo()
+    public enum WhoCharacter
     {
-        throw new System.NotImplementedException();
+    Green,
+    Purple,
+    Black,
+    Yellow
     }
-    
-    
-        public enum WhoCharacter
-        {
-        Green,
-        Purple,
-        Black,
-        Yellow
-        }
     
     [Serializable]
     public struct Character : IEquatable<Character>
@@ -68,23 +62,21 @@ public class Who : Clue
         public string weapon;
         public string dialogue1;
         public string dialogue2;
-        public string dialogue3;
         public int dialogueProgress;
 
-        public Character(string name, string description, string weapon, string dialogue1, string dialogue2, string dialogue3, int dialogueProgress)
+        public Character(string name, string description, string weapon, string dialogue1, string dialogue2, int dialogueProgress)
         {
             this.name = name;
             this.description = description;
             this.weapon = weapon;
             this.dialogue1 = dialogue1;
             this.dialogue2 = dialogue2;
-            this.dialogue3 = dialogue3;
             this.dialogueProgress = dialogueProgress;
         }
 
         public bool Equals(Character other)
         {
-            return name == other.name && description == other.description && weapon == other.weapon && dialogue1 == other.dialogue1 && dialogue2 == other.dialogue2 && dialogue3 == other.dialogue3 && dialogueProgress == other.dialogueProgress;
+            return name == other.name && description == other.description && weapon == other.weapon && dialogue1 == other.dialogue1 && dialogue2 == other.dialogue2 && dialogueProgress == other.dialogueProgress;
         }
 
         public override bool Equals(object obj)
@@ -94,7 +86,7 @@ public class Who : Clue
 
         public override int GetHashCode()
         {
-            return HashCode.Combine(name, description, weapon, dialogue1, dialogue2, dialogue3, dialogueProgress);
+            return HashCode.Combine(name, description, weapon, dialogue1, dialogue2, dialogueProgress);
         }
     }
 
@@ -104,7 +96,6 @@ public class Who : Clue
      "Weapon: Knuckledusters",
      "Green wears a Hat and a Tie.",
      "Green wears a Full mask.",
-     string.Empty,
      1);
 
     public static Character Purple = new Character(
@@ -113,7 +104,6 @@ public class Who : Clue
         "Weapon: Gun",
         "Purple wears a Half-mask and a Tie.",
         "Purple does not wear a Hat.",
-        string.Empty,
         1);
 
     public static Character Black = new Character(
@@ -122,7 +112,6 @@ public class Who : Clue
         "Weapon: Poison",
         "Black wears a half-mask but doesn’t wear a Tie.",
         "Black wears a Hat.",
-        string.Empty,
         1);
 
     public static Character Yellow = new Character(
@@ -131,11 +120,10 @@ public class Who : Clue
         "Weapon: Dagger",
         "Yellow doesn’t wear a Tie or a Hat.",
         "Yellow wears a Full mask.",
-        string.Empty,
         1);
 
 
-    public Character GetCharacter(WhoCharacter who)
+    public Character GetCharacterDetails(WhoCharacter who)
     {
         Character details = default;
 
@@ -156,5 +144,67 @@ public class Who : Clue
         }
 
         return details;
+    }
+    public string GetDialogue(WhoCharacter who)
+    {
+        string dialogue = "DEFAULT DIALOGUE TEXT";
+        
+        switch (who.ToString())
+        {
+            case "Green":
+                switch (Green.dialogueProgress)
+                {
+                    case 1:
+                        dialogue = Green.dialogue1;
+                        Green.dialogueProgress++;
+                        break;
+                    case 2:
+                        dialogue = Green.dialogue2;
+                        Green.dialogueProgress++;
+                        break;
+                }
+                break;
+            case "Purple":
+                switch (Purple.dialogueProgress)
+                {
+                    case 1:
+                        dialogue = Purple.dialogue1;
+                        Purple.dialogueProgress++;
+                        break;
+                    case 2:
+                        dialogue = Purple.dialogue2;
+                        Purple.dialogueProgress++;
+                        break;
+                }
+                break;
+            case "Black":
+                switch (Black.dialogueProgress)
+                {
+                    case 1:
+                        dialogue = Black.dialogue1;
+                        Black.dialogueProgress++;
+                        break;
+                    case 2:
+                        dialogue = Black.dialogue2;
+                        Black.dialogueProgress++;
+                        break;
+                }
+                break;
+            case "Yellow":
+
+                switch (Yellow.dialogueProgress)
+                {
+                    case 1:
+                        dialogue = Yellow.dialogue1;
+                        Yellow.dialogueProgress++;
+                        break;
+                    case 2:
+                        dialogue = Yellow.dialogue2;
+                        Yellow.dialogueProgress++;
+                        break;
+                }
+                break;
+        }
+        return dialogue;
     }
 }
