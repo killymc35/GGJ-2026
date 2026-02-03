@@ -91,7 +91,7 @@ public class Ledger : MonoBehaviour
     {
         AkUnitySoundEngine.PostEvent("Book_Pencil", gameObject);
 
-        facts[factCounter].text = "•  " + fact;
+        facts[factCounter].text = "•  " + fact.fact;
         factCounter++;
     }
     public void LogWho(Who who)
