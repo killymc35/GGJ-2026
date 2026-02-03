@@ -118,12 +118,13 @@ public class BoardItem : MonoBehaviour, InteractableObject
                 TimeManager.Instance.ShowInvestigatePopup(this);
                 break;
             case State.Revealed:
+                if (SelectionManager.IsSelected(this)) return;
                 SelectionManager.Select(this);
                 break;
         }
     }
     
-    public void MarkAsRevealed()
+    /*public void MarkAsRevealed()
     {
         currentState = State.Revealed;
         SelectionManager.MakeSelectable(this);
@@ -174,7 +175,7 @@ public class BoardItem : MonoBehaviour, InteractableObject
         AkUnitySoundEngine.PostEvent("Investigation_Who", gameObject);
 
         Destroy(whoDropdown.gameObject);
-    }
+    }*/
     
     public void OnSelect()
     {

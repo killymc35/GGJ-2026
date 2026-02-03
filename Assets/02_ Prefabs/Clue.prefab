@@ -44,9 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c976992e7b13904c96fba393e973a01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Clue
-  state: 0
   type: 0
-  factPrefab: {fileID: 4444088325314063242, guid: e4d79f8ea2cb43b40b07ed8ec6a7ddc2, type: 3}
-  whoPrefab: {fileID: 4444088325314063242, guid: c88cbb821b87cb7488499684dcfb6645, type: 3}
-  wherePrefab: {fileID: 3573364872316775216, guid: e68bb4af73567d2449a547be96119e35, type: 3}
-  whenPrefab: {fileID: 8690595919472118127, guid: e81372cec3428e844a7cce347602f70b, type: 3}
+  factPrefab: {fileID: 3526146555958571779, guid: 432800fb661ee1c499ed17f3410790a3, type: 3}
+  whoPrefab: {fileID: 8382018412226248263, guid: 60312fda7ddc2664a880594e23368e36, type: 3}
+  wherePrefab: {fileID: 4343443009265853749, guid: b629e2e068b307143ac48e04f43f0ce3, type: 3}
+  whenPrefab: {fileID: 9192058836523890436, guid: 1d05058436ac1944a87d1e59febaf845, type: 3}

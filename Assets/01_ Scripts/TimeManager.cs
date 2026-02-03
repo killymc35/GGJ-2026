@@ -48,7 +48,7 @@ public class TimeManager : MonoBehaviour
     {
         investigatePopup.SetActive(false);
         SpendTime(activatorCost);
-        activator.MarkAsRevealed();
+        /*activator.MarkAsRevealed();*/
 
         AkUnitySoundEngine.PostEvent("Music_Investigate", gameObject);
         if (hoursRemaining >= 9 && hoursRemaining <= 16)

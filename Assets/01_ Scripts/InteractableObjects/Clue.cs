@@ -1,7 +1,8 @@
 using System;
+using Unity.Cinemachine;
 using UnityEngine;
 
-public class Clue : MonoBehaviour
+public abstract class Clue : MonoBehaviour, InteractableObject
 {
     public enum State
     {
@@ -9,62 +10,66 @@ public class Clue : MonoBehaviour
         Investigable,
         Revealed
     }
-    public enum Type
-    {
-        Fact,
-        Who,
-        Where,
-        When
-    }
-    
-    
-    [Header("Clue States")]
+    [Header("State")]
     public State state = State.Hidden;
-    public Type type =  Type.Fact;
-    
-    [Header("Clue Prefabs")]
-    public GameObject factPrefab;
-    public GameObject whoPrefab;
-    public GameObject wherePrefab;
-    public GameObject whenPrefab;
 
-    private void OnValidate()
+    public GameObject hidden;
+    public GameObject investigable;
+
+    protected string RevealedSoundEffectName = string.Empty;
+    
+    private void Awake()
     {
-        switch (type)
-        {
-            case Type.Fact:
-                CreateChildIfNew(factPrefab);
-                break;
-            case Type.Who:
-                CreateChildIfNew(whoPrefab);
-                break;
-            case Type.Where:
-                CreateChildIfNew(wherePrefab);
-                break;
-            case Type.When:
-                CreateChildIfNew(whenPrefab);
-                break;
-        }
+        ChangeState(state);
     }
 
-    private void CreateChildIfNew(GameObject child)
+    public void Interact()
     {
-        if (transform.childCount > 0)
+        switch (state)
         {
-            if (transform.GetChild(0).gameObject == child) return;
+            case State.Hidden:
+                break;
+            case State.Investigable:
+                // TimeManager.Instance.ShowInvestigatePopup(this);
+                break;
+            case State.Revealed:
+                if (SelectionManager.IsSelected(this)) return;
+                if (RevealedSoundEffectName != string.Empty) AkUnitySoundEngine.PostEvent(RevealedSoundEffectName, gameObject);
+                SelectionManager.Select(this);
+                break;
         }
-        
-        PurgeChildren();
-        var creation = Instantiate(child, transform);
-        creation.name = child.name;
+    }
+
+    public void OnSelect()
+    {
+        gameObject.GetComponentInChildren<CinemachineCamera>().Priority = 2;
+    }
+
+    public void OnDeselect()
+    {
+        gameObject.GetComponentInChildren<CinemachineCamera>().Priority = 0;
+    }
+
+    public void ChangeState(State newState)
+    {
+        state = newState;
+
+        switch (state)
+        {
+            case State.Hidden:
+                hidden.SetActive(true);
+                investigable.SetActive(false);
+                break;
+            case State.Investigable:
+                hidden.SetActive(false);
+                investigable.SetActive(true);
+                break;
+            case State.Revealed:
+                hidden.SetActive(false);
+                investigable.SetActive(false);
+                break;
+        }
     }
     
-    private void PurgeChildren()
-    {
-        Debug.Log("Purging children");
-        foreach (Transform child in transform)
-        {
-            UnityEditor.EditorApplication.delayCall+=() => DestroyImmediate(child.gameObject);
-        }
-    }
+    public abstract void LogInfo();
 }
