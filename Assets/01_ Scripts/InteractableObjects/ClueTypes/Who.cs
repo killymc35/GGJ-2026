@@ -19,7 +19,7 @@ public class Who : Clue
     public Texture green;
     public Texture purple;
     public Texture black;
-    public Texture yelllow;
+    public Texture yellow;
 
     private void OnValidate()
     {
@@ -40,8 +40,8 @@ public class Who : Clue
             case "Black":
                 characterPortrait.texture = black;
                 break;
-            case "Yelllow":
-                characterPortrait.texture = yelllow;
+            case "Yellow":
+                characterPortrait.texture = yellow;
                 break;
         }
     }

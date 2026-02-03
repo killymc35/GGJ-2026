@@ -3061,7 +3061,7 @@ MonoBehaviour:
   green: {fileID: 2800000, guid: 1ff78999a77c21549bcbd46d8fdc57c8, type: 3}
   purple: {fileID: 2800000, guid: 9505d47e4bd516a4db60a4c11ef2716a, type: 3}
   black: {fileID: 2800000, guid: 653e0c7512294654290da1f558cbaefb, type: 3}
-  yelllow: {fileID: 2800000, guid: bc571ab797df95546a3d6815b911b9c0, type: 3}
+  yellow: {fileID: 2800000, guid: bc571ab797df95546a3d6815b911b9c0, type: 3}
 --- !u!1 &8556372239073841340
 GameObject:
   m_ObjectHideFlags: 0
