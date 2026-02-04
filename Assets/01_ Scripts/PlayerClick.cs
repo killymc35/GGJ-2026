@@ -3,9 +3,11 @@ using UnityEngine.InputSystem;
 
 public class PlayerClick : MonoBehaviour
 {
+    public GameObject investigatePopup;
+    public GameObject fullLedger;
     public void Click(InputAction.CallbackContext context)
     {
-        if (!context.started)
+        if (!context.started || investigatePopup.activeSelf || fullLedger.activeSelf)
         {
             return;
         }
