@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,7 +14,9 @@ public class Who : Clue
     public TextMeshProUGUI characterName;
     public TextMeshProUGUI characterDescription;
     public TextMeshProUGUI characterWeapon;
-    public RawImage characterPortrait;    
+    public RawImage characterPortrait;
+    public TextMeshProUGUI dialogueBox;
+    public TMP_Dropdown dropdown;
     
     [Header("Character Portraits")] 
     public Texture green;
@@ -206,5 +209,75 @@ public class Who : Clue
                 break;
         }
         return dialogue;
+    }
+
+    Dictionary<int, string> dict = new Dictionary<int, string>{
+        { 0, "Green" },
+        { 1, "Purple" },
+        { 2, "Black"},
+        { 3, "Yellow"} };
+
+    public void OnSubmit()
+    {
+        string submittedName = dict[dropdown.value];
+        if (submittedName == characterDetails.name) return;
+
+        switch (submittedName)
+        {
+            case "Green":
+                switch (Green.dialogueProgress)
+                {
+                    case 1:
+                        dialogueBox.text = Green.dialogue1;
+                        Green.dialogueProgress++;
+                        break;
+                    case 2:
+                        dialogueBox.text = Green.dialogue2;
+                        Green.dialogueProgress++;
+                        break;
+                }
+                break;
+            case "Purple":
+                switch (Purple.dialogueProgress)
+                {
+                    case 1:
+                        dialogueBox.text = Purple.dialogue1;
+                        Purple.dialogueProgress++;
+                        break;
+                    case 2:
+                        dialogueBox.text = Purple.dialogue2;
+                        Purple.dialogueProgress++;
+                        break;
+                }
+                break;
+            case "Black":
+                switch (Black.dialogueProgress)
+                {
+                    case 1:
+                        dialogueBox.text = Black.dialogue1;
+                        Black.dialogueProgress++;
+                        break;
+                    case 2:
+                        dialogueBox.text = Black.dialogue2;
+                        Black.dialogueProgress++;
+                        break;
+                }
+                break;
+            case "Yellow":
+                switch (Yellow.dialogueProgress)
+                {
+                    case 1:
+                        dialogueBox.text = Yellow.dialogue1;
+                        Yellow.dialogueProgress++;
+                        break;
+                    case 2:
+                        dialogueBox.text = Yellow.dialogue2;
+                        Yellow.dialogueProgress++;
+                        break;
+                }
+                break;
+        }
+
+        Destroy(dropdown);
     }
 }
