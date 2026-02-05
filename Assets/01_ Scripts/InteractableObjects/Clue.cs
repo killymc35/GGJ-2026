@@ -99,7 +99,10 @@ public abstract class Clue : MonoBehaviour, InteractableObject
                 }
                 
                 if (RevealedSoundEffectName != string.Empty) AkUnitySoundEngine.PostEvent(RevealedSoundEffectName, gameObject);
-                
+
+                SelectionManager.MakeSelectable(this);
+                SelectionManager.Select(this);
+
                 Ledger.Instance.GiveInfo(this);
                 break;
         }
