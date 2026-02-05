@@ -13,6 +13,7 @@ public class Ledger : MonoBehaviour
     public GameObject WhoPage;
     public GameObject WhenPage;
     public GameObject WherePage;
+    public GameObject RulesPage;
 
     public TMP_Dropdown whoGuess;
     public TMP_Dropdown whereGuess;
@@ -276,6 +277,7 @@ public class Ledger : MonoBehaviour
         WhoPage.SetActive(false);
         WhenPage.SetActive(false);
         WherePage.SetActive(false);
+        RulesPage.SetActive(false);
 
 
         AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
@@ -289,6 +291,7 @@ public class Ledger : MonoBehaviour
         WhoPage.SetActive(false);
         WhenPage.SetActive(false);
         WherePage.SetActive(false);
+        RulesPage.SetActive(false);
 
         AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
@@ -301,6 +304,7 @@ public class Ledger : MonoBehaviour
         WhoPage.SetActive(false);
         WhenPage.SetActive(false);
         WherePage.SetActive(false);
+        RulesPage.SetActive(false);
 
         AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
@@ -313,6 +317,7 @@ public class Ledger : MonoBehaviour
         Cover.SetActive(false);
         WhenPage.SetActive(false);
         WherePage.SetActive(false);
+        RulesPage.SetActive(false);
 
         AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
@@ -325,6 +330,7 @@ public class Ledger : MonoBehaviour
         WhoPage.SetActive(false);
         Cover.SetActive(false);
         WherePage.SetActive(false);
+        RulesPage.SetActive(false);
 
         AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
@@ -337,10 +343,24 @@ public class Ledger : MonoBehaviour
         WhoPage.SetActive(false);
         WhenPage.SetActive(false);
         Cover.SetActive(false);
+        RulesPage.SetActive(false);
 
         AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
     }
-    
+    public void GoToRules()
+    {
+        RulesPage.SetActive(true);
+
+        Accuse.SetActive(false);
+        Cover.SetActive(false);
+        FactsPage.SetActive(false);
+        WhoPage.SetActive(false);
+        WhenPage.SetActive(false);
+        WherePage.SetActive(false);
+
+        AkUnitySoundEngine.PostEvent("Book_Page", gameObject);
+    }
+
     public void QuitGame()
     {
         Debug.Log("Quitting Game");

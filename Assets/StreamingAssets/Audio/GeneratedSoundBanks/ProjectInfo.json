@@ -3,7 +3,7 @@
   "Project": {
    "Name": "GGJ-2026_WwiseProject",
    "GUID": "{11AF415C-8B17-4088-BE00-D20420DFE6F4}",
-   "Generator": "2024.1.8.8898"
+   "Generator": "2024.1.7.8863"
   },
   "CacheRoot": "../../../../GGJ-2026_WwiseProject/.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{8436BE32-4856-D289-F9A7-A7B952B70AFA}"
+  "FileHash": "{BEE6CF8F-1B62-E9DD-1120-8B25E0C30342}"
  }
 }
