@@ -69,6 +69,42 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{F71B09ED-2E94-4310-89EA-63B065E0B0B9}" ShortID="360116427">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Switch Container" ID="{26F16C3A-EB76-4E80-804F-145A8A0DB554}" WorkUnitID="{07BA2D5F-3949-4063-9C34-E2956906AFAF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{404B1EF7-B4EF-4932-AD29-51EE0663F926}" ShortID="55946632">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bass Upbeat" ID="{84FAB316-3559-417E-8C5A-42624C7755B5}" WorkUnitID="{07BA2D5F-3949-4063-9C34-E2956906AFAF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9AED2768-8C62-4EA2-A6FA-C6F61C8BBC47}" ShortID="484457947">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Silent Bar" ID="{072C3DAF-C93E-460C-901C-FA955E78945E}" WorkUnitID="{07BA2D5F-3949-4063-9C34-E2956906AFAF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{9FA5BE4E-717E-41F6-86FB-9E1925E6E672}" ShortID="63390576">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>

@@ -26,6 +26,8 @@ public class Who : Clue
 
     private void OnValidate()
     {
+        RevealedSoundEffectName = "Investigation_Who";
+
         characterDetails = GetCharacterDetails(character);
 
         characterName.text = characterDetails.name;
@@ -279,5 +281,7 @@ public class Who : Clue
         }
 
         Destroy(dropdown);
+
+        AkUnitySoundEngine.PostEvent("Book_Pencil", gameObject);
     }
 }

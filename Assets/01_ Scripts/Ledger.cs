@@ -66,7 +66,7 @@ public class Ledger : MonoBehaviour
     private void Start()
     {
         Instance = this;
-        timeManagerObject = GameObject.Find("TimeManager");
+        timeManagerObject = GameObject.Find("UI Canvas (+ Time Manager)");
     }
 
     public void GiveInfo(Clue clue)

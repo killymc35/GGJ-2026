@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C7050C0F-39E1-4DD5-862B-C441B40900A1}",
     "Language": "SFX",
-    "Hash": "{3FFE47CD-4BC4-2A3B-6F34-C767AB62CE1F}",
+    "Hash": "{4DD83529-C23D-A649-A074-2B6B533DA6DB}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -811,6 +811,7 @@
       "ObjectPath": "\\Events\\Events WU\\Book_Pencil",
       "GUID": "{3FBDAAC1-3DA6-4245-9834-6308D36E1F8E}",
       "Color": "4",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.3372692",
       "DurationMax": "0.66304463",
@@ -1474,6 +1475,6 @@
     ]
    }
   ],
-  "FileHash": "{988CE6AB-72F9-BFBF-996D-7E9BA4A18488}"
+  "FileHash": "{EA88E343-3FC5-52D9-3297-16ED900CBD6E}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C7050C0F-39E1-4DD5-862B-C441B40900A1}",
     "Language": "SFX",
-    "Hash": "{D9F5C029-7439-08A8-BD59-AFA61316AB66}",
+    "Hash": "{4DD83529-C23D-A649-A074-2B6B533DA6DB}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Page_Turn_003.wav",
-      "CachePath": "EA/{EA05863D-96A0-C7EC-267B-42F330EA8386}.wem"
+      "CachePath": "3A/{3AEA63EF-20EE-CD41-F8E7-5215E00E5A38}.wem"
      },
      {
       "Id": "175713162",
@@ -85,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pencil_Scratch_005.wav",
-      "CachePath": "DF/{DF385617-29CA-30DC-B8C8-1622B765EA23}.wem"
+      "CachePath": "3F/{3F2EBEE1-57CE-4E98-772D-EEEB4A097D12}.wem"
      },
      {
       "Id": "186968109",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pencil_Scratch_003.wav",
-      "CachePath": "E6/{E638C33F-9699-1C35-21BE-A89EBF816061}.wem"
+      "CachePath": "DE/{DEFCE5E1-4AEE-D1E9-51C1-9B6BD1E39EBF}.wem"
      },
      {
       "Id": "193073845",
@@ -149,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Page_Turn_005.wav",
-      "CachePath": "07/{07435B80-2602-1CE9-6098-233D1931EC19}.wem"
+      "CachePath": "F0/{F0E7FE7E-EB6E-A739-B7C3-6B6DEEEE6586}.wem"
      },
      {
       "Id": "340559377",
@@ -357,7 +357,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Page_Turn_002.wav",
-      "CachePath": "AC/{ACABCE33-0F53-2AE0-A288-2A1904BA3CF2}.wem"
+      "CachePath": "D9/{D9C61814-A14A-EBC7-2A5C-6987C25DC905}.wem"
      },
      {
       "Id": "635722371",
@@ -565,7 +565,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pencil_Scratch_004.wav",
-      "CachePath": "6F/{6F9B2825-AA5B-3A27-7BCC-16016E62C990}.wem"
+      "CachePath": "95/{956F78DA-658B-F377-20B7-D8681A06517A}.wem"
      },
      {
       "Id": "998271830",
@@ -811,6 +811,7 @@
       "ObjectPath": "\\Events\\Events WU\\Book_Pencil",
       "GUID": "{3FBDAAC1-3DA6-4245-9834-6308D36E1F8E}",
       "Color": "4",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.3372692",
       "DurationMax": "0.66304463",
@@ -1474,6 +1475,6 @@
     ]
    }
   ],
-  "FileHash": "{462EA00E-6C71-B3FE-CEDD-FD0B17D21907}"
+  "FileHash": "{8E240BE3-3169-37A7-72FC-C4EC561C04E5}"
  }
 }
