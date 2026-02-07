@@ -23,7 +23,6 @@ public class Where : Clue
     
     private void OnValidate()
     {
-        RevealedSoundEffectName = "Investigation_Where";
         placeText.text = place.ToString();
         infoText.text = info;
 
@@ -46,5 +45,10 @@ public class Where : Clue
         }
 
         placeImage.texture = locationImage;
+    }
+
+    private void Start()
+    {
+        RevealedSoundEffectName = "Investigation_Where";
     }
 }

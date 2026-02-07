@@ -48,16 +48,22 @@ public class ClueCreator : MonoBehaviour
         }
         
         PurgeChildren();
-        var creation = Instantiate(child, gameObject.transform);
-        if (creation.transform.parent == null) UnityEditor.EditorApplication.delayCall+=() => DestroyImmediate(creation.gameObject, true);
-        creation.name = child.name;
+
+#if UNITY_EDITOR
+        //var creation = Instantiate(child, gameObject.transform);
+        //if (creation.transform.parent == null) UnityEditor.EditorApplication.delayCall+=() => DestroyImmediate(creation.gameObject, true);
+        //creation.name = child.name;
+#endif
+
     }
     
     private void PurgeChildren()
     {
+#if UNITY_EDITOR
         foreach (Transform child in transform)
         {
             UnityEditor.EditorApplication.delayCall+=() => DestroyImmediate(child.gameObject, true);
         }
+#endif
     }
 }

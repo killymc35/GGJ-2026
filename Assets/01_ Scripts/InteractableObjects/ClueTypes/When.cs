@@ -15,8 +15,12 @@ public class When : Clue
 
     private void OnValidate()
     {
-        RevealedSoundEffectName = "Investigation_When";
         timeText.text = time.ToString();
         infoText.text = info;
+    }
+
+    private void Start()
+    {
+        RevealedSoundEffectName = "Investigation_When";
     }
 }

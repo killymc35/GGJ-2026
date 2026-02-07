@@ -26,8 +26,6 @@ public class Who : Clue
 
     private void OnValidate()
     {
-        RevealedSoundEffectName = "Investigation_Who";
-
         characterDetails = GetCharacterDetails(character);
 
         characterName.text = characterDetails.name;
@@ -127,6 +125,11 @@ public class Who : Clue
         "Yellow wears a Full mask.",
         1);
 
+
+    private void Start()
+    {
+        RevealedSoundEffectName = "Investigation_Who";
+    }
 
     public Character GetCharacterDetails(WhoCharacter who)
     {
@@ -283,5 +286,6 @@ public class Who : Clue
         Destroy(dropdown);
 
         AkUnitySoundEngine.PostEvent("Book_Pencil", gameObject);
+        AkUnitySoundEngine.PostEvent("Investigation_Who", gameObject);
     }
 }
